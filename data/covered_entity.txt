@@ -1,0 +1,30 @@
+Covered entity	healthcare  ---  0.3045801520347595
+Covered entity	medical records  ---  0.18801835179328918
+Covered entity	electronic health records  ---  0.22229796648025513
+Covered entity	health insurance  ---  0.33319324254989624
+Covered entity	healthcare provider  ---  0.26899924874305725
+Covered entity	healthcare clearinghouse  ---  0.28436458110809326
+Covered entity	health plan  ---  0.3697203993797302
+Covered entity	HIPAA  ---  0.329267293214798
+Covered entity	patient data  ---  0.16933438181877136
+Covered entity	electronic transactions  ---  0.19291457533836365
+Covered entity	health information  ---  0.21327096223831177
+Covered entity	data protection  ---  0.2414105385541916
+Covered entity	medical billing  ---  0.2060030996799469
+Covered entity	healthcare transactions  ---  0.28226810693740845
+Covered entity	covered transactions  ---  0.6185306310653687
+Covered entity	healthcare law  ---  0.3562057912349701
+Covered entity	patient confidentiality  ---  0.24894046783447266
+Covered entity	health data security  ---  0.26179665327072144
+Covered entity	electronic health information  ---  0.2173232138156891
+Covered entity	healthcare compliance  ---  0.2992902398109436
+Covered entity	healthcare regulations  ---  0.30753016471862793
+Covered entity	data sharing  ---  0.15187010169029236
+Covered entity	healthcare governance  ---  0.268035352230072
+Covered entity	medical records management  ---  0.19952787458896637
+Covered entity	healthcare IT  ---  0.2515629827976227
+Covered entity	electronic health records management  ---  0.23926116526126862
+Covered entity	healthcare data analytics  ---  0.18471160531044006
+Covered entity	patient engagement  ---  0.16443084180355072
+Covered entity	healthcare quality  ---  0.20377303659915924
+Covered entity	healthcare outcomes  ---  0.2284512221813202
