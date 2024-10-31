@@ -1,0 +1,5292 @@
+{
+    "Recital 1": {
+        "norm_type": "General Definition",
+        "sender": "None",
+        "sender_role": "None",
+        "recipient": "None",
+        "recipient_role": "None",
+        "subject": [
+            "Everyone",
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Protection of Personal Data",
+        "sender_is_subject": "Not Sure",
+        "recipient_is_subject": "Not Sure"
+    },
+    "Recital 2": {
+        "norm_type": "General Definition",
+        "sender": "None",
+        "sender_role": "None",
+        "recipient": "None",
+        "recipient_role": "None",
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subjects"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": [
+            "Protection of Fundamental Rights and Freedoms",
+            "Economic and Social Progress",
+            "Strengthening Economies",
+            "Well-being of Natural Persons"
+        ],
+        "sender_is_subject": "Not Sure",
+        "recipient_is_subject": "Not Sure"
+    },
+    "Recital 3": {
+        "norm_type": "General Definition",
+        "sender": [
+            "European Parliament",
+            "Council of the European Union"
+        ],
+        "sender_role": [
+            "Legislative Body"
+        ],
+        "recipient": [
+            "Member States"
+        ],
+        "recipient_role": [
+            "Government"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Harmonisation of data protection and free flow of personal data",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 4": {
+        "norm_type": "General Definition",
+        "sender": "None",
+        "sender_role": "None",
+        "recipient": "None",
+        "recipient_role": "None",
+        "subject": "None",
+        "subject_role": "None",
+        "information_type": "None",
+        "consent_form": "None",
+        "purpose": "None",
+        "sender_is_subject": "Not Sure",
+        "recipient_is_subject": "Not Sure"
+    },
+    "Recital 5": {
+        "norm_type": "General Definition",
+        "sender": [
+            "public actors",
+            "private actors",
+            "natural persons",
+            "associations",
+            "undertakings"
+        ],
+        "sender_role": [
+            "various roles depending on the context"
+        ],
+        "recipient": [
+            "public actors",
+            "private actors",
+            "national authorities"
+        ],
+        "recipient_role": [
+            "various roles depending on the context"
+        ],
+        "subject": [
+            "natural persons"
+        ],
+        "subject_role": [
+            "data subjects"
+        ],
+        "information_type": "personal data",
+        "consent_form": "None",
+        "purpose": "perform duties or carry out tasks on behalf of an authority in another Member State",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 6": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Private Companies",
+            "Public Authorities",
+            "Natural Persons"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Controller",
+            "Data Subject"
+        ],
+        "recipient": [
+            "Private Companies",
+            "Public Authorities",
+            "Third Countries",
+            "International Organisations"
+        ],
+        "recipient_role": [
+            "Data Controller",
+            "Data Controller",
+            "Data Controller",
+            "Data Controller"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Pursue Activities, Free Flow of Data, Transfer of Data",
+        "sender_is_subject": "Not Sure",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 7": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Natural persons",
+            "Economic operators",
+            "Public authorities"
+        ],
+        "sender_role": [
+            "Data subject",
+            "Data controller",
+            "Data controller"
+        ],
+        "recipient": [
+            "Natural persons",
+            "Economic operators",
+            "Public authorities"
+        ],
+        "recipient_role": [
+            "Data subject",
+            "Data controller",
+            "Data controller"
+        ],
+        "subject": [
+            "Natural persons"
+        ],
+        "subject_role": [
+            "Data subject"
+        ],
+        "information_type": "Personal data",
+        "consent_form": "None",
+        "purpose": "Control and certainty in data protection",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 8": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Member States"
+        ],
+        "sender_role": [
+            "Legislator"
+        ],
+        "recipient": [
+            "Persons to whom the national provisions apply"
+        ],
+        "recipient_role": [
+            "Data Subjects"
+        ],
+        "subject": [
+            "Persons to whom the national provisions apply"
+        ],
+        "subject_role": [
+            "Data Subjects"
+        ],
+        "information_type": "Elements of the GDPR",
+        "consent_form": "None",
+        "purpose": "Incorporate elements of the GDPR into national law for coherence and comprehensibility",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 9": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Member States"
+        ],
+        "sender_role": [
+            "Regulator"
+        ],
+        "recipient": [
+            "Union Authorities",
+            "Economic Entities"
+        ],
+        "recipient_role": [
+            "Regulator",
+            "Business"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Harmonization of Data Protection",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 10": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Member States",
+            "Data Controllers"
+        ],
+        "sender_role": [
+            "Government",
+            "Data Controller"
+        ],
+        "recipient": [
+            "Natural Persons",
+            "Data Subjects"
+        ],
+        "recipient_role": [
+            "Individual",
+            "Data Subject"
+        ],
+        "subject": [
+            "Natural Persons",
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individual",
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Protection of rights and freedoms, Compliance with legal obligations, Public interest, Official authority",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 11": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controllers",
+            "Data Processors"
+        ],
+        "sender_role": [
+            "Entities that process personal data"
+        ],
+        "recipient": [
+            "Supervisory Authorities",
+            "Member States"
+        ],
+        "recipient_role": [
+            "Entities that monitor and ensure compliance"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals whose personal data is being processed"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Protection of personal data and ensuring compliance with GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 12": {
+        "norm_type": "General Definition",
+        "sender": [
+            "European Parliament",
+            "Council"
+        ],
+        "sender_role": [
+            "Legislative Body"
+        ],
+        "recipient": [
+            "Natural Persons"
+        ],
+        "recipient_role": [
+            "Data Subjects"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subjects"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Protection of personal data and free movement of personal data",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 13": {
+        "norm_type": "General Definition",
+        "sender": [
+            "economic operators",
+            "Union institutions and bodies",
+            "Member States",
+            "supervisory authorities"
+        ],
+        "sender_role": [
+            "controllers",
+            "processors",
+            "regulators"
+        ],
+        "recipient": [
+            "natural persons",
+            "micro, small and medium-sized enterprises"
+        ],
+        "recipient_role": [
+            "data subjects",
+            "business entities"
+        ],
+        "subject": [
+            "natural persons"
+        ],
+        "subject_role": [
+            "data subjects"
+        ],
+        "information_type": "personal data",
+        "consent_form": "None",
+        "purpose": "protection of personal data, legal certainty, transparency, consistent monitoring, effective cooperation",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 14": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Natural Person"
+        ],
+        "sender_role": [
+            "Data Subject"
+        ],
+        "recipient": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient_role": [
+            "Organization",
+            "Entity"
+        ],
+        "subject": [
+            "Natural Person"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Data Processing",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 15": {
+        "norm_type": "General Definition",
+        "sender": "None",
+        "sender_role": "None",
+        "recipient": "None",
+        "recipient_role": "None",
+        "subject": "Natural persons",
+        "subject_role": "Data subjects",
+        "information_type": "Personal data",
+        "consent_form": "None",
+        "purpose": "Protection of personal data",
+        "sender_is_subject": "Not Sure",
+        "recipient_is_subject": "Not Sure"
+    },
+    "Recital 16": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Member States"
+        ],
+        "sender_role": [
+            "Government"
+        ],
+        "recipient": [
+            "None"
+        ],
+        "recipient_role": [
+            "None"
+        ],
+        "subject": [
+            "None"
+        ],
+        "subject_role": [
+            "None"
+        ],
+        "information_type": [
+            "None"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "National Security",
+            "Common Foreign and Security Policy"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 17": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Union institutions",
+            "bodies",
+            "offices",
+            "agencies"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Union institutions",
+            "bodies",
+            "offices",
+            "agencies"
+        ],
+        "recipient_role": [
+            "Data Controller"
+        ],
+        "subject": [
+            "Individuals"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Adaptation to GDPR principles and rules",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 18": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Natural Person"
+        ],
+        "sender_role": [
+            "Individual"
+        ],
+        "recipient": [
+            "Natural Person",
+            "Social Network",
+            "Online Platform"
+        ],
+        "recipient_role": [
+            "Individual",
+            "Service Provider"
+        ],
+        "subject": [
+            "Natural Person"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Personal Activity",
+            "Household Activity"
+        ],
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 19": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Competent Authorities",
+            "Public Authorities"
+        ],
+        "sender_role": [
+            "Law Enforcement",
+            "Public Administration"
+        ],
+        "recipient": [
+            "Competent Authorities",
+            "Public Authorities"
+        ],
+        "recipient_role": [
+            "Law Enforcement",
+            "Public Administration"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subjects"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Prevention, Investigation, Detection or Prosecution of Criminal Offences",
+            "Execution of Criminal Penalties",
+            "Safeguarding Against and Prevention of Threats to Public Security"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 20": {
+        "norm_type": "General Definition",
+        "sender": [
+            "courts",
+            "judicial authorities"
+        ],
+        "sender_role": [
+            "judicial body"
+        ],
+        "recipient": [
+            "specific bodies within the judicial system of the Member State"
+        ],
+        "recipient_role": [
+            "supervisory body"
+        ],
+        "subject": [
+            "individuals involved in judicial processes"
+        ],
+        "subject_role": [
+            "data subject"
+        ],
+        "information_type": "personal data",
+        "consent_form": "None",
+        "purpose": "safeguard the independence of the judiciary, ensure compliance with GDPR, enhance awareness, handle complaints",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 21": {
+        "norm_type": "General Definition",
+        "sender": [
+            "European Parliament",
+            "Council of the European Union"
+        ],
+        "sender_role": [
+            "Legislator"
+        ],
+        "recipient": [
+            "Member States",
+            "Intermediary Service Providers"
+        ],
+        "recipient_role": [
+            "Regulated Entity"
+        ],
+        "subject": [
+            "Information Society Services"
+        ],
+        "subject_role": [
+            "Service"
+        ],
+        "information_type": "Liability Rules",
+        "consent_form": "None",
+        "purpose": "Ensure the proper functioning of the internal market by ensuring the free movement of information society services between Member States",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 22": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "None"
+        ],
+        "recipient_role": [
+            "None"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Processing of Personal Data",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 23": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "Data Subjects in the Union"
+        ],
+        "recipient_role": [
+            "Data Subject"
+        ],
+        "subject": [
+            "Data Subjects in the Union"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Offering Goods or Services",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 24": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "None"
+        ],
+        "recipient_role": [
+            "None"
+        ],
+        "subject": [
+            "Data Subjects within the Union"
+        ],
+        "subject_role": [
+            "Natural Person"
+        ],
+        "information_type": [
+            "Personal Data",
+            "Behavioural Data",
+            "Preferences",
+            "Behaviours",
+            "Attitudes"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Monitoring Behaviour",
+            "Profiling",
+            "Decision Making",
+            "Analysis",
+            "Prediction"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 25": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller not established in the Union"
+        ],
+        "sender_role": [
+            "Controller"
+        ],
+        "recipient": [
+            "Member State\u2019s diplomatic mission or consular post"
+        ],
+        "recipient_role": [
+            "Diplomatic mission",
+            "Consular post"
+        ],
+        "subject": "None",
+        "subject_role": "None",
+        "information_type": "None",
+        "consent_form": "None",
+        "purpose": "None",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 26": {
+        "norm_type": "General Definition",
+        "sender": "None",
+        "sender_role": "None",
+        "recipient": "None",
+        "recipient_role": "None",
+        "subject": "None",
+        "subject_role": "None",
+        "information_type": "None",
+        "consent_form": "None",
+        "purpose": "None",
+        "sender_is_subject": "Not Sure",
+        "recipient_is_subject": "Not Sure"
+    },
+    "Recital 27": {
+        "norm_type": "General Definition",
+        "sender": "None",
+        "sender_role": "None",
+        "recipient": "None",
+        "recipient_role": "None",
+        "subject": "Deceased Persons",
+        "subject_role": "None",
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "None",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 28": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "sender_role": [
+            "Controller",
+            "Processor"
+        ],
+        "recipient": [
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Subject"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Data Protection",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 29": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Authorised Persons within the Controller"
+        ],
+        "recipient_role": [
+            "Authorised Personnel"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "General Analysis",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 30": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Devices",
+            "Applications",
+            "Tools",
+            "Protocols"
+        ],
+        "sender_role": [
+            "None"
+        ],
+        "recipient": [
+            "Servers"
+        ],
+        "recipient_role": [
+            "None"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "None"
+        ],
+        "information_type": [
+            "Online Identifiers",
+            "Internet Protocol Addresses",
+            "Cookie Identifiers",
+            "Radio Frequency Identification Tags"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Profiling",
+            "Identification"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 31": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Public Authorities"
+        ],
+        "sender_role": [
+            "Tax Authority",
+            "Customs Authority",
+            "Financial Investigation Unit",
+            "Independent Administrative Authority",
+            "Financial Market Authority"
+        ],
+        "recipient": [
+            "Public Authorities"
+        ],
+        "recipient_role": [
+            "Tax Authority",
+            "Customs Authority",
+            "Financial Investigation Unit",
+            "Independent Administrative Authority",
+            "Financial Market Authority"
+        ],
+        "subject": [
+            "Individuals"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Carrying out a particular inquiry in the general interest",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 32": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Subject"
+        ],
+        "sender_role": [
+            "Individual"
+        ],
+        "recipient": [
+            "Data Controller"
+        ],
+        "recipient_role": [
+            "Organization"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Consent",
+        "purpose": [
+            "Processing of Personal Data"
+        ],
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 33": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Researcher"
+        ],
+        "sender_role": [
+            "Researcher"
+        ],
+        "recipient": [
+            "Research Institution"
+        ],
+        "recipient_role": [
+            "Research Institution"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Participant"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Consent",
+        "purpose": "Scientific Research",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 34": {
+        "norm_type": "General Definition",
+        "sender": "None",
+        "sender_role": "None",
+        "recipient": "None",
+        "recipient_role": "None",
+        "subject": [
+            "Natural Person"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Genetic Data",
+        "consent_form": "None",
+        "purpose": "None",
+        "sender_is_subject": "Not Sure",
+        "recipient_is_subject": "Not Sure"
+    },
+    "Recital 35": {
+        "norm_type": "General Definition",
+        "sender": [
+            "healthcare provider",
+            "testing facility",
+            "medical device"
+        ],
+        "sender_role": [
+            "doctor",
+            "hospital",
+            "health professional"
+        ],
+        "recipient": [
+            "healthcare provider",
+            "testing facility",
+            "medical device"
+        ],
+        "recipient_role": [
+            "doctor",
+            "hospital",
+            "health professional"
+        ],
+        "subject": [
+            "patient"
+        ],
+        "subject_role": [
+            "data subject"
+        ],
+        "information_type": [
+            "health status",
+            "genetic data",
+            "biological samples",
+            "disease",
+            "disability",
+            "disease risk",
+            "medical history",
+            "clinical treatment",
+            "physiological state",
+            "biomedical state"
+        ],
+        "consent_form": "None",
+        "purpose": "health care services",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 36": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Determination of Main Establishment",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 37": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controlling Undertaking"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Controlled Undertakings"
+        ],
+        "recipient_role": [
+            "Data Processor"
+        ],
+        "subject": [
+            "Individuals whose data is being processed"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Data Processing within a Group of Undertakings",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 38": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Service Providers",
+            "Marketers"
+        ],
+        "sender_role": [
+            "Service Provider",
+            "Marketer"
+        ],
+        "recipient": [
+            "Service Providers",
+            "Marketers"
+        ],
+        "recipient_role": [
+            "Service Provider",
+            "Marketer"
+        ],
+        "subject": [
+            "Children"
+        ],
+        "subject_role": [
+            "Child"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Marketing",
+            "Creating Personality or User Profiles",
+            "Collection of Personal Data"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 39": {
+        "norm_type": "General Definition",
+        "sender": "Data Controller",
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": "Natural Persons",
+        "recipient_role": [
+            "Data Subject"
+        ],
+        "subject": "Natural Persons",
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Consent",
+        "purpose": [
+            "Lawful Processing",
+            "Fair Processing",
+            "Transparent Processing"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 40": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Controller"
+        ],
+        "recipient": [
+            "Data Processor",
+            "Third Party"
+        ],
+        "recipient_role": [
+            "Processor",
+            "Third Party"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Consent",
+        "purpose": [
+            "Compliance with legal obligation",
+            "Performance of a contract",
+            "Steps prior to entering a contract"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 41": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Legislative Body",
+            "Government"
+        ],
+        "sender_role": [
+            "Legislator",
+            "Government Official"
+        ],
+        "recipient": [
+            "Individuals",
+            "Organizations"
+        ],
+        "recipient_role": [
+            "Data Subject",
+            "Data Controller"
+        ],
+        "subject": [
+            "Legal Basis",
+            "Legislative Measure"
+        ],
+        "subject_role": [
+            "Regulation",
+            "Law"
+        ],
+        "information_type": "Legal Requirements",
+        "consent_form": "None",
+        "purpose": "Clarity and Precision in Legal Basis",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 42": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Controller"
+        ],
+        "recipient": [
+            "None"
+        ],
+        "recipient_role": [
+            "None"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Consent"
+        ],
+        "consent_form": "Consent",
+        "purpose": [
+            "Processing Operation"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 43": {
+        "norm_type": "Prohibit",
+        "sender": [
+            "Controller"
+        ],
+        "sender_role": [
+            "Public Authority"
+        ],
+        "recipient": [
+            "None"
+        ],
+        "recipient_role": [
+            "None"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Consent",
+        "purpose": "Processing of Personal Data",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 44": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Service Provider"
+        ],
+        "recipient": [
+            "Data Processor"
+        ],
+        "recipient_role": [
+            "Service Provider"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Customer"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Performance of a Contract",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 45": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller"
+        ],
+        "sender_role": [
+            "Public Authority",
+            "Natural Person",
+            "Legal Person"
+        ],
+        "recipient": [
+            "Entities specified by law"
+        ],
+        "recipient_role": [
+            "Public Authority",
+            "Natural Person",
+            "Legal Person"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Legal Obligation",
+            "Public Interest",
+            "Official Authority"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 46": {
+        "norm_type": "Permit",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Data Processor",
+            "Public Authorities"
+        ],
+        "recipient_role": [
+            "Data Processor",
+            "Public Authorities"
+        ],
+        "subject": [
+            "Data Subject",
+            "Another Natural Person"
+        ],
+        "subject_role": [
+            "Data Subject",
+            "Another Natural Person"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Protect Vital Interests",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 47": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Third Party"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Third Party"
+        ],
+        "recipient": [
+            "Controller",
+            "Third Party"
+        ],
+        "recipient_role": [
+            "Data Controller",
+            "Third Party"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Client",
+            "Service Recipient"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": [
+            "Legitimate Interest",
+            "Fraud Prevention",
+            "Direct Marketing"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 48": {
+        "norm_type": "Permit",
+        "sender": [
+            "Controllers within a group of undertakings or institutions affiliated to a central body"
+        ],
+        "sender_role": [
+            "Controller"
+        ],
+        "recipient": [
+            "Other undertakings within the same group"
+        ],
+        "recipient_role": [
+            "Controller"
+        ],
+        "subject": [
+            "Clients",
+            "Employees"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Internal administrative purposes",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 49": {
+        "norm_type": "Permit",
+        "sender": [
+            "public authorities",
+            "CERTs",
+            "CSIRTs",
+            "providers of electronic communications networks and services",
+            "providers of security technologies and services"
+        ],
+        "sender_role": [
+            "public authority",
+            "CERT",
+            "CSIRT",
+            "provider of electronic communications networks and services",
+            "provider of security technologies and services"
+        ],
+        "recipient": [
+            "public authorities",
+            "CERTs",
+            "CSIRTs",
+            "providers of electronic communications networks and services",
+            "providers of security technologies and services"
+        ],
+        "recipient_role": [
+            "public authority",
+            "CERT",
+            "CSIRT",
+            "provider of electronic communications networks and services",
+            "provider of security technologies and services"
+        ],
+        "subject": [
+            "individuals whose personal data is stored or transmitted"
+        ],
+        "subject_role": [
+            "data subject"
+        ],
+        "information_type": [
+            "personal data"
+        ],
+        "consent_form": "None",
+        "purpose": "ensuring network and information security",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 50": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Controller"
+        ],
+        "recipient": [
+            "Data Controller"
+        ],
+        "recipient_role": [
+            "Controller"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Further Processing"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 51": {
+        "norm_type": "General Definition",
+        "sender": "Data Controllers",
+        "sender_role": [
+            "Organizations",
+            "Associations",
+            "Foundations"
+        ],
+        "recipient": "Data Processors",
+        "recipient_role": [
+            "Organizations",
+            "Associations",
+            "Foundations"
+        ],
+        "subject": "Data Subjects",
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": [
+            "Sensitive Personal Data",
+            "Racial or Ethnic Origin",
+            "Biometric Data"
+        ],
+        "consent_form": "Authorization",
+        "purpose": [
+            "Compliance with Legal Obligation",
+            "Public Interest",
+            "Exercise of Official Authority",
+            "Legitimate Activities"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 52": {
+        "norm_type": "Permit",
+        "sender": [
+            "Union or Member State law",
+            "Health authorities",
+            "Employers",
+            "Researchers"
+        ],
+        "sender_role": [
+            "Legislator",
+            "Health Authority",
+            "Employer",
+            "Researcher"
+        ],
+        "recipient": [
+            "Health authorities",
+            "Employers",
+            "Researchers",
+            "Courts"
+        ],
+        "recipient_role": [
+            "Health Authority",
+            "Employer",
+            "Researcher",
+            "Judicial Authority"
+        ],
+        "subject": [
+            "Employees",
+            "Patients",
+            "General Public"
+        ],
+        "subject_role": [
+            "Employee",
+            "Patient",
+            "Citizen"
+        ],
+        "information_type": [
+            "Special Categories of Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Public interest",
+            "Employment law",
+            "Social protection law",
+            "Health security",
+            "Monitoring and alert purposes",
+            "Prevention or control of communicable diseases",
+            "Health purposes",
+            "Management of health-care services",
+            "Archiving",
+            "Scientific or historical research",
+            "Statistical purposes",
+            "Establishment, exercise or defence of legal claims"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 53": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Management and central national health authorities",
+            "Persons subject to a legal obligation of professional secrecy"
+        ],
+        "sender_role": [
+            "Health authorities",
+            "Professionals"
+        ],
+        "recipient": [
+            "None"
+        ],
+        "recipient_role": [
+            "None"
+        ],
+        "subject": [
+            "Natural persons"
+        ],
+        "subject_role": [
+            "Patients"
+        ],
+        "information_type": [
+            "Special categories of personal data concerning health"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Quality control",
+            "Management information",
+            "Supervision of health or social care system",
+            "Continuity of health or social care",
+            "Cross-border healthcare",
+            "Health security",
+            "Monitoring and alert purposes",
+            "Archiving in the public interest",
+            "Scientific or historical research",
+            "Statistical purposes",
+            "Studies in the public interest in public health"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 54": {
+        "norm_type": "Permit",
+        "sender": [
+            "Public Health Authorities",
+            "Healthcare Providers"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Public Health Authorities",
+            "Healthcare Providers"
+        ],
+        "recipient_role": [
+            "Data Controller"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Special Categories of Personal Data",
+            "Health Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Public Interest in Public Health",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 55": {
+        "norm_type": "Permit",
+        "sender": [
+            "official authorities"
+        ],
+        "sender_role": [
+            "government entity"
+        ],
+        "recipient": [
+            "officially recognised religious associations"
+        ],
+        "recipient_role": [
+            "religious organization"
+        ],
+        "subject": [
+            "individuals whose data is being processed"
+        ],
+        "subject_role": [
+            "data subject"
+        ],
+        "information_type": "personal data",
+        "consent_form": "None",
+        "purpose": "achieving the aims laid down by constitutional law or by international public law",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 56": {
+        "norm_type": "Permit",
+        "sender": [
+            "Political Parties"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Political Parties"
+        ],
+        "recipient_role": [
+            "Data Controller"
+        ],
+        "subject": [
+            "People"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Political Opinions"
+        ],
+        "consent_form": "None",
+        "purpose": "Public Interest",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 57": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller",
+            "Data Subject"
+        ],
+        "sender_role": [
+            "Controller",
+            "Subject"
+        ],
+        "recipient": [
+            "Data Controller"
+        ],
+        "recipient_role": [
+            "Controller"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Subject"
+        ],
+        "information_type": [
+            "Personal Data",
+            "Additional Information",
+            "Digital Identification"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Compliance with Regulation",
+            "Exercise of Rights"
+        ],
+        "sender_is_subject": "Not Sure",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 58": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controllers",
+            "Organizations"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Organization"
+        ],
+        "recipient": [
+            "Public",
+            "Data Subjects",
+            "Children"
+        ],
+        "recipient_role": [
+            "General Public",
+            "Data Subject",
+            "Child"
+        ],
+        "subject": [
+            "Data Subjects",
+            "Children"
+        ],
+        "subject_role": [
+            "Data Subject",
+            "Child"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Transparency",
+            "Understanding of Data Collection and Use"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 59": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Subject"
+        ],
+        "sender_role": [
+            "Individual"
+        ],
+        "recipient": [
+            "Controller"
+        ],
+        "recipient_role": [
+            "Data Processor"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Exercise of Rights",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 60": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Individual"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Existence of processing operation",
+            "Purposes of processing",
+            "Further information for fair and transparent processing",
+            "Existence of profiling",
+            "Consequences of profiling",
+            "Obligation to provide personal data",
+            "Consequences of not providing data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Ensure fair and transparent processing"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 61": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Controller"
+        ],
+        "recipient": [
+            "Data Subject",
+            "Another Recipient"
+        ],
+        "recipient_role": [
+            "Subject",
+            "Recipient"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Consent",
+        "purpose": [
+            "Initial Collection",
+            "Disclosure",
+            "Further Processing"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 62": {
+        "norm_type": "Permit",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Data Subject"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Archiving in the public interest",
+            "Scientific research",
+            "Historical research",
+            "Statistical purposes"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 63": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Data Subject"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data",
+            "Health Data",
+            "Medical Records",
+            "Diagnoses",
+            "Examination Results",
+            "Assessments",
+            "Treatment Information"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Awareness",
+            "Verification of Lawfulness of Processing"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 64": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Subject"
+        ],
+        "sender_role": [
+            "Individual"
+        ],
+        "recipient": [
+            "Controller"
+        ],
+        "recipient_role": [
+            "Data Controller"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Identity Verification Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Identity Verification"
+    },
+    "Recital 65": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Subject"
+        ],
+        "sender_role": [
+            "Individual"
+        ],
+        "recipient": [
+            "Data Controller"
+        ],
+        "recipient_role": [
+            "Organization"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Consent",
+        "purpose": [
+            "Rectification",
+            "Erasure"
+        ],
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 66": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Other Data Controllers"
+        ],
+        "recipient_role": [
+            "Data Controller"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Erasure of Personal Data",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 67": {
+        "norm_type": "General Definition",
+        "sender": "Data Controller",
+        "sender_role": "Data Processor",
+        "recipient": "Data Controller",
+        "recipient_role": "Data Processor",
+        "subject": "Data Subject",
+        "subject_role": "Individual",
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Restriction of Processing",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 68": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Subject"
+        ],
+        "sender_role": [
+            "Individual"
+        ],
+        "recipient": [
+            "Data Controller",
+            "Another Data Controller"
+        ],
+        "recipient_role": [
+            "Organization"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Consent",
+        "purpose": "Data Portability",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 69": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Controller"
+        ],
+        "recipient": [
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Individual"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Public Interest Task",
+            "Exercise of Official Authority",
+            "Legitimate Interests"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 70": {
+        "norm_type": "Prohibit",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Marketer"
+        ],
+        "recipient": [
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Consumer"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Consumer"
+        ],
+        "information_type": [
+            "Personal Data",
+            "Profiling Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Direct Marketing",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 71": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Service Provider",
+            "Employer"
+        ],
+        "recipient": [
+            "Automated System"
+        ],
+        "recipient_role": [
+            "Automated Decision-Maker"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data",
+            "Performance Data",
+            "Economic Data",
+            "Health Data",
+            "Preferences",
+            "Interests",
+            "Reliability",
+            "Behavior",
+            "Location",
+            "Movements"
+        ],
+        "consent_form": "Authorization",
+        "purpose": [
+            "Fraud Monitoring",
+            "Tax Evasion Prevention",
+            "Service Security",
+            "Contract Performance"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 72": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Entity responsible for processing personal data"
+        ],
+        "recipient": [
+            "European Data Protection Board"
+        ],
+        "recipient_role": [
+            "Regulatory Authority"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual whose data is being processed"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Guidance on Profiling",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 73": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Union or Member State law"
+        ],
+        "sender_role": [
+            "Legislator"
+        ],
+        "recipient": [
+            "Controllers"
+        ],
+        "recipient_role": [
+            "Data Controllers"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Safeguard public security",
+            "Protection of human life",
+            "Prevention, investigation, and prosecution of criminal offences",
+            "Execution of criminal penalties",
+            "Safeguarding against and prevention of threats to public security",
+            "Breaches of ethics for regulated professions",
+            "Important economic or financial interest",
+            "Keeping of public registers",
+            "Further processing of archived personal data",
+            "Protection of the data subject or the rights and freedoms of others",
+            "Social protection",
+            "Public health",
+            "Humanitarian purposes"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 74": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "None"
+        ],
+        "recipient_role": [
+            "None"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Compliance with GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 75": {
+        "norm_type": "General Definition",
+        "sender": "None",
+        "sender_role": "None",
+        "recipient": "None",
+        "recipient_role": "None",
+        "subject": [
+            "Natural Persons",
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": [
+            "Personal Data",
+            "Racial or Ethnic Origin",
+            "Political Opinions",
+            "Religion or Philosophical Beliefs",
+            "Trade Union Membership",
+            "Genetic Data",
+            "Health Data",
+            "Sex Life Data",
+            "Criminal Convictions and Offences",
+            "Related Security Measures",
+            "Personal Profiles"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Prevent Discrimination",
+            "Prevent Identity Theft or Fraud",
+            "Prevent Financial Loss",
+            "Prevent Damage to Reputation",
+            "Prevent Loss of Confidentiality",
+            "Prevent Unauthorized Reversal of Pseudonymisation",
+            "Prevent Economic or Social Disadvantage",
+            "Prevent Deprivation of Rights and Freedoms",
+            "Prevent Loss of Control over Personal Data"
+        ],
+        "sender_is_subject": "Not Sure",
+        "recipient_is_subject": "Not Sure"
+    },
+    "Recital 76": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Processor"
+        ],
+        "recipient": [
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Individual"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Risk Assessment",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 77": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Board",
+            "Data Protection Officer"
+        ],
+        "sender_role": [
+            "Regulatory Body",
+            "Compliance Officer"
+        ],
+        "recipient": [
+            "Controller",
+            "Processor"
+        ],
+        "recipient_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "subject": "None",
+        "subject_role": "None",
+        "information_type": "Risk Assessment Guidelines",
+        "consent_form": "None",
+        "purpose": "Guidance on implementation of appropriate measures and compliance demonstration",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 78": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Producers of products, services, and applications"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Product/Service/Application Producer"
+        ],
+        "recipient": [
+            "Data Subject",
+            "Controller"
+        ],
+        "recipient_role": [
+            "Individual",
+            "Data Controller"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Compliance with GDPR",
+            "Data Protection by Design and Default"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 79": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "Supervisory Authorities",
+            "Other Controllers"
+        ],
+        "recipient_role": [
+            "Supervisory Authority",
+            "Data Controller"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": "Responsibilities and Liabilities",
+        "consent_form": "None",
+        "purpose": "Allocation of Responsibilities",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 80": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "Representative",
+            "Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Designated Representative",
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Data Subjects in the Union"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": [
+            "Personal Data",
+            "Special Categories of Personal Data",
+            "Data Relating to Criminal Convictions and Offences"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Offering Goods or Services",
+            "Monitoring Behaviour",
+            "Ensuring Compliance with GDPR"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 81": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Processor"
+        ],
+        "recipient_role": [
+            "Data Processor"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Processing on behalf of the controller",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 82": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Records of Processing Activities"
+        ],
+        "consent_form": "None",
+        "purpose": "Monitoring Processing Operations",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 83": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "None"
+        ],
+        "recipient_role": [
+            "None"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Security and Risk Mitigation",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 84": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Risk Assessment Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Evaluate and Mitigate High Risk in Data Processing",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 85": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Natural Person"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data Breach"
+        ],
+        "consent_form": "None",
+        "purpose": "Notification of Data Breach",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 86": {
+        "norm_type": "Permit",
+        "sender": [
+            "Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Natural Person"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Natural Person"
+        ],
+        "information_type": [
+            "Nature of the personal data breach",
+            "Recommendations to mitigate potential adverse effects"
+        ],
+        "consent_form": "None",
+        "purpose": "Allow the data subject to take necessary precautions",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 87": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Supervisory Authority",
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Regulatory Body",
+            "Individual"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data Breach Information"
+        ],
+        "consent_form": "None",
+        "purpose": "Notification of Personal Data Breach",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 88": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Supervisory Authority",
+            "Law-enforcement Authorities"
+        ],
+        "recipient_role": [
+            "Regulatory Body",
+            "Law Enforcement"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data Breach Details"
+        ],
+        "consent_form": "None",
+        "purpose": "Notification and Investigation",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 89": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Processor"
+        ],
+        "recipient": [
+            "Supervisory Authorities"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Regulatory Compliance",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 90": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "None"
+        ],
+        "recipient_role": [
+            "None"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual whose data is being processed"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Assessing the likelihood and severity of high risk in data processing and ensuring compliance with GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 91": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Processor"
+        ],
+        "recipient": [
+            "Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data",
+            "Biometric Data",
+            "Data on Criminal Convictions and Offences"
+        ],
+        "consent_form": "Authorization",
+        "purpose": "Data Protection Impact Assessment",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 92": {
+        "norm_type": "General Definition",
+        "sender": [
+            "public authorities",
+            "bodies",
+            "controllers"
+        ],
+        "sender_role": [
+            "public authority",
+            "body",
+            "controller"
+        ],
+        "recipient": [
+            "None"
+        ],
+        "recipient_role": [
+            "None"
+        ],
+        "subject": [
+            "data subjects"
+        ],
+        "subject_role": [
+            "data subject"
+        ],
+        "information_type": [
+            "personal data"
+        ],
+        "consent_form": "None",
+        "purpose": "establish a common application or processing platform",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 93": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Member State"
+        ],
+        "sender_role": [
+            "Public Authority",
+            "Public Body"
+        ],
+        "recipient": [
+            "Public Authority",
+            "Public Body"
+        ],
+        "recipient_role": [
+            "Public Authority",
+            "Public Body"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": "Processing Operation or Set of Operations",
+        "consent_form": "None",
+        "purpose": "Regulation of Processing Activities",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 94": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Controller"
+        ],
+        "recipient": [
+            "Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Regulator"
+        ],
+        "subject": [
+            "Natural Person"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Data Protection Impact Assessment",
+            "Risk Mitigation Measures"
+        ],
+        "consent_form": "None",
+        "purpose": "Consultation for High-Risk Processing",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 95": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Processor"
+        ],
+        "recipient": [
+            "Controller"
+        ],
+        "recipient_role": [
+            "Data Controller"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": "Data Protection Impact Assessments and Prior Consultation Information",
+        "consent_form": "None",
+        "purpose": "Ensuring Compliance with Data Protection Obligations",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 96": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Legislative Body",
+            "Regulatory Body"
+        ],
+        "sender_role": [
+            "Legislator",
+            "Regulator"
+        ],
+        "recipient": [
+            "Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Data Protection Supervisor"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": "Processing of Personal Data",
+        "consent_form": "None",
+        "purpose": "Ensure Compliance and Mitigate Risk",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 97": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "Data Protection Officer"
+        ],
+        "recipient_role": [
+            "Data Protection Officer"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": [
+            "Personal Data",
+            "Special Categories of Personal Data",
+            "Data Relating to Criminal Convictions and Offences"
+        ],
+        "consent_form": "None",
+        "purpose": "Monitor Internal Compliance with GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 98": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Associations",
+            "Other bodies representing categories of controllers or processors"
+        ],
+        "sender_role": [
+            "Representatives"
+        ],
+        "recipient": [
+            "Controllers",
+            "Processors"
+        ],
+        "recipient_role": [
+            "Controllers",
+            "Processors"
+        ],
+        "subject": [
+            "Natural persons"
+        ],
+        "subject_role": [
+            "Data subjects"
+        ],
+        "information_type": "None",
+        "consent_form": "None",
+        "purpose": "Facilitate the effective application of the GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 99": {
+        "norm_type": "General Definition",
+        "sender": [
+            "associations",
+            "other bodies representing categories of controllers or processors"
+        ],
+        "sender_role": [
+            "representative"
+        ],
+        "recipient": [
+            "relevant stakeholders",
+            "data subjects"
+        ],
+        "recipient_role": [
+            "stakeholder",
+            "data subject"
+        ],
+        "subject": [
+            "data subjects"
+        ],
+        "subject_role": [
+            "data subject"
+        ],
+        "information_type": "submissions and views",
+        "consent_form": "None",
+        "purpose": "development, amendment, or extension of codes of conduct",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 100": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controllers",
+            "Data Processors"
+        ],
+        "sender_role": [
+            "Organizations handling personal data"
+        ],
+        "recipient": [
+            "Data Subjects"
+        ],
+        "recipient_role": [
+            "Individuals whose data is being processed"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals whose data is being processed"
+        ],
+        "information_type": "Data protection level of products and services",
+        "consent_form": "None",
+        "purpose": "Enhance transparency and compliance with GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 101": {
+        "norm_type": "General Definition",
+        "sender": [
+            "controllers",
+            "processors",
+            "other recipients"
+        ],
+        "sender_role": [
+            "data controllers",
+            "data processors",
+            "other recipients"
+        ],
+        "recipient": [
+            "controllers",
+            "processors",
+            "other recipients in third countries or international organisations"
+        ],
+        "recipient_role": [
+            "data controllers",
+            "data processors",
+            "other recipients"
+        ],
+        "subject": [
+            "natural persons"
+        ],
+        "subject_role": [
+            "data subjects"
+        ],
+        "information_type": "personal data",
+        "consent_form": "None",
+        "purpose": "international trade and international cooperation",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 102": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Union",
+            "Member States"
+        ],
+        "sender_role": [
+            "Regulator",
+            "Regulator"
+        ],
+        "recipient": [
+            "Third Countries",
+            "International Organisations"
+        ],
+        "recipient_role": [
+            "Data Recipient",
+            "Data Recipient"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Regulating the transfer of personal data with appropriate safeguards",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 103": {
+        "norm_type": "General Definition",
+        "sender": [
+            "The Commission"
+        ],
+        "sender_role": [
+            "Regulatory Authority"
+        ],
+        "recipient": [
+            "Third Country",
+            "International Organisation"
+        ],
+        "recipient_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "subject": [
+            "Data Subjects in the EU"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Data Transfer",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 104": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Commission"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Third Country",
+            "Territory",
+            "Specified Sector"
+        ],
+        "recipient_role": [
+            "Country",
+            "Territory",
+            "Sector"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Assessment of Adequacy Decision",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 105": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Third Country",
+            "International Organisation"
+        ],
+        "sender_role": [
+            "Participant in Multilateral or Regional Systems"
+        ],
+        "recipient": [
+            "European Commission"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Individuals"
+        ],
+        "subject_role": [
+            "Data Subjects"
+        ],
+        "information_type": "Level of Protection of Personal Data",
+        "consent_form": "None",
+        "purpose": "Assessment of Adequacy Decision",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 106": {
+        "norm_type": "General Definition",
+        "sender": [
+            "The Commission"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "European Parliament",
+            "Council",
+            "Other relevant bodies and sources"
+        ],
+        "recipient_role": [
+            "Legislative Body",
+            "Legislative Body",
+            "Advisory Bodies"
+        ],
+        "subject": [
+            "Third countries",
+            "International organisations"
+        ],
+        "subject_role": [
+            "Data Protection Entities"
+        ],
+        "information_type": [
+            "Level of Data Protection",
+            "Relevant Developments"
+        ],
+        "consent_form": "None",
+        "purpose": "Monitoring and Periodic Review of Data Protection",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 107": {
+        "norm_type": "Prohibit",
+        "sender": [
+            "Commission"
+        ],
+        "sender_role": [
+            "Regulatory Authority"
+        ],
+        "recipient": [
+            "Third Country",
+            "International Organisation"
+        ],
+        "recipient_role": [
+            "Data Controller"
+        ],
+        "subject": [
+            "Personal Data"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Adequacy Decision",
+        "consent_form": "None",
+        "purpose": "Ensure Adequate Level of Data Protection",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 108": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor",
+            "Public Authorities",
+            "Bodies"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor",
+            "Public Authority",
+            "Body"
+        ],
+        "recipient": [
+            "Third Country Entities",
+            "International Organizations"
+        ],
+        "recipient_role": [
+            "Entity",
+            "Organization"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "Authorization",
+        "purpose": "Data Protection Compliance",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 109": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "Another Processor",
+            "Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Data Processor",
+            "Supervisory Authority"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": "Standard Data Protection Clauses",
+        "consent_form": "None",
+        "purpose": "Data Protection",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 110": {
+        "norm_type": "Permit",
+        "sender": [
+            "Group of undertakings",
+            "Group of enterprises engaged in a joint economic activity"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Organisations within the same group of undertakings",
+            "Organisations within the same group of enterprises engaged in a joint economic activity"
+        ],
+        "recipient_role": [
+            "Data Controller"
+        ],
+        "subject": [
+            "Individuals whose personal data is being transferred"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "International transfers of personal data within the same group",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 111": {
+        "norm_type": "Permit",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Third Party",
+            "Public",
+            "Persons with Legitimate Interest"
+        ],
+        "recipient_role": [
+            "Third Party",
+            "Public",
+            "Persons with Legitimate Interest"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Consent",
+        "purpose": [
+            "Contractual Necessity",
+            "Legal Claim",
+            "Public Interest",
+            "Register Consultation"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 112": {
+        "norm_type": "Permit",
+        "sender": [
+            "competition authorities",
+            "tax or customs administrations",
+            "financial supervisory authorities",
+            "services competent for social security matters",
+            "public health authorities",
+            "international humanitarian organisations"
+        ],
+        "sender_role": [
+            "authority",
+            "administration",
+            "supervisory authority",
+            "service",
+            "public health authority",
+            "humanitarian organisation"
+        ],
+        "recipient": [
+            "third country",
+            "international organisation"
+        ],
+        "recipient_role": [
+            "country",
+            "organisation"
+        ],
+        "subject": [
+            "data subject"
+        ],
+        "subject_role": [
+            "individual"
+        ],
+        "information_type": [
+            "personal data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "important reasons of public interest",
+            "protect vital interests",
+            "public health",
+            "compliance with international humanitarian law"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 113": {
+        "norm_type": "Permit",
+        "sender": [
+            "Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Third Country Entity"
+        ],
+        "recipient_role": [
+            "Data Processor",
+            "Data Controller"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Compelling Legitimate Interests",
+            "Scientific Research",
+            "Historical Research",
+            "Statistical Purposes"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 114": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Individual"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Safeguarding Fundamental Rights and Safeguards",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 115": {
+        "norm_type": "Prohibit",
+        "sender": [
+            "controller",
+            "processor"
+        ],
+        "sender_role": [
+            "natural person",
+            "legal person"
+        ],
+        "recipient": [
+            "third country court",
+            "third country tribunal",
+            "third country administrative authority"
+        ],
+        "recipient_role": [
+            "court",
+            "tribunal",
+            "administrative authority"
+        ],
+        "subject": [
+            "natural person"
+        ],
+        "subject_role": [
+            "data subject"
+        ],
+        "information_type": "personal data",
+        "consent_form": "Authorization",
+        "purpose": "transfer or disclosure of personal data",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 116": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authorities",
+            "The Commission"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Supervisory Authorities in Third Countries"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "International Cooperation and Mutual Assistance for Data Protection Enforcement",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 117": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Member States"
+        ],
+        "sender_role": [
+            "Government"
+        ],
+        "recipient": [
+            "Supervisory Authorities"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subjects"
+        ],
+        "information_type": "None",
+        "consent_form": "None",
+        "purpose": "Protection of personal data",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 118": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authorities"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Monitoring Mechanisms",
+            "Judicial Review Bodies"
+        ],
+        "recipient_role": [
+            "Oversight Body",
+            "Judicial Entity"
+        ],
+        "subject": [
+            "Supervisory Authorities"
+        ],
+        "subject_role": [
+            "Regulatory Body"
+        ],
+        "information_type": [
+            "Financial Expenditure"
+        ],
+        "consent_form": "None",
+        "purpose": "Control or Monitoring",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 119": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Member State"
+        ],
+        "sender_role": [
+            "Legislator"
+        ],
+        "recipient": [
+            "Supervisory Authorities"
+        ],
+        "recipient_role": [
+            "Regulator"
+        ],
+        "subject": [
+            "Supervisory Authorities"
+        ],
+        "subject_role": [
+            "Regulator"
+        ],
+        "information_type": "Mechanisms for effective participation in the consistency mechanism",
+        "consent_form": "None",
+        "purpose": "Ensure swift and smooth cooperation with other supervisory authorities, the Board, and the Commission",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 120": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authorities"
+        ],
+        "sender_role": [
+            "Regulator"
+        ],
+        "recipient": [
+            "Supervisory Authorities"
+        ],
+        "recipient_role": [
+            "Regulator"
+        ],
+        "subject": [
+            "Supervisory Authorities"
+        ],
+        "subject_role": [
+            "Regulator"
+        ],
+        "information_type": "None",
+        "consent_form": "None",
+        "purpose": "Effective performance of tasks",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 121": {
+        "norm_type": "General Definition",
+        "sender": [
+            "parliament",
+            "government",
+            "head of State",
+            "independent body"
+        ],
+        "sender_role": [
+            "appointing authority"
+        ],
+        "recipient": [
+            "supervisory authority members"
+        ],
+        "recipient_role": [
+            "appointees"
+        ],
+        "subject": [
+            "supervisory authority members"
+        ],
+        "subject_role": [
+            "appointees"
+        ],
+        "information_type": [
+            "appointment details",
+            "integrity requirements",
+            "occupational restrictions"
+        ],
+        "consent_form": "None",
+        "purpose": "Ensure independence and integrity of supervisory authorities",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 122": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulator"
+        ],
+        "recipient": [
+            "Controller",
+            "Processor",
+            "Public Authorities",
+            "Private Bodies"
+        ],
+        "recipient_role": [
+            "Data Handler"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Regulation Compliance",
+            "Public Awareness",
+            "Complaint Handling",
+            "Investigation"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 123": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authorities"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Other Supervisory Authorities",
+            "Commission"
+        ],
+        "recipient_role": [
+            "Regulatory Body",
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Monitoring and Ensuring Consistent Application of GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 124": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Regulatory Oversight",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 125": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Lead Authority",
+            "Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Supervisory Authorities Concerned",
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Regulatory Body",
+            "Individual"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": "Complaint Decision",
+        "consent_form": "None",
+        "purpose": "Decision-Making Process",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 126": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Lead Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Main or Single Establishment of the Controller or Processor"
+        ],
+        "recipient_role": [
+            "Controller",
+            "Processor"
+        ],
+        "subject": [
+            "Controller",
+            "Processor"
+        ],
+        "subject_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "information_type": "Compliance Decision",
+        "consent_form": "None",
+        "purpose": "Ensure Compliance with GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 127": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Lead Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Data Subjects",
+            "Controller",
+            "Processor"
+        ],
+        "subject_role": [
+            "Individuals",
+            "Organizations"
+        ],
+        "information_type": "Processing Case Information",
+        "consent_form": "None",
+        "purpose": "Effective Enforcement and Decision Making",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 128": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Public Authorities",
+            "Private Bodies"
+        ],
+        "sender_role": [
+            "Public Authority",
+            "Private Body"
+        ],
+        "recipient": [
+            "Supervisory Authority of the Member State"
+        ],
+        "recipient_role": [
+            "Supervisory Authority"
+        ],
+        "subject": [
+            "Public Authorities",
+            "Private Bodies"
+        ],
+        "subject_role": [
+            "Public Authority",
+            "Private Body"
+        ],
+        "information_type": "None",
+        "consent_form": "None",
+        "purpose": "Supervision of Processing in the Public Interest",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 129": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authorities"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Judicial Authorities",
+            "Natural Persons",
+            "Prosecutorial Authorities"
+        ],
+        "recipient_role": [
+            "Judicial Body",
+            "Individuals",
+            "Prosecutorial Body"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Monitoring and Enforcement of GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 130": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority with which the complaint has been lodged"
+        ],
+        "sender_role": [
+            "Supervisory Authority"
+        ],
+        "recipient": [
+            "Lead Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Lead Supervisory Authority"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Complainant"
+        ],
+        "information_type": "Complaint Details",
+        "consent_form": "None",
+        "purpose": "Cooperation and Consistency in Handling Complaints",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 131": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Controller",
+            "Processor"
+        ],
+        "recipient_role": [
+            "Data Handler"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": "Complaint or Possible Infringement Details",
+        "consent_form": "None",
+        "purpose": "Amicable Settlement and Regulatory Compliance",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 132": {
+        "norm_type": "General Definition",
+        "sender": [
+            "supervisory authorities"
+        ],
+        "sender_role": [
+            "regulatory body"
+        ],
+        "recipient": [
+            "controllers",
+            "processors",
+            "micro enterprises",
+            "small enterprises",
+            "medium-sized enterprises",
+            "natural persons"
+        ],
+        "recipient_role": [
+            "data handlers",
+            "business entities",
+            "individuals"
+        ],
+        "subject": [
+            "public"
+        ],
+        "subject_role": [
+            "general public"
+        ],
+        "information_type": "awareness-raising activities",
+        "consent_form": "None",
+        "purpose": "education and compliance",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 133": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Other Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "None"
+        ],
+        "subject_role": [
+            "None"
+        ],
+        "information_type": "Request for Mutual Assistance",
+        "consent_form": "None",
+        "purpose": "Ensure Consistent Application and Enforcement of GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 134": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulator"
+        ],
+        "recipient": [
+            "Other Supervisory Authorities"
+        ],
+        "recipient_role": [
+            "Regulator"
+        ],
+        "subject": [
+            "None"
+        ],
+        "subject_role": [
+            "None"
+        ],
+        "information_type": [
+            "None"
+        ],
+        "consent_form": "None",
+        "purpose": "Participation in Joint Operations",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 135": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority",
+            "Commission"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Supervisory Authority",
+            "Commission"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": "Processing Operations",
+        "consent_form": "None",
+        "purpose": "Ensure Consistent Application of GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 136": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Board",
+            "Supervisory Authority",
+            "Commission"
+        ],
+        "sender_role": [
+            "Regulatory Body",
+            "Regulatory Body",
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Supervisory Authority",
+            "Board"
+        ],
+        "recipient_role": [
+            "Regulatory Body",
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Supervisory Authority"
+        ],
+        "subject_role": [
+            "Regulatory Body"
+        ],
+        "information_type": "Opinions and Legally Binding Decisions",
+        "consent_form": "None",
+        "purpose": "Resolve Disputes and Ensure Consistency",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 137": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulator"
+        ],
+        "recipient": [
+            "Data Subjects"
+        ],
+        "recipient_role": [
+            "Individuals"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": "Rights and Freedoms",
+        "consent_form": "None",
+        "purpose": "Protection of Rights and Freedoms",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 138": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Lead Supervisory Authority",
+            "Supervisory Authorities Concerned"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "None"
+        ],
+        "subject_role": [
+            "None"
+        ],
+        "information_type": [
+            "Legal Measures",
+            "Cross-Border Relevance Information"
+        ],
+        "consent_form": "None",
+        "purpose": "Regulatory Compliance",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 139": {
+        "norm_type": "General Definition",
+        "sender": [
+            "European Data Protection Board"
+        ],
+        "sender_role": [
+            "Independent Body"
+        ],
+        "recipient": [
+            "Supervisory Authorities",
+            "European Data Protection Supervisor",
+            "Commission"
+        ],
+        "recipient_role": [
+            "Supervisory Authority Heads",
+            "European Data Protection Supervisor",
+            "Commission Representatives"
+        ],
+        "subject": [
+            "Individuals"
+        ],
+        "subject_role": [
+            "Data Subjects"
+        ],
+        "information_type": "None",
+        "consent_form": "None",
+        "purpose": "Consistent Application of GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 140": {
+        "norm_type": "General Definition",
+        "sender": [
+            "European Data Protection Supervisor"
+        ],
+        "sender_role": [
+            "Supervisory Authority"
+        ],
+        "recipient": [
+            "Staff of the European Data Protection Supervisor"
+        ],
+        "recipient_role": [
+            "Staff"
+        ],
+        "subject": [
+            "Board"
+        ],
+        "subject_role": [
+            "Supervisory Authority"
+        ],
+        "information_type": "Instructions and Reports",
+        "consent_form": "None",
+        "purpose": "Assistance and Task Execution",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 141": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Subject"
+        ],
+        "sender_role": [
+            "Complainant"
+        ],
+        "recipient": [
+            "Supervisory Authority"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Complainant"
+        ],
+        "information_type": [
+            "Complaint Details"
+        ],
+        "consent_form": "None",
+        "purpose": "Lodging a Complaint",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 142": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Subject",
+            "Not-for-Profit Body",
+            "Organisation",
+            "Association"
+        ],
+        "sender_role": [
+            "Individual",
+            "Advocate"
+        ],
+        "recipient": [
+            "Supervisory Authority",
+            "Judicial Body"
+        ],
+        "recipient_role": [
+            "Regulator",
+            "Judicial Entity"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Complaint",
+            "Judicial Remedy Request",
+            "Compensation Request"
+        ],
+        "consent_form": "Authorization",
+        "purpose": "Protection of Personal Data Rights",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 143": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Natural Person",
+            "Legal Person",
+            "Supervisory Authority",
+            "Controller",
+            "Processor",
+            "Complainant"
+        ],
+        "sender_role": [
+            "Plaintiff",
+            "Challenger"
+        ],
+        "recipient": [
+            "Court of Justice",
+            "National Court"
+        ],
+        "recipient_role": [
+            "Judicial Body"
+        ],
+        "subject": [
+            "Natural Person",
+            "Legal Person"
+        ],
+        "subject_role": [
+            "Affected Party"
+        ],
+        "information_type": "Decision of the Board or Supervisory Authority",
+        "consent_form": "None",
+        "purpose": "Judicial Remedy",
+        "sender_is_subject": "Not Sure",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 144": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Court"
+        ],
+        "sender_role": [
+            "Judicial Authority"
+        ],
+        "recipient": [
+            "Court"
+        ],
+        "recipient_role": [
+            "Judicial Authority"
+        ],
+        "subject": [
+            "Supervisory Authority Decision"
+        ],
+        "subject_role": [
+            "Decision Maker"
+        ],
+        "information_type": "Existence of Related Proceedings",
+        "consent_form": "None",
+        "purpose": "Confirm the existence of related proceedings to avoid irreconcilable judgments",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 145": {
+        "norm_type": "General Definition",
+        "sender": [
+            "controller",
+            "processor"
+        ],
+        "sender_role": [
+            "data controller",
+            "data processor"
+        ],
+        "recipient": [
+            "courts of the Member States"
+        ],
+        "recipient_role": [
+            "judicial authority"
+        ],
+        "subject": [
+            "data subject"
+        ],
+        "subject_role": [
+            "individual"
+        ],
+        "information_type": "None",
+        "consent_form": "None",
+        "purpose": "legal proceedings",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 146": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "Data Subject"
+        ],
+        "recipient_role": [
+            "Individual"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Damage Information"
+        ],
+        "consent_form": "None",
+        "purpose": "Compensation for Damage",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 147": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Controller",
+            "Processor"
+        ],
+        "sender_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "recipient": [
+            "Judicial Authority"
+        ],
+        "recipient_role": [
+            "Judicial Body"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": "Jurisdictional Information",
+        "consent_form": "None",
+        "purpose": "Judicial Remedy",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 148": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Controller",
+            "Processor"
+        ],
+        "recipient_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "subject": [
+            "Natural Person"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Nature of Infringement",
+            "Gravity of Infringement",
+            "Duration of Infringement",
+            "Intentional Character of Infringement",
+            "Actions Taken to Mitigate Damage",
+            "Degree of Responsibility",
+            "Previous Infringements",
+            "Manner of Infringement Discovery",
+            "Compliance with Measures",
+            "Adherence to Code of Conduct",
+            "Aggravating or Mitigating Factors"
+        ],
+        "consent_form": "None",
+        "purpose": "Enforcement of GDPR Rules",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 149": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Member States"
+        ],
+        "sender_role": [
+            "Legislator"
+        ],
+        "recipient": [
+            "Entities subject to GDPR"
+        ],
+        "recipient_role": [
+            "Data Controllers",
+            "Data Processors"
+        ],
+        "subject": [
+            "Individuals"
+        ],
+        "subject_role": [
+            "Data Subjects"
+        ],
+        "information_type": "Penalties for Infringements",
+        "consent_form": "None",
+        "purpose": "Enforcement of GDPR",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 150": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulator"
+        ],
+        "recipient": [
+            "Undertaking",
+            "Persons",
+            "Public Authorities"
+        ],
+        "recipient_role": [
+            "Data Controller",
+            "Data Processor",
+            "Public Entity"
+        ],
+        "subject": [
+            "Undertaking",
+            "Persons",
+            "Public Authorities"
+        ],
+        "subject_role": [
+            "Data Controller",
+            "Data Processor",
+            "Public Entity"
+        ],
+        "information_type": "Administrative Fines",
+        "consent_form": "None",
+        "purpose": "Enforcement of GDPR Compliance",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 151": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Supervisory Authority"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Competent National Courts"
+        ],
+        "recipient_role": [
+            "Judicial Body"
+        ],
+        "subject": [
+            "Organizations subject to GDPR"
+        ],
+        "subject_role": [
+            "Data Controllers",
+            "Data Processors"
+        ],
+        "information_type": "Recommendations for fines",
+        "consent_form": "None",
+        "purpose": "Imposition of effective, proportionate, and dissuasive fines",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 152": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Member States"
+        ],
+        "sender_role": [
+            "Legislator"
+        ],
+        "recipient": [
+            "Data Controllers",
+            "Data Processors"
+        ],
+        "recipient_role": [
+            "Entities responsible for data processing"
+        ],
+        "subject": [
+            "Individuals"
+        ],
+        "subject_role": [
+            "Data Subjects"
+        ],
+        "information_type": "Penalties for GDPR infringements",
+        "consent_form": "None",
+        "purpose": "To ensure effective, proportionate, and dissuasive penalties for GDPR infringements",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 153": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Journalists",
+            "Academics",
+            "Artists",
+            "Authors"
+        ],
+        "sender_role": [
+            "Journalist",
+            "Academic",
+            "Artist",
+            "Author"
+        ],
+        "recipient": [
+            "Public",
+            "News Archives",
+            "Press Libraries"
+        ],
+        "recipient_role": [
+            "General Public",
+            "Archive Manager",
+            "Librarian"
+        ],
+        "subject": [
+            "Individuals whose personal data is processed"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Journalistic Purposes",
+            "Academic Purposes",
+            "Artistic Purposes",
+            "Literary Expression"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 154": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Public Authority",
+            "Public Body"
+        ],
+        "sender_role": [
+            "Government Entity"
+        ],
+        "recipient": [
+            "Public"
+        ],
+        "recipient_role": [
+            "General Public"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subjects"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Authorization",
+        "purpose": "Public Access to Official Documents",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 155": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Employer",
+            "HR Department"
+        ],
+        "sender_role": [
+            "Employer",
+            "HR"
+        ],
+        "recipient": [
+            "Employer",
+            "HR Department",
+            "Legal Authorities"
+        ],
+        "recipient_role": [
+            "Employer",
+            "HR",
+            "Legal"
+        ],
+        "subject": [
+            "Employee"
+        ],
+        "subject_role": [
+            "Employee"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Consent",
+        "purpose": [
+            "Recruitment",
+            "Performance of Employment Contract",
+            "Management",
+            "Planning",
+            "Organisation of Work",
+            "Equality and Diversity",
+            "Health and Safety",
+            "Exercise and Enjoyment of Rights and Benefits",
+            "Termination of Employment"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 156": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Controller"
+        ],
+        "recipient": [
+            "Researchers",
+            "Archivists",
+            "Statisticians"
+        ],
+        "recipient_role": [
+            "Researcher",
+            "Archivist",
+            "Statistician"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "Archiving in the public interest",
+            "Scientific Research",
+            "Historical Research",
+            "Statistical Purposes"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 157": {
+        "norm_type": "Permit",
+        "sender": [
+            "Researchers"
+        ],
+        "sender_role": [
+            "Researcher"
+        ],
+        "recipient": [
+            "Researchers",
+            "Policy Makers",
+            "Social Services"
+        ],
+        "recipient_role": [
+            "Researcher",
+            "Policy Maker",
+            "Social Service Provider"
+        ],
+        "subject": [
+            "Individuals with medical conditions",
+            "Individuals in social science studies"
+        ],
+        "subject_role": [
+            "Patient",
+            "Participant"
+        ],
+        "information_type": [
+            "Personal Data",
+            "Medical Data",
+            "Social Data"
+        ],
+        "consent_form": "Authorization",
+        "purpose": "Scientific Research",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 158": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Public authorities",
+            "Public bodies",
+            "Private bodies"
+        ],
+        "sender_role": [
+            "Record holders"
+        ],
+        "recipient": [
+            "General public"
+        ],
+        "recipient_role": [
+            "Information seekers"
+        ],
+        "subject": [
+            "Deceased persons",
+            "Individuals related to political behavior under former totalitarian state regimes, genocide, crimes against humanity, war crimes"
+        ],
+        "subject_role": [
+            "Historical figures",
+            "Victims"
+        ],
+        "information_type": [
+            "Personal data"
+        ],
+        "consent_form": "None",
+        "purpose": "Archiving purposes of public interest",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 159": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Researchers",
+            "Research Institutions"
+        ],
+        "sender_role": [
+            "Researcher",
+            "Research Institution"
+        ],
+        "recipient": [
+            "Research Community",
+            "Public"
+        ],
+        "recipient_role": [
+            "Researcher",
+            "Public"
+        ],
+        "subject": [
+            "Individuals whose data is being processed"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "Consent",
+        "purpose": [
+            "Scientific Research",
+            "Technological Development",
+            "Public Health Studies"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 160": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Researchers",
+            "Genealogists"
+        ],
+        "sender_role": [
+            "Researcher",
+            "Genealogist"
+        ],
+        "recipient": [
+            "Researchers",
+            "Genealogists"
+        ],
+        "recipient_role": [
+            "Researcher",
+            "Genealogist"
+        ],
+        "subject": [
+            "Individuals whose data is being researched"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Historical and Genealogical Research",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 161": {
+        "norm_type": "Permit",
+        "sender": [
+            "Researcher"
+        ],
+        "sender_role": [
+            "Researcher"
+        ],
+        "recipient": [
+            "Research Organization",
+            "Regulatory Authorities"
+        ],
+        "recipient_role": [
+            "Organization",
+            "Regulatory Authority"
+        ],
+        "subject": [
+            "Participant"
+        ],
+        "subject_role": [
+            "Participant"
+        ],
+        "information_type": [
+            "Consent Information",
+            "Personal Data"
+        ],
+        "consent_form": "Authorization",
+        "purpose": "Scientific Research",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 162": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Data Controller"
+        ],
+        "sender_role": [
+            "Data Processor"
+        ],
+        "recipient": [
+            "Statistical Agencies",
+            "Researchers"
+        ],
+        "recipient_role": [
+            "Data Processor",
+            "Data User"
+        ],
+        "subject": [
+            "Data Subject"
+        ],
+        "subject_role": [
+            "Individual"
+        ],
+        "information_type": [
+            "Personal Data"
+        ],
+        "consent_form": "None",
+        "purpose": "Statistical Purposes",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 163": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Union statistical authorities",
+            "National statistical authorities"
+        ],
+        "sender_role": [
+            "Statistical Authority"
+        ],
+        "recipient": [
+            "European Union",
+            "Member States"
+        ],
+        "recipient_role": [
+            "Governing Body"
+        ],
+        "subject": [
+            "Individuals whose data is collected"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": [
+            "Confidential information for statistics"
+        ],
+        "consent_form": "None",
+        "purpose": "Production of official European and national statistics",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 164": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Member States",
+            "Supervisory Authorities"
+        ],
+        "sender_role": [
+            "Legislator",
+            "Regulator"
+        ],
+        "recipient": [
+            "Controller",
+            "Processor"
+        ],
+        "recipient_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Safeguard professional or equivalent secrecy obligations",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 165": {
+        "norm_type": "General Definition",
+        "sender": [
+            "churches",
+            "religious associations",
+            "communities"
+        ],
+        "sender_role": [
+            "religious organization"
+        ],
+        "recipient": [
+            "Member States"
+        ],
+        "recipient_role": [
+            "government"
+        ],
+        "subject": [
+            "churches",
+            "religious associations",
+            "communities"
+        ],
+        "subject_role": [
+            "religious organization"
+        ],
+        "information_type": "status under existing constitutional law",
+        "consent_form": "None",
+        "purpose": "respect and non-prejudice of status",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 166": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Commission"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "European Parliament",
+            "Council"
+        ],
+        "recipient_role": [
+            "Legislative Bodies"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subjects"
+        ],
+        "information_type": [
+            "Criteria and Requirements for Certification Mechanisms",
+            "Information to be Presented by Standardised Icons",
+            "Procedures for Providing Such Icons"
+        ],
+        "consent_form": "None",
+        "purpose": "Protect Fundamental Rights and Freedoms, Ensure Free Movement of Personal Data",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 167": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Commission"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Micro Enterprises",
+            "Small Enterprises",
+            "Medium-sized Enterprises"
+        ],
+        "recipient_role": [
+            "Business Entities"
+        ],
+        "subject": [
+            "None"
+        ],
+        "subject_role": [
+            "None"
+        ],
+        "information_type": [
+            "None"
+        ],
+        "consent_form": "None",
+        "purpose": "Ensure uniform conditions for the implementation of the Regulation",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 168": {
+        "norm_type": "General Definition",
+        "sender": [
+            "controllers",
+            "processors",
+            "supervisory authorities"
+        ],
+        "sender_role": [
+            "data controller",
+            "data processor",
+            "regulatory authority"
+        ],
+        "recipient": [
+            "controllers",
+            "processors",
+            "supervisory authorities",
+            "the Board"
+        ],
+        "recipient_role": [
+            "data controller",
+            "data processor",
+            "regulatory authority",
+            "regulatory board"
+        ],
+        "subject": "None",
+        "subject_role": "None",
+        "information_type": [
+            "standard contractual clauses",
+            "codes of conduct",
+            "technical standards",
+            "mechanisms for certification",
+            "adequate level of protection",
+            "standard protection clauses",
+            "formats and procedures for the exchange of information",
+            "binding corporate rules",
+            "mutual assistance",
+            "arrangements for the exchange of information"
+        ],
+        "consent_form": "None",
+        "purpose": [
+            "adoption of implementing acts",
+            "exchange of information"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 169": {
+        "norm_type": "Prohibit",
+        "sender": [
+            "Commission"
+        ],
+        "sender_role": [
+            "Regulatory Authority"
+        ],
+        "recipient": [
+            "Third Country",
+            "Territory",
+            "Specified Sector",
+            "International Organisation"
+        ],
+        "recipient_role": [
+            "Data Controller",
+            "Data Processor"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": "Adequacy of Data Protection",
+        "consent_form": "None",
+        "purpose": "Ensure Adequate Level of Data Protection",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 170": {
+        "norm_type": "General Definition",
+        "sender": [
+            "Union",
+            "Member States"
+        ],
+        "sender_role": [
+            "Regulator",
+            "Regulator"
+        ],
+        "recipient": [
+            "Natural Persons"
+        ],
+        "recipient_role": [
+            "Data Subject"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Ensure an equivalent level of protection of natural persons and the free flow of personal data throughout the Union",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "YES"
+    },
+    "Recital 171": {
+        "norm_type": "General Definition",
+        "sender": [
+            "European Commission",
+            "Supervisory Authorities"
+        ],
+        "sender_role": [
+            "Regulatory Body",
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "Data Controllers",
+            "Data Processors"
+        ],
+        "recipient_role": [
+            "Data Handler",
+            "Data Handler"
+        ],
+        "subject": [
+            "Data Subjects"
+        ],
+        "subject_role": [
+            "Individuals"
+        ],
+        "information_type": [
+            "Consent Status",
+            "Processing Activities"
+        ],
+        "consent_form": "Consent",
+        "purpose": [
+            "Compliance with GDPR"
+        ],
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 172": {
+        "norm_type": "General Definition",
+        "sender": [
+            "European Data Protection Supervisor"
+        ],
+        "sender_role": [
+            "Regulatory Body"
+        ],
+        "recipient": [
+            "European Commission"
+        ],
+        "recipient_role": [
+            "Regulatory Body"
+        ],
+        "subject": [
+            "European Data Protection Supervisor"
+        ],
+        "subject_role": [
+            "Regulatory Body"
+        ],
+        "information_type": [
+            "Opinion"
+        ],
+        "consent_form": "None",
+        "purpose": "Consultation",
+        "sender_is_subject": "YES",
+        "recipient_is_subject": "NO"
+    },
+    "Recital 173": {
+        "norm_type": "General Definition",
+        "sender": [
+            "European Parliament",
+            "Council of the European Union"
+        ],
+        "sender_role": [
+            "Legislative Body"
+        ],
+        "recipient": [
+            "Data Controllers",
+            "Natural Persons"
+        ],
+        "recipient_role": [
+            "Data Processor",
+            "Data Subject"
+        ],
+        "subject": [
+            "Natural Persons"
+        ],
+        "subject_role": [
+            "Data Subject"
+        ],
+        "information_type": "Personal Data",
+        "consent_form": "None",
+        "purpose": "Protection of fundamental rights and freedoms in the processing of personal data",
+        "sender_is_subject": "NO",
+        "recipient_is_subject": "NO"
+    }
+}
