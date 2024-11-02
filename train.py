@@ -28,13 +28,6 @@ class ModelArguments:
             "Don't set if you want to train a model from scratch."
         },
     )
-    model_type: Optional[str] = field(
-        default=None,
-        metadata={
-            "help": "If training from scratch, pass a model type from the list: "
-            + ", ".join(MODEL_TYPES)
-        },
-    )
     config_name: Optional[str] = field(
         default=None,
         metadata={
