@@ -150,3 +150,6 @@ def main():
         loss=loss,
     )
     trainer.train()
+
+if __name__ == "__main__":
+    main()
