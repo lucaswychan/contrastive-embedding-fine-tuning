@@ -1,13 +1,14 @@
+import copy
 import json
-
-from llama3p2 import Llama3P2
-from utils import convert_json, get_available_gpu_idx
 import logging
-from get_emb_sim import get_emb_sim
+
+import pandas as pd
 import torch
 from sentence_transformers import SentenceTransformer
-import copy
-import pandas as pd
+
+from get_emb_sim import get_emb_sim
+from llama3p2 import Llama3P2
+from utils import convert_json, get_available_gpu_idx
 
 logging.basicConfig(
     filename="log/data_augmentation.log", filemode="w", level=logging.INFO
@@ -108,7 +109,7 @@ if __name__ == "__main__":
 
     # with open("data/keywords.json", "w") as f:
     #     json.dump(term_map, f, indent=4)
-    
+
     ##############################################################################################################
 
     # Filter the data
@@ -131,13 +132,12 @@ if __name__ == "__main__":
 
     # with open("data/filtered_keywords.json", "w") as f:
     #     json.dump(filtered_term_map, f, indent=4)
-    
+
     ##############################################################################################################
-    
+
     # To csv
-    
+
     with open("data/filtered_keywords.json", "r") as f:
         term_map = json.load(f)
-    
+
     to_csv(term_map)
-    

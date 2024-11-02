@@ -1,7 +1,8 @@
-import pandas as pd
 import json
-from sentence_transformers import SentenceTransformer
+
+import pandas as pd
 import torch
+from sentence_transformers import SentenceTransformer
 
 
 def get_keywords_sim(term1, term2):

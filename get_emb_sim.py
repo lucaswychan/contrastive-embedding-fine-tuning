@@ -1,8 +1,10 @@
-from sentence_transformers import SentenceTransformer
 import json
-import torch
-from utils import get_available_gpu_idx
 import logging
+
+import torch
+from sentence_transformers import SentenceTransformer
+
+from utils import get_available_gpu_idx
 
 
 def get_emb_sim(model, source, target):
