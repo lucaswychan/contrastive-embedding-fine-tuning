@@ -87,10 +87,11 @@ def to_csv(term_map, file_name: str = "data/keywords.csv"):
     """
     labels_map = {term: i for i, term in enumerate(term_map.keys())}
     dataset_dict = {"query": [], "positive": [], "label": []}
-    for term, word in term_map.items():
-        dataset_dict["query"].append(term)
-        dataset_dict["positive"].append(word)
-        dataset_dict["label"].append(labels_map[term])
+    for term, keywords in term_map.items():
+        for word in keywords:
+            dataset_dict["query"].append(term)
+            dataset_dict["positive"].append(word)
+            dataset_dict["label"].append(labels_map[term])
 
     df = pd.DataFrame(dataset_dict)
     df.to_csv(file_name, index=False)
