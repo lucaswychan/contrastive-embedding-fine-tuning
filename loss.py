@@ -12,7 +12,7 @@ class ContrastiveLoss(nn.Module):
         super(ContrastiveLoss, self).__init__()
         temperature = np.log(temperature)
         self.temperature = nn.Parameter(torch.tensor(temperature).to(device))
-        self.device = device
+        self.criterion = nn.CrossEntropyLoss()
 
     def forward(self, query_embeddings, positive_embeddings, labels=None):
         # Normalize embeddings
