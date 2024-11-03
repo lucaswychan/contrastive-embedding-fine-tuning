@@ -1,7 +1,7 @@
 import json
 import logging
 
-from llama3p2 import Llama3P2
+from llama import Llama3P2
 from utils import convert_json
 
 logging.basicConfig(filename="log/hard_neg.log", filemode="w", level=logging.INFO)
