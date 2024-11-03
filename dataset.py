@@ -7,11 +7,11 @@ import torch
 from sentence_transformers import SentenceTransformer
 
 from get_emb_sim import get_emb_sim
-from llama3p2 import Llama3P2
+from llama import Llama3P2
 from utils import convert_json, get_available_gpu_idx
 
 logging.basicConfig(
-    filename="log/data_augmentation.log", filemode="w", level=logging.INFO
+    filename="logs/data_augmentation.log", filemode="w", level=logging.INFO
 )
 
 
