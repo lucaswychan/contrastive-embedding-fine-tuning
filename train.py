@@ -1,4 +1,8 @@
 import os
+
+# set CUDA_VISIBLE_DEVICES before importing torch
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
 from dataclasses import dataclass, field
 from typing import Optional
 import logging
@@ -13,7 +17,6 @@ from transformers import AutoModelForCausalLM, HfArgumentParser, set_seed
 
 from loss import ContrastiveLoss
 from trainer import ContrastiveSTTrainer
-from utils import get_available_gpu_idx
 
 CURRENT_TIME = datetime.now().strftime("%b-%d_%H-%M")
 
@@ -21,6 +24,11 @@ logger = logging.getLogger("training")
 logging.basicConfig(
     filename="logs/training/{}.log".format(CURRENT_TIME), filemode="w", level=logging.INFO
 )
+
+available_cuda = f"cuda:{os.environ['CUDA_VISIBLE_DEVICES']}"
+print(f"Using GPU: {available_cuda}")
+
+device = torch.device(available_cuda)
 
 @dataclass
 class ModelArguments:
@@ -94,18 +102,12 @@ class DataArguments:
 
 @dataclass
 class ContrastiveSTTrainingArguments(SentenceTransformerTrainingArguments):
-    pass
+    def __post_init__(self):
+        super().__post_init__()
+        print("Using GPU in Training Argument: {}".format(self.device))
 
 
 def main():
-    # available_gpu_idx = get_available_gpu_idx()
-    # if available_gpu_idx is None:
-    #     raise ValueError("No available GPU found!")
-
-    # available_cuda = f"cuda:{available_gpu_idx}"
-    # print(f"Using GPU: {available_cuda}")
-    
-    # device = torch.device(available_cuda)
     
     parser = HfArgumentParser((ModelArguments, DataArguments, ContrastiveSTTrainingArguments))
     model_args, data_args, training_args = parser.parse_args_into_dataclasses()
@@ -138,35 +140,34 @@ def main():
     
     print(train_dataset)
 
-    # loss = ContrastiveLoss(device=device)
+    loss = ContrastiveLoss(device=device)
 
-    # trainer = ContrastiveSTTrainer(
-    #     model=model,
-    #     args=training_args,
-    #     train_dataset=train_dataset,
-    #     loss=loss,
-    # )
+    trainer = ContrastiveSTTrainer(
+        model=model,
+        args=training_args,
+        train_dataset=train_dataset,
+        loss=loss,
+    )
     
-    # # Train
-    # checkpoint = None
-    # if training_args.resume_from_checkpoint is not None:
-    #     checkpoint = training_args.resume_from_checkpoint
+    # Train
+    checkpoint = None
+    if training_args.resume_from_checkpoint is not None:
+        checkpoint = training_args.resume_from_checkpoint
         
-    # train_result = trainer.train(resume_from_checkpoint=checkpoint)
-    # trainer.save_model(training_args.output_dir)
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+    trainer.save_model(training_args.output_dir)
     
-    # output_train_file = os.path.join(training_args.output_dir, "train_results_{}.txt".format(CURRENT_TIME))
+    output_train_file = os.path.join(training_args.output_dir, "train_results_{}.txt".format(CURRENT_TIME))
     
-    # if trainer.is_world_process_zero():
-    #     with open(output_train_file, "w") as writer:
-    #         logger.info("***** Train results *****")
+    if trainer.is_world_process_zero():
+        with open(output_train_file, "w") as writer:
+            logger.info("***** Train results *****")
             
-    #         for key, value in sorted(train_result.metrics.items()):
-    #             logger.info(f"  {key} = {value}")
-    #             writer.write(f"{key} = {value}\n")
+            for key, value in sorted(train_result.metrics.items()):
+                logger.info(f"  {key} = {value}")
+                writer.write(f"{key} = {value}\n")
         
-    #     trainer.state.save_to_json(os.path.join(training_args.output_dir, "trainer_state_{}.json".format(CURRENT_TIME)))
-    
+        trainer.state.save_to_json(os.path.join(training_args.output_dir, "trainer_state_{}.json".format(CURRENT_TIME)))
 
 if __name__ == "__main__":
     main()

@@ -9,7 +9,7 @@ import torch.nn.functional as F
 from sentence_transformers import SentenceTransformer, SentenceTransformerTrainer
 
 
-class ContrastiveSTTrainer(SentenceTransformer):
+class ContrastiveSTTrainer(SentenceTransformerTrainer):
     def __init__(self, use_labels: bool = False, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.use_labels = use_labels
