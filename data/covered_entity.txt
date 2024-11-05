@@ -1,45 +1,27 @@
-Covered entity	healthcare data  ---  0.2247845083475113
-Covered entity	healthcare management  ---  0.27832770347595215
-Covered entity	healthcare software  ---  0.18140211701393127
-Covered entity	healthcare analytics  ---  0.2126988172531128
-Covered entity	healthcare  ---  0.3045801520347595
-Covered entity	insurance  ---  0.42031329870224
-Covered entity	healthcare professionals  ---  0.25985610485076904
-Covered entity	healthcare security  ---  0.32571887969970703
-Covered entity	healthcare management systems  ---  0.17367103695869446
-Covered entity	healthcare transactions  ---  0.28226810693740845
-Covered entity	healthcare auditor  ---  0.28611934185028076
-Covered entity	healthcare consultant  ---  0.257474422454834
-Covered entity	healthcare organizations  ---  0.3001956343650818
-Covered entity	healthcare IT systems  ---  0.14428111910820007
-Covered entity	covered transaction  ---  0.6395614147186279
-Covered entity	healthcare IT  ---  0.2515629827976227
-Covered entity	electronic health information  ---  0.2173232138156891
-Covered entity	healthcare cybersecurity  ---  0.10423589497804642
-Covered entity	healthcare best practices  ---  0.18616920709609985
-Covered entity	healthcare provider  ---  0.26899924874305725
-Covered entity	provider  ---  0.26231661438941956
-Covered entity	healthcare privacy  ---  0.34027373790740967
-Covered entity	healthcare risk management  ---  0.3122830390930176
-Covered entity	healthcare regulator  ---  0.29657620191574097
-Covered entity	patient data  ---  0.16933438181877136
-Covered entity	health plan  ---  0.3697203993797302
-Covered entity	electronic health records  ---  0.22229796648025513
-Covered entity	medical  ---  0.14850258827209473
-Covered entity	healthcare compliance officer  ---  0.26149415969848633
+Covered entity	Healthcare  ---  0.3045801520347595
+Covered entity	Healthcare Security  ---  0.32571887969970703
+Covered entity	Electronic Health Information  ---  0.2173232138156891
+Covered entity	Medical Billing  ---  0.2060030996799469
+Covered entity	Healthcare Governance  ---  0.268035352230072
+Covered entity	Healthcare Compliance  ---  0.2992902398109436
+Covered entity	Insurance  ---  0.42031329870224
+Covered entity	Healthcare Administration  ---  0.25969552993774414
+Covered entity	Healthcare Compliance Officers  ---  0.26323994994163513
+Covered entity	Health Plan  ---  0.3697203993797302
+Covered entity	Medical Records  ---  0.18801835179328918
+Covered entity	Electronic Health Record Systems  ---  0.1956193745136261
+Covered entity	Healthcare Clearinghouse  ---  0.28436458110809326
+Covered entity	Medical Records Management  ---  0.19952787458896637
+Covered entity	Medical Billing Services  ---  0.18442010879516602
+Covered entity	Patient Data  ---  0.16933438181877136
+Covered entity	Health Information  ---  0.21327096223831177
+Covered entity	Electronic Health Records  ---  0.22229796648025513
+Covered entity	Data Protection  ---  0.2414105385541916
+Covered entity	Electronic Transactions Network  ---  0.19396990537643433
+Covered entity	Health Information Management  ---  0.2179204225540161
+Covered entity	Health Information Exchange  ---  0.19762852787971497
+Covered entity	Healthcare Provider  ---  0.26899924874305725
+Covered entity	Electronic Transactions  ---  0.19291457533836365
+Covered entity	Healthcare IT  ---  0.2515629827976227
+Covered entity	Data Privacy  ---  0.24612334370613098
 Covered entity	HIPAA  ---  0.329267293214798
-Covered entity	healthcare policy  ---  0.38598066568374634
-Covered entity	healthcare compliance  ---  0.2992902398109436
-Covered entity	medical records  ---  0.18801835179328918
-Covered entity	healthcare clearinghouse  ---  0.28436458110809326
-Covered entity	business associate  ---  0.17969445884227753
-Covered entity	health information  ---  0.21327096223831177
-Covered entity	healthcare regulations  ---  0.30753016471862793
-Covered entity	covered entity  ---  1.0
-Covered entity	covered person  ---  0.5580601096153259
-Covered entity	electronic health communication  ---  0.11940114200115204
-Covered entity	healthcare law  ---  0.3562057912349701
-Covered entity	healthcare standards  ---  0.25008875131607056
-Covered entity	clearinghouse  ---  0.2166863977909088
-Covered entity	healthcare industry  ---  0.2204289734363556
-Covered entity	healthcare industry news  ---  0.24927282333374023

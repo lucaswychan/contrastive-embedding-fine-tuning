@@ -1,7 +1,7 @@
 import os
 
 # set CUDA_VISIBLE_DEVICES before importing torch
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 from dataclasses import dataclass, field
 from typing import Optional
@@ -22,13 +22,16 @@ CURRENT_TIME = datetime.now().strftime("%b-%d_%H-%M")
 
 logger = logging.getLogger("training")
 logging.basicConfig(
-    filename="logs/training/{}.log".format(CURRENT_TIME), filemode="w", level=logging.INFO
+    filename="logs/training/{}.log".format(CURRENT_TIME),
+    filemode="w",
+    level=logging.INFO,
 )
 
 available_cuda = f"cuda:{os.environ['CUDA_VISIBLE_DEVICES']}"
 print(f"Using GPU: {available_cuda}")
 
 device = torch.device(available_cuda)
+
 
 @dataclass
 class ModelArguments:
@@ -75,6 +78,7 @@ class ModelArguments:
         },
     )
 
+
 @dataclass
 class DataArguments:
     """
@@ -100,45 +104,45 @@ class DataArguments:
         default=None, metadata={"help": "The training data file (.txt or .csv)."}
     )
 
+
 @dataclass
 class ContrastiveSTTrainingArguments(SentenceTransformerTrainingArguments):
+    use_labels: bool = field(
+        default=False,
+        metadata={"help": "Whether to use labels or not in constrastive loss."},
+    )
+    
+    @property
+    def n_gpu(self):
+        """
+        The number of GPUs used by this process.
+        Note:
+            This will only be greater than one when you have multiple GPUs available but are not using distributed
+            training. For distributed training, it will always be 1.
+        """
+        # Make sure `self._n_gpu` is properly setup.
+        # _ = self._setup_devices
+        # I set to one manullay
+        self._n_gpu = 1
+        return self._n_gpu
+
     def __post_init__(self):
         super().__post_init__()
         print("Using GPU in Training Argument: {}".format(self.device))
 
 
 def main():
-    
-    parser = HfArgumentParser((ModelArguments, DataArguments, ContrastiveSTTrainingArguments))
-    model_args, data_args, training_args = parser.parse_args_into_dataclasses()
-    
-    model = SentenceTransformer(model_args.model_name_or_path)
-    
-    set_seed(training_args.seed)
-    
-    print(training_args)
 
-    # training_args = SentenceTransformerTrainingArguments(
-    #     output_dir="output",
-    #     overwrite_output_dir=True,
-    #     num_train_epochs=3,
-    #     per_device_train_batch_size=16,
-    #     save_steps=1000,
-    #     save_total_limit=2,
-    #     remove_unused_columns=False,
-    #     learning_rate=2e-5,
-    #     adam_beta1=0.9,
-    #     adam_beta2=0.999,
-    #     adam_epsilon=1e-6,
-    #     weight_decay=0.01,
-    #     warmup_steps=100,
-    #     logging_dir="log",
-    #     logging_steps=10,
-    # )
+    parser = HfArgumentParser(
+        (ModelArguments, DataArguments, ContrastiveSTTrainingArguments)
+    )
+    model_args, data_args, training_args = parser.parse_args_into_dataclasses()
+
+    model = SentenceTransformer(model_args.model_name_or_path)
+
+    set_seed(training_args.seed)
 
     train_dataset = load_dataset("csv", data_files=data_args.train_file)
-    
-    print(train_dataset)
 
     loss = ContrastiveLoss(device=device)
 
@@ -147,27 +151,42 @@ def main():
         args=training_args,
         train_dataset=train_dataset,
         loss=loss,
+        use_labels=training_args.use_labels,
     )
     
+    print(training_args.output_dir)
+
     # Train
     checkpoint = None
     if training_args.resume_from_checkpoint is not None:
         checkpoint = training_args.resume_from_checkpoint
-        
+
+    print("===========Starting training===========")
+
     train_result = trainer.train(resume_from_checkpoint=checkpoint)
-    trainer.save_model(training_args.output_dir)
-    
-    output_train_file = os.path.join(training_args.output_dir, "train_results_{}.txt".format(CURRENT_TIME))
-    
+
+    output_train_file = os.path.join(
+        training_args.output_dir, "train_results_{}.txt".format(CURRENT_TIME)
+    )
+
     if trainer.is_world_process_zero():
         with open(output_train_file, "w") as writer:
             logger.info("***** Train results *****")
-            
+
             for key, value in sorted(train_result.metrics.items()):
                 logger.info(f"  {key} = {value}")
                 writer.write(f"{key} = {value}\n")
-        
-        trainer.state.save_to_json(os.path.join(training_args.output_dir, "trainer_state_{}.json".format(CURRENT_TIME)))
+
+        trainer.state.save_to_json(
+            os.path.join(
+                training_args.output_dir, "trainer_state_{}.json".format(CURRENT_TIME)
+            )
+        )
+
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(e)
+        os.remove("logs/training/{}.log".format(CURRENT_TIME))

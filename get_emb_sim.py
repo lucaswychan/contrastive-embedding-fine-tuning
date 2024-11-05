@@ -26,10 +26,10 @@ if __name__ == "__main__":
 
     device = torch.device(available_cuda)
     model = SentenceTransformer(
-        "sentence-transformers/all-mpnet-base-v2", device=device
+        'output/training/Nov-04_00-53/checkpoint-202', device=device
     )
 
-    with open("data/term_try_2.json", "r") as f:
+    with open("data/filtered_keywords.json", "r") as f:
         data = json.load(f)
 
     source = "Covered entity"

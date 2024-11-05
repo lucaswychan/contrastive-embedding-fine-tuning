@@ -4,15 +4,17 @@ formatted_date=$(date +'%b-%d_%H-%M')
 echo "The formatted date is: $formatted_date"
 
 python3 train.py \
-    --output_dir output/training/$formatted_time/ \
+    --output_dir output/training/$formatted_date/ \
     --model_name_or_path sentence-transformers/all-mpnet-base-v2 \
     --train_file data/keywords.csv \
-    --logging_dir logs/training/$formatted_time/ \
-    --logging_steps=10 \
+    --logging_dir logs/training/$formatted_date/ \
+    --logging_steps 10 \
     --overwrite_output_dir \
+    --per_device_train_batch_size 8 \
     --seed 1016 \
-    --bf16 \
-    --num_train_epochs 3 \
+    --num_train_epochs 1 \
     --save_strategy steps \
     --save_steps 500 \
+    --use_labels True \
+    --bf16 \
     
