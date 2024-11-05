@@ -1,0 +1,14 @@
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+WARNING:accelerate.utils.other:Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+INFO:sentence_transformers.trainer:Saving model checkpoint to output/training/Nov-04_00-50/checkpoint-101
+INFO:sentence_transformers.SentenceTransformer:Save model to output/training/Nov-04_00-50/checkpoint-101
+INFO:sentence_transformers.trainer:Saving model checkpoint to output/training/Nov-04_00-50/
+INFO:sentence_transformers.SentenceTransformer:Save model to output/training/Nov-04_00-50/
+INFO:training:***** Train results *****
+INFO:training:  epoch = 1.0
+INFO:training:  total_flos = 0.0
+INFO:training:  train_loss = 0.0
+INFO:training:  train_runtime = 24.628
+INFO:training:  train_samples_per_second = 65.495
+INFO:training:  train_steps_per_second = 4.101
