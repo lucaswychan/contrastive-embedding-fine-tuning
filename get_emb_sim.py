@@ -26,19 +26,17 @@ if __name__ == "__main__":
 
     device = torch.device(available_cuda)
     model = SentenceTransformer(
-        'output/training/Nov-04_00-53/checkpoint-202', device=device
+        'sentence-transformers/all-mpnet-base-v2', device=device
     )
 
     with open("data/filtered_keywords.json", "r") as f:
         data = json.load(f)
 
-    source = "Covered entity"
+    source = "Individual"
 
-    f = open("data/covered_entity.txt", "w")
+    f = open("data/individual_original.txt", "w")
 
-    key_word = "Covered entity"
-
-    for context in data[key_word]:
+    for context in data[source]:
         target = context
         sim = get_emb_sim(model, source, target)
 
