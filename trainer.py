@@ -13,6 +13,7 @@ class ContrastiveSTTrainer(SentenceTransformerTrainer):
     def __init__(self, use_labels: bool = False, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.use_labels = use_labels
+        print(f"In Trainer: Use labels - {self.use_labels}")
 
     # override
     def compute_loss(
@@ -38,16 +39,14 @@ class ContrastiveSTTrainer(SentenceTransformerTrainer):
                 "attention_mask": queries_attention_mask,
             }
 
-            print(f"Size of queries: {queries.size()}")
-            print(f"Size of queries attention mask: {queries_attention_mask.size()}")
+            # print(f"Size of queries: {queries.size()}")
+            # print(f"Size of queries attention mask: {queries_attention_mask.size()}")
 
             positives = inputs.get("positive_input_ids", None)
             positives_attention_mask = inputs.get("positive_attention_mask", None)
 
-            print(f"Size of positives: {positives.size()}")
-            print(
-                f"Size of positives attention mask: {positives_attention_mask.size()}"
-            )
+            # print(f"Size of positives: {positives.size()}")
+            # print(f"Size of positives attention mask: {positives_attention_mask.size()}")
 
             positive_inputs = {
                 "input_ids": positives,
@@ -68,22 +67,18 @@ class ContrastiveSTTrainer(SentenceTransformerTrainer):
             and loss_fn.model
             != model  # Only if the wrapped model is not already stored
         ):
+            print(
+                "Storing wrapped model in loss function. "
+                "This is only done once per training process."
+            )
             loss_fn = self.override_model_in_loss(loss_fn, model)
-
-        # Generate embeddings
-        query_embeddings = model(
-            query_inputs, convert_to_tensor=True, batch_size=queries.shape[0]
-        )
-        positive_embeddings = model(
-            positive_inputs, convert_to_tensor=True, batch_size=positives.shape[0]
-        )
 
         # Convert labels to tensor if using them
         if labels is not None:
             labels = labels.clone().detach()
 
         # Compute loss
-        loss = loss_fn(query_embeddings, positive_embeddings, labels)
+        loss = loss_fn([query_inputs, positive_inputs], labels)
 
         if return_outputs:
             # During prediction/evaluation, `compute_loss` will be called with `return_outputs=True`.

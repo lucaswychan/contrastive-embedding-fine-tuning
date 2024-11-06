@@ -1,7 +1,7 @@
 import os
 
 # set CUDA_VISIBLE_DEVICES before importing torch
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 from dataclasses import dataclass, field
 from typing import Optional
@@ -138,32 +138,27 @@ def main():
     )
     model_args, data_args, training_args = parser.parse_args_into_dataclasses()
 
-    model = SentenceTransformer(model_args.model_name_or_path)
+    model = SentenceTransformer(model_args.model_name_or_path, device=device)
 
     set_seed(training_args.seed)
 
     train_dataset = load_dataset("csv", data_files=data_args.train_file)
 
-    loss = ContrastiveLoss(device=device)
+    loss = ContrastiveLoss(model=model, device=device)
 
     trainer = ContrastiveSTTrainer(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
         loss=loss,
-        use_labels=training_args.use_labels,
+        use_labels=training_args.use_labels
     )
     
     print(training_args.output_dir)
 
-    # Train
-    checkpoint = None
-    if training_args.resume_from_checkpoint is not None:
-        checkpoint = training_args.resume_from_checkpoint
-
     print("===========Starting training===========")
 
-    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+    train_result = trainer.train()
 
     output_train_file = os.path.join(
         training_args.output_dir, "train_results_{}.txt".format(CURRENT_TIME)
@@ -176,6 +171,9 @@ def main():
             for key, value in sorted(train_result.metrics.items()):
                 logger.info(f"  {key} = {value}")
                 writer.write(f"{key} = {value}\n")
+            
+            logger.info(f" use labels = {training_args.use_labels}")
+            writer.write(f"use labels = {training_args.use_labels}\n")
 
         trainer.state.save_to_json(
             os.path.join(

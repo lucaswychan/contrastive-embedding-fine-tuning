@@ -10,11 +10,12 @@ python3 train.py \
     --logging_dir logs/training/$formatted_date/ \
     --logging_steps 10 \
     --overwrite_output_dir \
-    --per_device_train_batch_size 8 \
+    --per_device_train_batch_size 128 \
     --seed 1016 \
-    --num_train_epochs 1 \
+    --num_train_epochs 2 \
     --save_strategy steps \
-    --save_steps 500 \
-    --use_labels True \
+    --save_steps 1000 \
+    --use_labels False \
     --bf16 \
+    --learning_rate 5e-5 \
     
