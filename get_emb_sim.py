@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     device = torch.device(available_cuda)
     model = SentenceTransformer(
-        'sentence-transformers/all-mpnet-base-v2', device=device
+        'output/training/Nov-07_22-36/checkpoint-39', device=device
     )
 
     with open("data/filtered_keywords.json", "r") as f:
@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
     source = "Individual"
 
-    f = open("data/individual_original.txt", "w")
+    f = open("data/individual_no_label_2.txt", "w")
 
     for context in data[source]:
         target = context

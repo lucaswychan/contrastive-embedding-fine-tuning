@@ -1,0 +1,27 @@
+Covered entity	Healthcare  ---  1.0000001192092896
+Covered entity	Healthcare Security  ---  1.0
+Covered entity	Electronic Health Information  ---  1.0000001192092896
+Covered entity	Medical Billing  ---  1.0
+Covered entity	Healthcare Governance  ---  1.0
+Covered entity	Healthcare Compliance  ---  1.0000001192092896
+Covered entity	Insurance  ---  1.0
+Covered entity	Healthcare Administration  ---  1.0
+Covered entity	Healthcare Compliance Officers  ---  1.0
+Covered entity	Health Plan  ---  1.0
+Covered entity	Medical Records  ---  1.0
+Covered entity	Electronic Health Record Systems  ---  1.0
+Covered entity	Healthcare Clearinghouse  ---  1.0
+Covered entity	Medical Records Management  ---  1.0000001192092896
+Covered entity	Medical Billing Services  ---  1.0
+Covered entity	Patient Data  ---  1.0
+Covered entity	Health Information  ---  1.0
+Covered entity	Electronic Health Records  ---  1.0
+Covered entity	Data Protection  ---  1.0000001192092896
+Covered entity	Electronic Transactions Network  ---  1.0
+Covered entity	Health Information Management  ---  1.0
+Covered entity	Health Information Exchange  ---  1.0
+Covered entity	Healthcare Provider  ---  1.0
+Covered entity	Electronic Transactions  ---  1.0000001192092896
+Covered entity	Healthcare IT  ---  1.0
+Covered entity	Data Privacy  ---  1.0
+Covered entity	HIPAA  ---  1.0
