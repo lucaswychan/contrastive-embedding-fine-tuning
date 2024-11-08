@@ -7,6 +7,7 @@ from dataclasses import dataclass, field
 from typing import Optional
 import logging
 from datetime import datetime
+import shutil
 
 import torch
 import transformers
@@ -133,19 +134,32 @@ class ContrastiveSTTrainingArguments(SentenceTransformerTrainingArguments):
 
 def main():
 
+    # get the arguments
     parser = HfArgumentParser(
         (ModelArguments, DataArguments, ContrastiveSTTrainingArguments)
     )
     model_args, data_args, training_args = parser.parse_args_into_dataclasses()
 
+    # get the model for training
     model = SentenceTransformer(model_args.model_name_or_path, device=device)
 
     set_seed(training_args.seed)
 
+    # load the dataset
     train_dataset = load_dataset("csv", data_files=data_args.train_file)
 
+    # define the loss
     loss = ContrastiveLoss(model=model, device=device)
-
+    
+    # define the file path
+    file_suffix = "no_labels" if not training_args.use_labels else "labels"
+    training_args.logging_dir = os.path.join(training_args.logging_dir, f"{CURRENT_TIME}_{file_suffix}")
+    training_args.output_dir = os.path.join(training_args.output_dir, f"{CURRENT_TIME}_{file_suffix}")
+    
+    print(f"Logging directory: {training_args.logging_dir}")
+    print(f"Output directory: {training_args.output_dir}")
+    
+    # define the trainer
     trainer = ContrastiveSTTrainer(
         model=model,
         args=training_args,
@@ -154,12 +168,14 @@ def main():
         use_labels=training_args.use_labels
     )
     
-    print(training_args.output_dir)
-
     print("===========Starting training===========")
 
+    # start training
     train_result = trainer.train()
 
+    print("===========Training done===========")
+    
+    # save training results
     output_train_file = os.path.join(
         training_args.output_dir, "train_results_{}.txt".format(CURRENT_TIME)
     )
@@ -186,5 +202,4 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        print(e)
-        os.remove("logs/training/{}.log".format(CURRENT_TIME))
+        raise e
