@@ -3,11 +3,11 @@ import os
 # set CUDA_VISIBLE_DEVICES before importing torch
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-from dataclasses import dataclass, field
-from typing import Optional
 import logging
-from datetime import datetime
 import shutil
+from dataclasses import dataclass, field
+from datetime import datetime
+from typing import Optional
 
 import torch
 import transformers
@@ -112,7 +112,14 @@ class ContrastiveSTTrainingArguments(SentenceTransformerTrainingArguments):
         default=False,
         metadata={"help": "Whether to use labels or not in constrastive loss."},
     )
-    
+
+    use_role_graph_data: bool = field(
+        default=False,
+        metadata={
+            "help": "Whether to use role graph data or not in constrastive loss."
+        },
+    )
+
     @property
     def n_gpu(self):
         """
@@ -150,31 +157,42 @@ def main():
 
     # define the loss
     loss = ContrastiveLoss(model=model, device=device)
-    
+
+    # set the data train path if using role graph data together
+    if training_args.use_role_graph_data:
+        data_args.train_file = "data/keywords_with_rolekg.csv"
+
     # define the file path
-    file_suffix = "no_labels" if not training_args.use_labels else "labels"
-    training_args.logging_dir = os.path.join(training_args.logging_dir, f"{CURRENT_TIME}_{file_suffix}")
-    training_args.output_dir = os.path.join(training_args.output_dir, f"{CURRENT_TIME}_{file_suffix}")
-    
+    label_file_suffix = "no_labels" if not training_args.use_labels else "labels"
+    rkg_file_suffix = "no_rkg" if not training_args.use_role_graph_data else "rkg"
+    training_args.logging_dir = os.path.join(
+        training_args.logging_dir,
+        f"{CURRENT_TIME}_{label_file_suffix}_{rkg_file_suffix}",
+    )
+    training_args.output_dir = os.path.join(
+        training_args.output_dir,
+        f"{CURRENT_TIME}_{label_file_suffix}_{rkg_file_suffix}",
+    )
+
     print(f"Logging directory: {training_args.logging_dir}")
     print(f"Output directory: {training_args.output_dir}")
-    
+
     # define the trainer
     trainer = ContrastiveSTTrainer(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
         loss=loss,
-        use_labels=training_args.use_labels
+        use_labels=training_args.use_labels,
     )
-    
+
     print("===========Starting training===========")
 
     # start training
     train_result = trainer.train()
 
     print("===========Training done===========")
-    
+
     # save training results
     output_train_file = os.path.join(
         training_args.output_dir, "train_results_{}.txt".format(CURRENT_TIME)
@@ -187,7 +205,7 @@ def main():
             for key, value in sorted(train_result.metrics.items()):
                 logger.info(f"  {key} = {value}")
                 writer.write(f"{key} = {value}\n")
-            
+
             logger.info(f" use labels = {training_args.use_labels}")
             writer.write(f"use labels = {training_args.use_labels}\n")
 
