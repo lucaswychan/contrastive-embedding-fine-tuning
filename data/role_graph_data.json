@@ -1,0 +1,909 @@
+{
+    "person": [
+        "inhabitant",
+        "bad person",
+        "female",
+        "relative",
+        "contestant",
+        "entertainer",
+        "acquirer",
+        "capitalist",
+        "expert",
+        "fiduciary",
+        "child",
+        "party",
+        "creator",
+        "intellectual",
+        "domestic partner",
+        "peer",
+        "case",
+        "unskilled person",
+        "unfortunate",
+        "adult",
+        "enrollee",
+        "acquaintance",
+        "advocate",
+        "preserver",
+        "good person",
+        "communicator",
+        "friend",
+        "religious person",
+        "juvenile",
+        "worker",
+        "adjudicator",
+        "scientist",
+        "leader",
+        "interpreter"
+    ],
+    "inhabitant": [
+        "person",
+        "american"
+    ],
+    "female sibling": [
+        "sister",
+        "kinswoman"
+    ],
+    "sister": [
+        "female sibling",
+        "member",
+        "nun"
+    ],
+    "evaluator": [
+        "arbiter",
+        "authority"
+    ],
+    "arbiter": [
+        "evaluator",
+        "third party"
+    ],
+    "bad person": [
+        "person",
+        "wrongdoer",
+        "libertine"
+    ],
+    "professional": [
+        "lawyer",
+        "health professional",
+        "adult",
+        "practitioner"
+    ],
+    "lawyer": [
+        "professional"
+    ],
+    "third party": [
+        "arbiter"
+    ],
+    "sick person": [
+        "patient",
+        "unfortunate"
+    ],
+    "patient": [
+        "sick person",
+        "case"
+    ],
+    "female": [
+        "person",
+        "woman",
+        "female offspring"
+    ],
+    "member": [
+        "brother",
+        "sister",
+        "associate"
+    ],
+    "brother": [
+        "member",
+        "friend",
+        "male sibling",
+        "monk"
+    ],
+    "relative": [
+        "person",
+        "offspring",
+        "spouse",
+        "descendant",
+        "kinsman",
+        "kin",
+        "ancestor",
+        "kinswoman"
+    ],
+    "authority": [
+        "evaluator",
+        "expert"
+    ],
+    "contestant": [
+        "person",
+        "player",
+        "athlete"
+    ],
+    "wrongdoer": [
+        "bad person",
+        "principal"
+    ],
+    "woman": [
+        "girl",
+        "nanny",
+        "adult",
+        "female"
+    ],
+    "girl": [
+        "woman",
+        "baby"
+    ],
+    "important person": [
+        "name",
+        "adult"
+    ],
+    "name": [
+        "important person",
+        "common identifier"
+    ],
+    "tennis player": [
+        "court",
+        "player",
+        "athlete"
+    ],
+    "court": [
+        "tennis player"
+    ],
+    "libertine": [
+        "violator",
+        "bad person"
+    ],
+    "violator": [
+        "libertine",
+        "criminal"
+    ],
+    "offspring": [
+        "relative",
+        "child"
+    ],
+    "fiduciary": [
+        "executor",
+        "person",
+        "trustee",
+        "administrator"
+    ],
+    "executor": [
+        "fiduciary"
+    ],
+    "entertainer": [
+        "person",
+        "performer"
+    ],
+    "nanny": [
+        "woman",
+        "keeper"
+    ],
+    "worker": [
+        "skilled worker",
+        "employee",
+        "volunteer",
+        "assistant",
+        "person"
+    ],
+    "skilled worker": [
+        "worker",
+        "official",
+        "serviceman"
+    ],
+    "health professional": [
+        "pharmacist",
+        "medical practitioner",
+        "nurse",
+        "professional"
+    ],
+    "pharmacist": [
+        "health professional"
+    ],
+    "employee": [
+        "worker",
+        "workforce member"
+    ],
+    "spouse": [
+        "relative",
+        "domestic partner"
+    ],
+    "defender": [
+        "keeper",
+        "preserver"
+    ],
+    "keeper": [
+        "defender",
+        "nanny"
+    ],
+    "adult": [
+        "woman",
+        "caregiver",
+        "person",
+        "professional",
+        "important person"
+    ],
+    "acquirer": [
+        "person",
+        "recipient"
+    ],
+    "player": [
+        "card player",
+        "tennis player",
+        "contestant"
+    ],
+    "card player": [
+        "player",
+        "bridge player"
+    ],
+    "unskilled person": [
+        "novice",
+        "person"
+    ],
+    "novice": [
+        "unskilled person",
+        "trainee"
+    ],
+    "creator": [
+        "artist",
+        "person"
+    ],
+    "artist": [
+        "creator",
+        "painter"
+    ],
+    "capitalist": [
+        "person",
+        "businessperson"
+    ],
+    "communicator": [
+        "negotiator",
+        "writer",
+        "person"
+    ],
+    "negotiator": [
+        "communicator",
+        "representative",
+        "mediator"
+    ],
+    "medical practitioner": [
+        "health professional",
+        "doctor",
+        "dentist"
+    ],
+    "descendant": [
+        "child",
+        "relative"
+    ],
+    "child": [
+        "descendant",
+        "person",
+        "juvenile",
+        "female offspring",
+        "offspring"
+    ],
+    "preserver": [
+        "defender",
+        "person"
+    ],
+    "american": [
+        "tennessean",
+        "inhabitant"
+    ],
+    "tennessean": [
+        "american"
+    ],
+    "businessperson": [
+        "supplier",
+        "capitalist",
+        "accountant"
+    ],
+    "supplier": [
+        "businessperson"
+    ],
+    "advocate": [
+        "supporter",
+        "person",
+        "spokesperson"
+    ],
+    "supporter": [
+        "advocate"
+    ],
+    "representative": [
+        "negotiator",
+        "personal representative",
+        "head of state"
+    ],
+    "mediator": [
+        "interpreter",
+        "negotiator"
+    ],
+    "interpreter": [
+        "mediator",
+        "person"
+    ],
+    "painter": [
+        "grant",
+        "artist"
+    ],
+    "grant": [
+        "painter",
+        "president of the united states",
+        "general",
+        "actor"
+    ],
+    "expert": [
+        "person",
+        "specialist",
+        "therapist",
+        "authority"
+    ],
+    "volunteer": [
+        "worker",
+        "serviceman",
+        "workforce member"
+    ],
+    "genitor": [
+        "parent",
+        "progenitor"
+    ],
+    "parent": [
+        "genitor"
+    ],
+    "benefactor": [
+        "provider",
+        "good person"
+    ],
+    "provider": [
+        "benefactor",
+        "health care provider",
+        "physician",
+        "dentist",
+        "practitioner"
+    ],
+    "adjudicator": [
+        "judge",
+        "person"
+    ],
+    "judge": [
+        "adjudicator",
+        "official"
+    ],
+    "trainee": [
+        "novice",
+        "workforce member"
+    ],
+    "party": [
+        "contractor",
+        "person"
+    ],
+    "contractor": [
+        "party",
+        "bridge player",
+        "builder",
+        "subcontractor",
+        "business associate"
+    ],
+    "nurse": [
+        "health professional"
+    ],
+    "confidant": [
+        "repository",
+        "friend"
+    ],
+    "repository": [
+        "confidant"
+    ],
+    "serviceman": [
+        "volunteer",
+        "military officer",
+        "skilled worker"
+    ],
+    "bridge player": [
+        "card player",
+        "contractor"
+    ],
+    "therapist": [
+        "chiropractor",
+        "expert"
+    ],
+    "chiropractor": [
+        "therapist",
+        "health care provider"
+    ],
+    "caregiver": [
+        "adult",
+        "personal representative"
+    ],
+    "writer": [
+        "communicator",
+        "service"
+    ],
+    "scholar": [
+        "theologian",
+        "intellectual",
+        "doctor"
+    ],
+    "theologian": [
+        "scholar",
+        "doctor of the church"
+    ],
+    "head of state": [
+        "president of the united states",
+        "representative"
+    ],
+    "president of the united states": [
+        "head of state",
+        "grant"
+    ],
+    "assistant": [
+        "worker",
+        "secretary"
+    ],
+    "friend": [
+        "brother",
+        "buddy",
+        "person",
+        "christian",
+        "confidant"
+    ],
+    "head": [
+        "administrator",
+        "secretary",
+        "leader"
+    ],
+    "administrator": [
+        "head",
+        "fiduciary"
+    ],
+    "doctor of the church": [
+        "theologian"
+    ],
+    "military officer": [
+        "serviceman",
+        "commissioned officer"
+    ],
+    "peer": [
+        "associate",
+        "person"
+    ],
+    "associate": [
+        "peer",
+        "member",
+        "ally"
+    ],
+    "service": [
+        "writer"
+    ],
+    "scientist": [
+        "psychologist",
+        "research worker",
+        "person"
+    ],
+    "psychologist": [
+        "scientist",
+        "health care provider"
+    ],
+    "specialist": [
+        "expert",
+        "doctor"
+    ],
+    "principal": [
+        "criminal",
+        "wrongdoer"
+    ],
+    "criminal": [
+        "principal",
+        "violator"
+    ],
+    "intellectual": [
+        "person",
+        "scholar"
+    ],
+    "builder": [
+        "contractor"
+    ],
+    "kinswoman": [
+        "female sibling",
+        "relative"
+    ],
+    "religious": [
+        "monk",
+        "nun",
+        "religious person"
+    ],
+    "monk": [
+        "religious",
+        "brother"
+    ],
+    "unfortunate": [
+        "sick person",
+        "person"
+    ],
+    "doctor": [
+        "specialist",
+        "scholar",
+        "medical practitioner",
+        "surgeon",
+        "health care provider"
+    ],
+    "domestic partner": [
+        "person",
+        "spouse"
+    ],
+    "female offspring": [
+        "daughter",
+        "child",
+        "female"
+    ],
+    "daughter": [
+        "female offspring"
+    ],
+    "secretary": [
+        "head",
+        "assistant"
+    ],
+    "kinsman": [
+        "relative",
+        "male sibling"
+    ],
+    "case": [
+        "person",
+        "patient"
+    ],
+    "general officer": [
+        "general",
+        "commissioned military officer"
+    ],
+    "general": [
+        "general officer",
+        "grant"
+    ],
+    "baby": [
+        "girl"
+    ],
+    "athlete": [
+        "tennis player",
+        "contestant"
+    ],
+    "performer": [
+        "actor",
+        "entertainer"
+    ],
+    "actor": [
+        "performer",
+        "grant"
+    ],
+    "official": [
+        "skilled worker",
+        "judge"
+    ],
+    "kin": [
+        "relative"
+    ],
+    "trustee": [
+        "fiduciary"
+    ],
+    "personal representative": [
+        "representative",
+        "family member",
+        "caregiver",
+        "mobile application",
+        "researcher"
+    ],
+    "enrollee": [
+        "person"
+    ],
+    "acquaintance": [
+        "person"
+    ],
+    "buddy": [
+        "friend"
+    ],
+    "progenitor": [
+        "genitor",
+        "ancestor"
+    ],
+    "good person": [
+        "person",
+        "benefactor"
+    ],
+    "leader": [
+        "head",
+        "employer",
+        "person"
+    ],
+    "ally": [
+        "associate"
+    ],
+    "juvenile": [
+        "child",
+        "person"
+    ],
+    "nun": [
+        "sister",
+        "religious"
+    ],
+    "commissioned officer": [
+        "military officer",
+        "commissioned military officer"
+    ],
+    "commissioned military officer": [
+        "general officer",
+        "commissioned officer"
+    ],
+    "religious person": [
+        "person",
+        "christian",
+        "religious"
+    ],
+    "research worker": [
+        "scientist"
+    ],
+    "spokesperson": [
+        "advocate"
+    ],
+    "christian": [
+        "religious person",
+        "friend"
+    ],
+    "ancestor": [
+        "progenitor",
+        "relative"
+    ],
+    "practitioner": [
+        "professional",
+        "provider"
+    ],
+    "male sibling": [
+        "brother",
+        "kinsman"
+    ],
+    "recipient": [
+        "dependant",
+        "acquirer"
+    ],
+    "dependant": [
+        "recipient",
+        "charge"
+    ],
+    "subcontractor": [
+        "contractor",
+        "business associate"
+    ],
+    "charge": [
+        "dependant"
+    ],
+    "dentist": [
+        "medical practitioner",
+        "health care provider",
+        "provider"
+    ],
+    "employer": [
+        "leader"
+    ],
+    "surgeon": [
+        "doctor"
+    ],
+    "accountant": [
+        "businessperson"
+    ],
+    "cover entity": [
+        "health plan",
+        "health care provider",
+        "health care clearinghouses"
+    ],
+    "health plan": [
+        "cover entity",
+        "health insurance company",
+        "hmo",
+        "company health plan",
+        "certain government program",
+        "various type insurer",
+        "dental insurance",
+        "vision insurance",
+        "prescription drug insurer",
+        "medicare",
+        "medicaid",
+        "",
+        "medicare supplement insurer",
+        "care insurer",
+        "group health plan",
+        "health plan"
+    ],
+    "health care provider": [
+        "cover entity",
+        "doctor",
+        "clinic",
+        "hospital",
+        "psychologist",
+        "chiropractor",
+        "nurse home",
+        "pharmacy",
+        "dentist",
+        "institutional provider",
+        "provider",
+        "person organization furnish bill pay health care"
+    ],
+    "health care clearinghouses": [
+        "cover entity"
+    ],
+    "health insurance company": [
+        "health plan"
+    ],
+    "hmo": [
+        "health plan"
+    ],
+    "company health plan": [
+        "health plan"
+    ],
+    "certain government program": [
+        "health plan"
+    ],
+    "clinic": [
+        "health care provider"
+    ],
+    "hospital": [
+        "health care provider",
+        "institutional provider"
+    ],
+    "nurse home": [
+        "health care provider"
+    ],
+    "pharmacy": [
+        "health care provider"
+    ],
+    "business associate": [
+        "contractor",
+        "subcontractor"
+    ],
+    "various type insurer": [
+        "health plan"
+    ],
+    "court order": [
+        "order administrative tribunal"
+    ],
+    "order administrative tribunal": [
+        "court order"
+    ],
+    "notice": [
+        "health privacy right",
+        "may use share health information",
+        "certain element",
+        "point contact information"
+    ],
+    "health privacy right": [
+        "notice"
+    ],
+    "may use share health information": [
+        "notice"
+    ],
+    "family member": [
+        "personal representative"
+    ],
+    "mobile application": [
+        "personal representative"
+    ],
+    "researcher": [
+        "personal representative"
+    ],
+    "dental insurance": [
+        "health plan"
+    ],
+    "vision insurance": [
+        "health plan"
+    ],
+    "prescription drug insurer": [
+        "health plan"
+    ],
+    "medicare": [
+        "health plan"
+    ],
+    "medicaid": [
+        "health plan"
+    ],
+    "": [
+        "health plan"
+    ],
+    "medicare supplement insurer": [
+        "health plan"
+    ],
+    "care insurer": [
+        "health plan"
+    ],
+    "group health plan": [
+        "health plan"
+    ],
+    "certain insurance entity": [
+        "worker compensation",
+        "automobile insurance",
+        "property casualty insurance"
+    ],
+    "worker compensation": [
+        "certain insurance entity"
+    ],
+    "automobile insurance": [
+        "certain insurance entity"
+    ],
+    "property casualty insurance": [
+        "certain insurance entity"
+    ],
+    "institutional provider": [
+        "health care provider",
+        "hospital"
+    ],
+    "physician": [
+        "provider"
+    ],
+    "person organization furnish bill pay health care": [
+        "health care provider"
+    ],
+    "health care clearinghouse": [
+        "bill service",
+        "repricing company",
+        "community health management information system",
+        "network switch perform clearinghouse function"
+    ],
+    "bill service": [
+        "health care clearinghouse"
+    ],
+    "repricing company": [
+        "health care clearinghouse"
+    ],
+    "community health management information system": [
+        "health care clearinghouse"
+    ],
+    "network switch perform clearinghouse function": [
+        "health care clearinghouse"
+    ],
+    "common identifier": [
+        "name",
+        "address",
+        "birth date",
+        "social security number"
+    ],
+    "address": [
+        "common identifier"
+    ],
+    "birth date": [
+        "common identifier"
+    ],
+    "social security number": [
+        "common identifier"
+    ],
+    "health care operation": [
+        "quality assessment improvement activity",
+        "conduct medical review",
+        "business plan",
+        "protect health information"
+    ],
+    "quality assessment improvement activity": [
+        "health care operation"
+    ],
+    "conduct medical review": [
+        "health care operation"
+    ],
+    "business plan": [
+        "health care operation"
+    ],
+    "protect health information": [
+        "health care operation"
+    ],
+    "certain element": [
+        "notice"
+    ],
+    "point contact information": [
+        "notice"
+    ],
+    "workforce member": [
+        "employee",
+        "volunteer",
+        "trainee",
+        "person whose conduct direct control entity"
+    ],
+    "person whose conduct direct control entity": [
+        "workforce member"
+    ],
+    "privacy rule": [
+        "provision"
+    ],
+    "provision": [
+        "privacy rule"
+    ]
+}

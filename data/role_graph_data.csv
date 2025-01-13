@@ -1,0 +1,486 @@
+query,positive,label
+person,inhabitant,-1
+person,bad person,-1
+person,female,-1
+person,relative,-1
+person,contestant,-1
+person,entertainer,-1
+person,acquirer,-1
+person,capitalist,-1
+person,expert,-1
+person,fiduciary,-1
+person,child,-1
+person,party,-1
+person,creator,-1
+person,intellectual,-1
+person,domestic partner,-1
+person,peer,-1
+person,case,-1
+person,unskilled person,-1
+person,unfortunate,-1
+person,adult,-1
+person,enrollee,-1
+person,acquaintance,-1
+person,advocate,-1
+person,preserver,-1
+person,good person,-1
+person,communicator,-1
+person,friend,-1
+person,religious person,-1
+person,juvenile,-1
+person,worker,-1
+person,adjudicator,-1
+person,scientist,-1
+person,leader,-1
+person,interpreter,-1
+inhabitant,person,-1
+inhabitant,american,-1
+female sibling,sister,-1
+female sibling,kinswoman,-1
+sister,female sibling,-1
+sister,member,-1
+sister,nun,-1
+evaluator,arbiter,-1
+evaluator,authority,-1
+arbiter,evaluator,-1
+arbiter,third party,-1
+bad person,person,-1
+bad person,wrongdoer,-1
+bad person,libertine,-1
+professional,lawyer,-1
+professional,health professional,-1
+professional,adult,-1
+professional,practitioner,-1
+lawyer,professional,-1
+third party,arbiter,-1
+sick person,patient,-1
+sick person,unfortunate,-1
+patient,sick person,-1
+patient,case,-1
+female,person,-1
+female,woman,-1
+female,female offspring,-1
+member,brother,-1
+member,sister,-1
+member,associate,-1
+brother,member,-1
+brother,friend,-1
+brother,male sibling,-1
+brother,monk,-1
+relative,person,-1
+relative,offspring,-1
+relative,spouse,-1
+relative,descendant,-1
+relative,kinsman,-1
+relative,kin,-1
+relative,ancestor,-1
+relative,kinswoman,-1
+authority,evaluator,-1
+authority,expert,-1
+contestant,person,-1
+contestant,player,-1
+contestant,athlete,-1
+wrongdoer,bad person,-1
+wrongdoer,principal,-1
+woman,girl,-1
+woman,nanny,-1
+woman,adult,-1
+woman,female,-1
+girl,woman,-1
+girl,baby,-1
+important person,name,-1
+important person,adult,-1
+name,important person,-1
+name,common identifier,-1
+tennis player,court,-1
+tennis player,player,-1
+tennis player,athlete,-1
+court,tennis player,-1
+libertine,violator,-1
+libertine,bad person,-1
+violator,libertine,-1
+violator,criminal,-1
+offspring,relative,-1
+offspring,child,-1
+fiduciary,executor,-1
+fiduciary,person,-1
+fiduciary,trustee,-1
+fiduciary,administrator,-1
+executor,fiduciary,-1
+entertainer,person,-1
+entertainer,performer,-1
+nanny,woman,-1
+nanny,keeper,-1
+worker,skilled worker,-1
+worker,employee,-1
+worker,volunteer,-1
+worker,assistant,-1
+worker,person,-1
+skilled worker,worker,-1
+skilled worker,official,-1
+skilled worker,serviceman,-1
+health professional,pharmacist,-1
+health professional,medical practitioner,-1
+health professional,nurse,-1
+health professional,professional,-1
+pharmacist,health professional,-1
+employee,worker,-1
+employee,workforce member,-1
+spouse,relative,-1
+spouse,domestic partner,-1
+defender,keeper,-1
+defender,preserver,-1
+keeper,defender,-1
+keeper,nanny,-1
+adult,woman,-1
+adult,caregiver,-1
+adult,person,-1
+adult,professional,-1
+adult,important person,-1
+acquirer,person,-1
+acquirer,recipient,-1
+player,card player,-1
+player,tennis player,-1
+player,contestant,-1
+card player,player,-1
+card player,bridge player,-1
+unskilled person,novice,-1
+unskilled person,person,-1
+novice,unskilled person,-1
+novice,trainee,-1
+creator,artist,-1
+creator,person,-1
+artist,creator,-1
+artist,painter,-1
+capitalist,person,-1
+capitalist,businessperson,-1
+communicator,negotiator,-1
+communicator,writer,-1
+communicator,person,-1
+negotiator,communicator,-1
+negotiator,representative,-1
+negotiator,mediator,-1
+medical practitioner,health professional,-1
+medical practitioner,doctor,-1
+medical practitioner,dentist,-1
+descendant,child,-1
+descendant,relative,-1
+child,descendant,-1
+child,person,-1
+child,juvenile,-1
+child,female offspring,-1
+child,offspring,-1
+preserver,defender,-1
+preserver,person,-1
+american,tennessean,-1
+american,inhabitant,-1
+tennessean,american,-1
+businessperson,supplier,-1
+businessperson,capitalist,-1
+businessperson,accountant,-1
+supplier,businessperson,-1
+advocate,supporter,-1
+advocate,person,-1
+advocate,spokesperson,-1
+supporter,advocate,-1
+representative,negotiator,-1
+representative,personal representative,-1
+representative,head of state,-1
+mediator,interpreter,-1
+mediator,negotiator,-1
+interpreter,mediator,-1
+interpreter,person,-1
+painter,grant,-1
+painter,artist,-1
+grant,painter,-1
+grant,president of the united states,-1
+grant,general,-1
+grant,actor,-1
+expert,person,-1
+expert,specialist,-1
+expert,therapist,-1
+expert,authority,-1
+volunteer,worker,-1
+volunteer,serviceman,-1
+volunteer,workforce member,-1
+genitor,parent,-1
+genitor,progenitor,-1
+parent,genitor,-1
+benefactor,provider,-1
+benefactor,good person,-1
+provider,benefactor,-1
+provider,health care provider,-1
+provider,physician,-1
+provider,dentist,-1
+provider,practitioner,-1
+adjudicator,judge,-1
+adjudicator,person,-1
+judge,adjudicator,-1
+judge,official,-1
+trainee,novice,-1
+trainee,workforce member,-1
+party,contractor,-1
+party,person,-1
+contractor,party,-1
+contractor,bridge player,-1
+contractor,builder,-1
+contractor,subcontractor,-1
+contractor,business associate,-1
+nurse,health professional,-1
+confidant,repository,-1
+confidant,friend,-1
+repository,confidant,-1
+serviceman,volunteer,-1
+serviceman,military officer,-1
+serviceman,skilled worker,-1
+bridge player,card player,-1
+bridge player,contractor,-1
+therapist,chiropractor,-1
+therapist,expert,-1
+chiropractor,therapist,-1
+chiropractor,health care provider,-1
+caregiver,adult,-1
+caregiver,personal representative,-1
+writer,communicator,-1
+writer,service,-1
+scholar,theologian,-1
+scholar,intellectual,-1
+scholar,doctor,-1
+theologian,scholar,-1
+theologian,doctor of the church,-1
+head of state,president of the united states,-1
+head of state,representative,-1
+president of the united states,head of state,-1
+president of the united states,grant,-1
+assistant,worker,-1
+assistant,secretary,-1
+friend,brother,-1
+friend,buddy,-1
+friend,person,-1
+friend,christian,-1
+friend,confidant,-1
+head,administrator,-1
+head,secretary,-1
+head,leader,-1
+administrator,head,-1
+administrator,fiduciary,-1
+doctor of the church,theologian,-1
+military officer,serviceman,-1
+military officer,commissioned officer,-1
+peer,associate,-1
+peer,person,-1
+associate,peer,-1
+associate,member,-1
+associate,ally,-1
+service,writer,-1
+scientist,psychologist,-1
+scientist,research worker,-1
+scientist,person,-1
+psychologist,scientist,-1
+psychologist,health care provider,-1
+specialist,expert,-1
+specialist,doctor,-1
+principal,criminal,-1
+principal,wrongdoer,-1
+criminal,principal,-1
+criminal,violator,-1
+intellectual,person,-1
+intellectual,scholar,-1
+builder,contractor,-1
+kinswoman,female sibling,-1
+kinswoman,relative,-1
+religious,monk,-1
+religious,nun,-1
+religious,religious person,-1
+monk,religious,-1
+monk,brother,-1
+unfortunate,sick person,-1
+unfortunate,person,-1
+doctor,specialist,-1
+doctor,scholar,-1
+doctor,medical practitioner,-1
+doctor,surgeon,-1
+doctor,health care provider,-1
+domestic partner,person,-1
+domestic partner,spouse,-1
+female offspring,daughter,-1
+female offspring,child,-1
+female offspring,female,-1
+daughter,female offspring,-1
+secretary,head,-1
+secretary,assistant,-1
+kinsman,relative,-1
+kinsman,male sibling,-1
+case,person,-1
+case,patient,-1
+general officer,general,-1
+general officer,commissioned military officer,-1
+general,general officer,-1
+general,grant,-1
+baby,girl,-1
+athlete,tennis player,-1
+athlete,contestant,-1
+performer,actor,-1
+performer,entertainer,-1
+actor,performer,-1
+actor,grant,-1
+official,skilled worker,-1
+official,judge,-1
+kin,relative,-1
+trustee,fiduciary,-1
+personal representative,representative,-1
+personal representative,family member,-1
+personal representative,caregiver,-1
+personal representative,mobile application,-1
+personal representative,researcher,-1
+enrollee,person,-1
+acquaintance,person,-1
+buddy,friend,-1
+progenitor,genitor,-1
+progenitor,ancestor,-1
+good person,person,-1
+good person,benefactor,-1
+leader,head,-1
+leader,employer,-1
+leader,person,-1
+ally,associate,-1
+juvenile,child,-1
+juvenile,person,-1
+nun,sister,-1
+nun,religious,-1
+commissioned officer,military officer,-1
+commissioned officer,commissioned military officer,-1
+commissioned military officer,general officer,-1
+commissioned military officer,commissioned officer,-1
+religious person,person,-1
+religious person,christian,-1
+religious person,religious,-1
+research worker,scientist,-1
+spokesperson,advocate,-1
+christian,religious person,-1
+christian,friend,-1
+ancestor,progenitor,-1
+ancestor,relative,-1
+practitioner,professional,-1
+practitioner,provider,-1
+male sibling,brother,-1
+male sibling,kinsman,-1
+recipient,dependant,-1
+recipient,acquirer,-1
+dependant,recipient,-1
+dependant,charge,-1
+subcontractor,contractor,-1
+subcontractor,business associate,-1
+charge,dependant,-1
+dentist,medical practitioner,-1
+dentist,health care provider,-1
+dentist,provider,-1
+employer,leader,-1
+surgeon,doctor,-1
+accountant,businessperson,-1
+cover entity,health plan,-1
+cover entity,health care provider,-1
+cover entity,health care clearinghouses,-1
+health plan,cover entity,-1
+health plan,health insurance company,-1
+health plan,hmo,-1
+health plan,company health plan,-1
+health plan,certain government program,-1
+health plan,various type insurer,-1
+health plan,dental insurance,-1
+health plan,vision insurance,-1
+health plan,prescription drug insurer,-1
+health plan,medicare,-1
+health plan,medicaid,-1
+health plan,,-1
+health plan,medicare supplement insurer,-1
+health plan,care insurer,-1
+health plan,group health plan,-1
+health plan,health plan,-1
+health care provider,cover entity,-1
+health care provider,doctor,-1
+health care provider,clinic,-1
+health care provider,hospital,-1
+health care provider,psychologist,-1
+health care provider,chiropractor,-1
+health care provider,nurse home,-1
+health care provider,pharmacy,-1
+health care provider,dentist,-1
+health care provider,institutional provider,-1
+health care provider,provider,-1
+health care provider,person organization furnish bill pay health care,-1
+health care clearinghouses,cover entity,-1
+health insurance company,health plan,-1
+hmo,health plan,-1
+company health plan,health plan,-1
+certain government program,health plan,-1
+clinic,health care provider,-1
+hospital,health care provider,-1
+hospital,institutional provider,-1
+nurse home,health care provider,-1
+pharmacy,health care provider,-1
+business associate,contractor,-1
+business associate,subcontractor,-1
+various type insurer,health plan,-1
+court order,order administrative tribunal,-1
+order administrative tribunal,court order,-1
+notice,health privacy right,-1
+notice,may use share health information,-1
+notice,certain element,-1
+notice,point contact information,-1
+health privacy right,notice,-1
+may use share health information,notice,-1
+family member,personal representative,-1
+mobile application,personal representative,-1
+researcher,personal representative,-1
+dental insurance,health plan,-1
+vision insurance,health plan,-1
+prescription drug insurer,health plan,-1
+medicare,health plan,-1
+medicaid,health plan,-1
+,health plan,-1
+medicare supplement insurer,health plan,-1
+care insurer,health plan,-1
+group health plan,health plan,-1
+certain insurance entity,worker compensation,-1
+certain insurance entity,automobile insurance,-1
+certain insurance entity,property casualty insurance,-1
+worker compensation,certain insurance entity,-1
+automobile insurance,certain insurance entity,-1
+property casualty insurance,certain insurance entity,-1
+institutional provider,health care provider,-1
+institutional provider,hospital,-1
+physician,provider,-1
+person organization furnish bill pay health care,health care provider,-1
+health care clearinghouse,bill service,-1
+health care clearinghouse,repricing company,-1
+health care clearinghouse,community health management information system,-1
+health care clearinghouse,network switch perform clearinghouse function,-1
+bill service,health care clearinghouse,-1
+repricing company,health care clearinghouse,-1
+community health management information system,health care clearinghouse,-1
+network switch perform clearinghouse function,health care clearinghouse,-1
+common identifier,name,-1
+common identifier,address,-1
+common identifier,birth date,-1
+common identifier,social security number,-1
+address,common identifier,-1
+birth date,common identifier,-1
+social security number,common identifier,-1
+health care operation,quality assessment improvement activity,-1
+health care operation,conduct medical review,-1
+health care operation,business plan,-1
+health care operation,protect health information,-1
+quality assessment improvement activity,health care operation,-1
+conduct medical review,health care operation,-1
+business plan,health care operation,-1
+protect health information,health care operation,-1
+certain element,notice,-1
+point contact information,notice,-1
+workforce member,employee,-1
+workforce member,volunteer,-1
+workforce member,trainee,-1
+workforce member,person whose conduct direct control entity,-1
+person whose conduct direct control entity,workforce member,-1
+privacy rule,provision,-1
+provision,privacy rule,-1

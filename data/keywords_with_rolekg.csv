@@ -1,0 +1,2099 @@
+query,positive,label
+Implementation specification,standard,0
+Implementation specification,procedure,0
+Implementation specification,contract,0
+Implementation specification,requirements,0
+Implementation specification,guidelines,0
+Implementation specification,manual,0
+Implementation specification,protocol,0
+Implementation specification,plan,0
+Implementation specification,policy,0
+Implementation specification,regulation,0
+Implementation specification,agreement,0
+Implementation specification,procedures,0
+Implementation specification,instructions,0
+Implementation specification,directive,0
+Protected health information,medical records management,1
+Protected health information,HIPAA regulations,1
+Protected health information,electronic health information,1
+Protected health information,healthcare,1
+Protected health information,electronic health records,1
+Protected health information,health information management,1
+Protected health information,electronic health record management,1
+Protected health information,medical records management system,1
+Protected health information,personal data,1
+Protected health information,health information management system,1
+Protected health information,data protection,1
+Protected health information,medical records,1
+Protected health information,HIPAA guidelines,1
+Protected health information,HIPAA,1
+Health care clearinghouse,healthcare standardization,2
+Health care clearinghouse,network,2
+Health care clearinghouse,data,2
+Health care clearinghouse,healthcare transfer,2
+Health care clearinghouse,healthcare,2
+Health care clearinghouse,healthcare data management,2
+Health care clearinghouse,healthcare professional,2
+Health care clearinghouse,system,2
+Health care clearinghouse,entity,2
+Health care clearinghouse,transferring,2
+Health care clearinghouse,healthcare formatting,2
+Health care clearinghouse,data exchange,2
+Health care clearinghouse,medical,2
+Health care clearinghouse,processing,2
+Health care clearinghouse,healthcare facility,2
+Health care clearinghouse,transaction,2
+Health care clearinghouse,receiving,2
+Health care clearinghouse,healthcare provider,2
+Health care clearinghouse,healthcare management,2
+Health care clearinghouse,format,2
+Health care clearinghouse,healthcare sending,2
+Health care clearinghouse,electronic,2
+Health care clearinghouse,standardization,2
+Health care clearinghouse,insurance,2
+Health care clearinghouse,switch,2
+Health care clearinghouse,medical records,2
+Health care clearinghouse,billing,2
+Business associate,health information organization,3
+Business associate,e-prescribing gateway,3
+Business associate,protected health information,3
+Business associate,healthcare contract,3
+Business associate,routine access,3
+Business associate,data transmission services,3
+Business associate,regulatory compliance,3
+Business associate,data breach,3
+Business associate,healthcare data security,3
+Business associate,health information management,3
+Business associate,healthcare regulations,3
+Business associate,business partnership,3
+Business associate,healthcare data protection,3
+Business associate,healthcare organization,3
+Business associate,data sharing,3
+Business associate,personal health record,3
+Business associate,healthcare provider,3
+Business associate,health data,3
+Business associate,healthcare industry,3
+Business associate,electronic protected health information,3
+Business associate,electronic health record,3
+Business associate,HIPAA,3
+Business associate,data protection,3
+Business associate,subcontractor,3
+Business associate,covered entity,3
+Business associate,patient confidentiality,3
+Business associate,healthcare compliance,3
+Business associate,healthcare law,3
+Covered entity,Healthcare,4
+Covered entity,Healthcare Security,4
+Covered entity,Electronic Health Information,4
+Covered entity,Medical Billing,4
+Covered entity,Healthcare Governance,4
+Covered entity,Healthcare Compliance,4
+Covered entity,Insurance,4
+Covered entity,Healthcare Administration,4
+Covered entity,Healthcare Compliance Officers,4
+Covered entity,Health Plan,4
+Covered entity,Medical Records,4
+Covered entity,Electronic Health Record Systems,4
+Covered entity,Healthcare Clearinghouse,4
+Covered entity,Medical Records Management,4
+Covered entity,Medical Billing Services,4
+Covered entity,Patient Data,4
+Covered entity,Health Information,4
+Covered entity,Electronic Health Records,4
+Covered entity,Data Protection,4
+Covered entity,Electronic Transactions Network,4
+Covered entity,Health Information Management,4
+Covered entity,Health Information Exchange,4
+Covered entity,Healthcare Provider,4
+Covered entity,Electronic Transactions,4
+Covered entity,Healthcare IT,4
+Covered entity,Data Privacy,4
+Covered entity,HIPAA,4
+Use,medical information,5
+Use,employment,5
+Use,data,5
+Use,healthcare trends,5
+Use,patient consent,5
+Use,healthcare,5
+Use,analysis,5
+Use,entity,5
+Use,hospital,5
+Use,information,5
+Use,data security,5
+Use,healthcare regulations,5
+Use,application,5
+Use,clinic,5
+Use,medical,5
+Use,data sharing,5
+Use,healthcare provider,5
+Use,healthcare management,5
+Use,information management,5
+Use,health data,5
+Use,patient,5
+Use,nurse,5
+Use,healthcare privacy,5
+Use,doctor,5
+Use,data protection,5
+Use,data analysis,5
+Use,organization,5
+Use,sharing,5
+Use,medical records,5
+Use,medical research,5
+Use,patient rights,5
+Use,healthcare compliance,5
+Use,HIPAA,5
+Disclosure,provide,6
+Disclosure,releasement,6
+Disclosure,revealable,6
+Disclosure,transfer,6
+Disclosure,information,6
+Disclosure,provision,6
+Disclosure,transferable,6
+Disclosure,releasing,6
+Disclosure,releaseable,6
+Disclosure,provisional,6
+Disclosure,openness,6
+Disclosure,access,6
+Disclosure,open,6
+Disclosure,public,6
+Disclosure,sharing,6
+Disclosure,transparency,6
+Disclosure,release,6
+Individual,tax,7
+Individual,login,7
+Individual,driver,7
+Individual,ID,7
+Individual,data,7
+Individual,credential,7
+Individual,control,7
+Individual,clearance,7
+Individual,account,7
+Individual,staff,7
+Individual,identification,7
+Individual,information,7
+Individual,consent,7
+Individual,personnel,7
+Individual,profile,7
+Individual,authorization,7
+Individual,person,7
+Individual,licensing,7
+Individual,access,7
+Individual,patient,7
+Individual,security,7
+Individual,authentication,7
+Individual,record,7
+Individual,file,7
+Individual,voter,7
+Individual,customer,7
+Individual,employee,7
+Individual,passport,7
+Individual,privilege,7
+Individual,database,7
+Individual,social,7
+Individual,user,7
+Individual,management,7
+Compliance date,Inspection,8
+Compliance date,Covered Entity,8
+Compliance date,Healthcare,8
+Compliance date,Regulatory,8
+Compliance date,Agreement,8
+Compliance date,Regulation,8
+Compliance date,Guideline,8
+Compliance date,Policy,8
+Compliance date,Lawsuit,8
+Compliance date,Vendor,8
+Compliance date,Litigation,8
+Compliance date,Record Keeping,8
+Compliance date,Procedure,8
+Compliance date,Standard,8
+Compliance date,Audit,8
+Compliance date,Business,8
+Compliance date,BAA,8
+Compliance date,Deadline,8
+Compliance date,Business Associate,8
+Compliance date,Contractor,8
+Compliance date,Modification,8
+Compliance date,Penalty,8
+Compliance date,Fines,8
+Compliance date,Business Associate Agreement,8
+Compliance date,Requirement,8
+Compliance date,Entity,8
+Compliance date,Compliance Officer,8
+Compliance date,Contract,8
+Compliance date,Protocol,8
+Compliance date,Date,8
+Compliance date,Compliance,8
+Compliance date,Reporting,8
+Compliance date,Organizational,8
+Compliance date,Implementation,8
+Compliance date,Standard Operating,8
+Compliance date,HIPAA,8
+Act,ordinance,9
+Act,government,9
+Act,regulation,9
+Act,official,9
+Act,judge's order,9
+Act,government office,9
+Act,legislative body,9
+Act,government decree,9
+Act,statute,9
+Act,public law,9
+Act,government function,9
+Act,act of congress,9
+Act,government agency,9
+Act,law,9
+Act,policy maker,9
+Act,statutory law,9
+Act,public policy,9
+Act,lawyer,9
+Act,rule,9
+Act,court order,9
+Act,legislative action,9
+Act,bylaw,9
+Act,judge,9
+Act,government policy,9
+Act,bill,9
+Act,policy,9
+Act,judge's decision,9
+Act,court,9
+Act,law enforcement,9
+Act,legislation,9
+Health care,speech therapist,10
+Health care,medication,10
+Health care,diagnosis,10
+Health care,rehabilitation center,10
+Health care,nursing home,10
+Health care,medical record,10
+Health care,therapy,10
+Health care,hospital,10
+Health care,wellness program,10
+Health care,pharmacy,10
+Health care,hospice care,10
+Health care,medical billing,10
+Health care,medical billing services,10
+Health care,fitness center,10
+Health care,medical equipment,10
+Health care,occupational therapist,10
+Health care,counseling,10
+Health care,clinical trials,10
+Health care,nurse,10
+Health care,prescription medication,10
+Health care,rehabilitation,10
+Health care,physical therapist,10
+Health care,nutritionist,10
+Health care,insurance,10
+Health care,doctor,10
+Health care,prescription,10
+Health care,insurance claim,10
+Health care,medical research,10
+Health care,health promotion,10
+Health care,treatment,10
+State,geography,11
+State,legislator,11
+State,legislative,11
+State,government,11
+State,regulation,11
+State,governance,11
+State,jurisdiction,11
+State,legislative body,11
+State,capital,11
+State,house of representatives,11
+State,senate,11
+State,country,11
+State,legislature,11
+State,politics,11
+State,map,11
+State,law,11
+State,local government,11
+State,state laws,11
+State,congress,11
+State,rule,11
+State,executive,11
+State,judicial,11
+State,region,11
+State,public service,11
+State,administration,11
+State,policy,11
+State,local,11
+State,government office,11
+Person,human resources,12
+Person,citizen,12
+Person,staff management,12
+Person,child,12
+Person,employee relations,12
+Person,government,12
+Person,regulation,12
+Person,population,12
+Person,staff,12
+Person,judiciary,12
+Person,personnel,12
+Person,youth,12
+Person,society,12
+Person,personnel management,12
+Person,worker,12
+Person,adult,12
+Person,firm,12
+Person,humanity,12
+Person,woman,12
+Person,individual,12
+Person,business,12
+Person,living being,12
+Person,workforce,12
+Person,justice,12
+Person,mankind,12
+Person,HR,12
+Person,law,12
+Person,community,12
+Person,company,12
+Person,residents,12
+Person,public,12
+Person,organization,12
+Person,employee,12
+Person,corporate,12
+Person,man,12
+Person,policy,12
+Person,court,12
+Person,elderly,12
+Person,private,12
+Person,state,12
+Health care operations,policy holders,13
+Health care operations,health information,13
+Health care operations,coverage policies,13
+Health care operations,population-based,13
+Health care operations,plan sponsors,13
+Health care operations,business planning,13
+Health care operations,grievances,13
+Health care operations,cost-management,13
+Health care operations,development,13
+Health care operations,consolidation,13
+Health care operations,healthcare,13
+Health care operations,data set,13
+Health care operations,healthcare costs,13
+Health care operations,fundraising,13
+Health care operations,protocol,13
+Health care operations,quality assessment,13
+Health care operations,customer service,13
+Health care operations,medical,13
+Health care operations,improvement,13
+Health care operations,payment,13
+Health care operations,formulary,13
+Health care operations,compliance,13
+Health care operations,case management,13
+Health care operations,patient,13
+Health care operations,HIPAA,13
+Health care operations,provider,13
+Health care operations,insurance,13
+Health care operations,merger,13
+Health care operations,data analysis,13
+Health care operations,customer,13
+Health care operations,covered entity,13
+Health care operations,care coordination,13
+Health care operations,regulations,13
+Health care operations,healthcare law,13
+Health care provider,medication,14
+Health care provider,therapist,14
+Health care provider,health,14
+Health care provider,medical team,14
+Health care provider,hospitality,14
+Health care provider,hospital,14
+Health care provider,clinic,14
+Health care provider,department,14
+Health care provider,dentist,14
+Health care provider,practice,14
+Health care provider,medical billing,14
+Health care provider,healthcare billing,14
+Health care provider,healthcare records,14
+Health care provider,generalist,14
+Health care provider,patient,14
+Health care provider,specialist,14
+Health care provider,provider,14
+Health care provider,insurance,14
+Health care provider,office,14
+Health care provider,prescription,14
+Health care provider,medical records,14
+Payment,appropriateness,15
+Payment,collection,15
+Payment,subrogation,15
+Payment,excess of loss insurance,15
+Payment,account number,15
+Payment,payment history,15
+Payment,medical necessity,15
+Payment,data processing,15
+Payment,protected health information,15
+Payment,retrospective review,15
+Payment,healthcare,15
+Payment,coverage,15
+Payment,reimbursement,15
+Payment,care,15
+Payment,enrollee,15
+Payment,financial,15
+Payment,reporting,15
+Payment,agency,15
+Payment,claims,15
+Payment,information,15
+Payment,stop-loss insurance,15
+Payment,health status,15
+Payment,justification,15
+Payment,benefits,15
+Payment,concurrence,15
+Payment,healthcare provider,15
+Payment,contract,15
+Payment,demographics,15
+Payment,precertification,15
+Payment,preauthorization,15
+Payment,charges,15
+Payment,reinsurance,15
+Payment,adjudication,15
+Payment,disclosure,15
+Payment,consumer reporting,15
+Payment,risk adjustment,15
+Payment,insurance,15
+Payment,utilization review,15
+Payment,health plan,15
+Payment,premiums,15
+Payment,healthcare services,15
+Payment,billing,15
+Health plan,Pre-approval,16
+Health plan,Network,16
+Health plan,Pharmacy,16
+Health plan,Treatment,16
+Health plan,Co-insurance,16
+Health plan,Deductible,16
+Health plan,Out-of-Pocket,16
+Health plan,Fitness Center,16
+Health plan,Medical Specialist,16
+Health plan,Wellness Program,16
+Health plan,Vaccination,16
+Health plan,Health Education,16
+Health plan,Affordable Care Act,16
+Health plan,Plan,16
+Health plan,Medical Records,16
+Health plan,Primary Care Physician,16
+Health plan,Disease Management,16
+Health plan,Premium,16
+Health plan,Benefits,16
+Health plan,Co-pay,16
+Health plan,Doctor,16
+Health plan,Dietary Advice,16
+Health plan,Medical Expenses,16
+Health plan,Prescription,16
+Health plan,Specialist,16
+Health plan,Preventive Care,16
+Health plan,Reimbursement,16
+Health plan,Medication,16
+Health plan,Pre-authorization,16
+Health plan,Provider,16
+Health plan,Hospital,16
+Health plan,Coverage,16
+Treatment,Healthcare,17
+Treatment,Therapist,17
+Treatment,Clinic,17
+Treatment,Co-insurance,17
+Treatment,Deductible,17
+Treatment,Condition,17
+Treatment,Injury,17
+Treatment,Medical billing,17
+Treatment,Medical,17
+Treatment,Wellness,17
+Treatment,Patient,17
+Treatment,Medical research,17
+Treatment,Procedure,17
+Treatment,Clinical trials,17
+Treatment,Insurance,17
+Treatment,Rehabilitation center,17
+Treatment,Physical therapy,17
+Treatment,Speech therapy,17
+Treatment,Premium,17
+Treatment,Healthcare provider,17
+Treatment,Surgery,17
+Treatment,Caregiver,17
+Treatment,Co-pay,17
+Treatment,Doctor,17
+Treatment,Nurse,17
+Treatment,Medical records,17
+Treatment,Health insurance,17
+Treatment,Healthcare system,17
+Treatment,Disease,17
+Treatment,Medicaid,17
+Treatment,Prescription,17
+Treatment,Medicare,17
+Treatment,Recovery,17
+Treatment,Hospital,17
+Treatment,Occupational therapy,17
+Indirect treatment relationship,Case management,18
+Indirect treatment relationship,Multidisciplinary team,18
+Indirect treatment relationship,Data analytics,18
+Indirect treatment relationship,Consultation,18
+Indirect treatment relationship,Medical malpractice,18
+Indirect treatment relationship,Healthcare network,18
+Indirect treatment relationship,Population health,18
+Indirect treatment relationship,Care team,18
+Indirect treatment relationship,Care coordination,18
+Indirect treatment relationship,Communication,18
+Indirect treatment relationship,Collaborative care,18
+Indirect treatment relationship,Telemedicine,18
+Indirect treatment relationship,Shared decision-making,18
+Indirect treatment relationship,Risk management,18
+Indirect treatment relationship,Healthcare coordination,18
+Indirect treatment relationship,Clinical decision support,18
+Indirect treatment relationship,Regulatory compliance,18
+Indirect treatment relationship,Referral,18
+Indirect treatment relationship,Patient advocate,18
+Indirect treatment relationship,Healthcare provider,18
+Indirect treatment relationship,Clinical workflow,18
+Indirect treatment relationship,Caregiver,18
+Indirect treatment relationship,Interdisciplinary care,18
+Indirect treatment relationship,Order entry,18
+Indirect treatment relationship,Patient handoff,18
+Indirect treatment relationship,Referral management,18
+Indirect treatment relationship,Medical records,18
+Indirect treatment relationship,Patient safety,18
+Indirect treatment relationship,Liability,18
+Indirect treatment relationship,Healthcare system,18
+Indirect treatment relationship,Family member,18
+Indirect treatment relationship,Care transitions,18
+Indirect treatment relationship,Prescription,18
+Indirect treatment relationship,Public health,18
+Indirect treatment relationship,Collaboration,18
+Indirect treatment relationship,Health information management,18
+Indirect treatment relationship,Interdisciplinary communication,18
+Indirect treatment relationship,Electronic health records,18
+Indirect treatment relationship,Transition of care,18
+Indirect treatment relationship,Handover,18
+Indirect treatment relationship,Healthcare policy,18
+Indirect treatment relationship,Quality improvement,18
+Indirect treatment relationship,HIPAA,18
+Loss,Financial Statements,19
+Loss,Claim,19
+Loss,Financial,19
+Loss,Financial Regulation,19
+Loss,Risk Management,19
+Loss,Financial Management,19
+Loss,Financial Planning,19
+Loss,Administrative Costs,19
+Loss,Claim Payment,19
+Loss,Insurance,19
+Loss,Insurance Industry,19
+Loss,Financial Gain,19
+Loss,Audit,19
+Loss,Business,19
+Loss,Premium,19
+Loss,Tax,19
+Loss,Business Analysis,19
+Loss,Economic Analysis,19
+Loss,Cost-Benefit Analysis,19
+Loss,Risk Assessment,19
+Loss,Premium Collection,19
+Loss,Financial Analysis,19
+Loss,Accounting,19
+Loss,Liability,19
+Loss,Administrative,19
+Loss,Pool,19
+Loss,Economics,19
+Loss,Risk,19
+Loss,Financial Reporting,19
+Loss,Expense,19
+Loss,Financial Modeling,19
+Loss,Investment,19
+Loss,Financial Loss,19
+Loss,Risk Pool,19
+Plan sponsor,Financial,20
+Plan sponsor,Administration,20
+Plan sponsor,Regulation,20
+Plan sponsor,Management,20
+Plan sponsor,Strategy,20
+Plan sponsor,Talent,20
+Plan sponsor,Acquisitions,20
+Plan sponsor,401(k),20
+Plan sponsor,Plan,20
+Plan sponsor,ERISA,20
+Plan sponsor,Benefits,20
+Plan sponsor,Fiduciary,20
+Plan sponsor,Mergers,20
+Plan sponsor,Employer,20
+Plan sponsor,Acquisition,20
+Plan sponsor,Employee,20
+Plan sponsor,Pension,20
+Plan sponsor,Portfolio,20
+Plan sponsor,Liability,20
+Plan sponsor,Governance,20
+Plan sponsor,Risk,20
+Plan sponsor,Planning,20
+Plan sponsor,Retirement,20
+Plan sponsor,Asset,20
+Plan sponsor,Investment,20
+Plan sponsor,Compliance,20
+Plan sponsor,Responsibility,20
+Health information,confidentiality,21
+Health information,medication,21
+Health information,diagnosis,21
+Health information,medicaid,21
+Health information,patientdata,21
+Health information,patientdatamanagement,21
+Health information,privacy,21
+Health information,hospital,21
+Health information,protocol,21
+Health information,medical,21
+Health information,disease,21
+Health information,datasecurity,21
+Health information,protection,21
+Health information,guideline,21
+Health information,medicalhistory,21
+Health information,procedure,21
+Health information,test,21
+Health information,EHR,21
+Health information,compliance,21
+Health information,patient,21
+Health information,HIPAA,21
+Health information,medicalrecord,21
+Health information,treatment,21
+Health information,record,21
+Health information,standard,21
+Health information,insurance,21
+Health information,doctor,21
+Health information,prescription,21
+Health information,healthrecordkeeping,21
+Health information,policy,21
+Health information,geneticinformation,21
+Health information,EMR,21
+Health information,medicare,21
+Health information,regulations,21
+Health information,medicalrecordkeeping,21
+Correctional institution,halfway house,22
+Correctional institution,work farm,22
+Correctional institution,courtroom,22
+Correctional institution,laws,22
+Correctional institution,criminal record,22
+Correctional institution,government,22
+Correctional institution,regulation,22
+Correctional institution,parole,22
+Correctional institution,reformatory,22
+Correctional institution,law enforcement officer,22
+Correctional institution,felony,22
+Correctional institution,sheriff,22
+Correctional institution,judicial system,22
+Correctional institution,penal code,22
+Correctional institution,crimes,22
+Correctional institution,custody,22
+Correctional institution,criminal offense,22
+Correctional institution,law,22
+Correctional institution,lawyer,22
+Correctional institution,rehabilitation,22
+Correctional institution,probation,22
+Correctional institution,detention,22
+Correctional institution,lawful custody,22
+Correctional institution,misdemeanor,22
+Correctional institution,attorney,22
+Correctional institution,jail,22
+Correctional institution,judge,22
+Correctional institution,justice system,22
+Correctional institution,conviction,22
+Correctional institution,sentence,22
+Correctional institution,policy,22
+Correctional institution,police,22
+Correctional institution,authority,22
+Financial remuneration,incentive,23
+Financial remuneration,bonus,23
+Financial remuneration,donation,23
+Financial remuneration,pension,23
+Financial remuneration,compensation,23
+Financial remuneration,grant,23
+Financial remuneration,subsidy,23
+Financial remuneration,non-monetary,23
+Financial remuneration,reimbursement,23
+Financial remuneration,commission,23
+Financial remuneration,charge,23
+Financial remuneration,provision,23
+Financial remuneration,gift-in-kind,23
+Financial remuneration,prize,23
+Financial remuneration,retirement,23
+Financial remuneration,allowance,23
+Financial remuneration,contract,23
+Financial remuneration,in-kind,23
+Financial remuneration,reward,23
+Financial remuneration,payment,23
+Financial remuneration,award,23
+Financial remuneration,agreement,23
+Financial remuneration,benefit-in-kind,23
+Financial remuneration,benefit,23
+Financial remuneration,fee,23
+Financial remuneration,negotiation,23
+Financial remuneration,insurance,23
+Financial remuneration,wages,23
+Financial remuneration,expense,23
+Financial remuneration,payroll,23
+Financial remuneration,salary,23
+Financial remuneration,gift,23
+Research,academic,24
+Research,scientist,24
+Research,data collection,24
+Research,paper,24
+Research,data,24
+Research,knowledge,24
+Research,evaluate,24
+Research,survey,24
+Research,statistic,24
+Research,analyze,24
+Research,information gathering,24
+Research,information,24
+Research,trial,24
+Research,expert,24
+Research,investigate,24
+Research,collect,24
+Research,test,24
+Research,dissertation,24
+Research,study,24
+Research,thesis,24
+Research,article,24
+Research,explore,24
+Research,data analysis,24
+Research,inquiry,24
+Research,questionnaire,24
+Research,journal,24
+Research,gather,24
+Research,experiment,24
+Required by law,program,25
+Required by law,government program,25
+Required by law,subpoena,25
+Required by law,regulation,25
+Required by law,administrative body,25
+Required by law,investigative demand,25
+Required by law,public benefits,25
+Required by law,healthcare,25
+Required by law,civil demand,25
+Required by law,statute,25
+Required by law,require,25
+Required by law,entity,25
+Required by law,information,25
+Required by law,authorized,25
+Required by law,grand jury,25
+Required by law,payment,25
+Required by law,compliance,25
+Required by law,court of law,25
+Required by law,compels,25
+Required by law,participating,25
+Required by law,disclosure,25
+Required by law,court order,25
+Required by law,participation,25
+Required by law,provider,25
+Required by law,enforceable,25
+Required by law,production,25
+Required by law,summons,25
+Required by law,tribal inspector general,25
+Required by law,court-ordered,25
+Genetic information,genetic engineering,26
+Genetic information,health information,26
+Genetic information,biotechnology,26
+Genetic information,disease screening,26
+Genetic information,assisted reproductive technology,26
+Genetic information,family history,26
+Genetic information,medical diagnosis,26
+Genetic information,fetus,26
+Genetic information,family tree,26
+Genetic information,individual,26
+Genetic information,genetic screening,26
+Genetic information,embryo,26
+Genetic information,clinical trials,26
+Genetic information,family member,26
+Genetic information,medical history,26
+Genetic information,heredity,26
+Genetic information,genetic predisposition,26
+Genetic information,pregnancy,26
+Genetic information,ancestry testing,26
+Genetic information,medical records,26
+Genetic information,medical research,26
+Genetic information,patient data,26
+Subcontractor,service level,27
+Subcontractor,business partner,27
+Subcontractor,supplier,27
+Subcontractor,assign,27
+Subcontractor,third-party,27
+Subcontractor,service provider,27
+Subcontractor,association,27
+Subcontractor,terms,27
+Subcontractor,vendor,27
+Subcontractor,accountability,27
+Subcontractor,project,27
+Subcontractor,delegation,27
+Subcontractor,delegate,27
+Subcontractor,contract,27
+Subcontractor,delivery,27
+Subcontractor,task,27
+Subcontractor,collaboration,27
+Subcontractor,workforce,27
+Subcontractor,agreement,27
+Subcontractor,outsider,27
+Subcontractor,provider,27
+Subcontractor,conditions,27
+Subcontractor,liability,27
+Subcontractor,employee,27
+Subcontractor,responsibility,27
+Subcontractor,employer,27
+Subcontractor,freelancer,27
+Subcontractor,consultant,27
+Subcontractor,partnership,27
+Individually identifiable health information,stored,28
+Individually identifiable health information,personalhealthrecord,28
+Individually identifiable health information,healthcare,28
+Individually identifiable health information,medicaid,28
+Individually identifiable health information,received,28
+Individually identifiable health information,patientdata,28
+Individually identifiable health information,documented,28
+Individually identifiable health information,hospital,28
+Individually identifiable health information,identification,28
+Individually identifiable health information,edited,28
+Individually identifiable health information,medicaldata,28
+Individually identifiable health information,managed,28
+Individually identifiable health information,shared,28
+Individually identifiable health information,changed,28
+Individually identifiable health information,medical,28
+Individually identifiable health information,transmitted,28
+Individually identifiable health information,maintained,28
+Individually identifiable health information,PHI,28
+Individually identifiable health information,medicalhistory,28
+Individually identifiable health information,recorded,28
+Individually identifiable health information,accessed,28
+Individually identifiable health information,patient,28
+Individually identifiable health information,medicalrecord,28
+Individually identifiable health information,identifiable,28
+Individually identifiable health information,modified,28
+Individually identifiable health information,healthinformation,28
+Individually identifiable health information,record,28
+Individually identifiable health information,provider,28
+Individually identifiable health information,insurance,28
+Individually identifiable health information,doctor,28
+Individually identifiable health information,healthrecord,28
+Individually identifiable health information,healthplan,28
+Individually identifiable health information,viewed,28
+Individually identifiable health information,updated,28
+Individually identifiable health information,patientinfo,28
+Individually identifiable health information,medicare,28
+Individually identifiable health information,HIPAA,28
+Standard,criteria,29
+Standard,guideline,29
+Standard,procedure,29
+Standard,uniform,29
+Standard,classification system,29
+Standard,classification,29
+Standard,normative,29
+Standard,norm,29
+Standard,protocol,29
+Standard,specification,29
+Standard,threshold,29
+Standard,regulation,29
+Standard,requirement,29
+Standard,benchmark,29
+Standard,criterion,29
+Standard,rule,29
+Workforce,human resources,30
+Workforce,contractors,30
+Workforce,government,30
+Workforce,procedures,30
+Workforce,compensation,30
+Workforce,consulting,30
+Workforce,team,30
+Workforce,development,30
+Workforce,teamwork,30
+Workforce,subcontractors,30
+Workforce,agency,30
+Workforce,protocol,30
+Workforce,leadership,30
+Workforce,benefits,30
+Workforce,training,30
+Workforce,governing,30
+Workforce,affiliates,30
+Workforce,recruitment,30
+Workforce,business,30
+Workforce,collaboration,30
+Workforce,compliance,30
+Workforce,union,30
+Workforce,outsourcing,30
+Workforce,law,30
+Workforce,company,30
+Workforce,trainees,30
+Workforce,wages,30
+Workforce,organization,30
+Workforce,volunteers,30
+Workforce,policy,30
+Workforce,salary,30
+Workforce,partnership,30
+Workforce,regulations,30
+Workforce,management,30
+Health oversight agency,health,31
+Health oversight agency,government,31
+Health oversight agency,data,31
+Health oversight agency,regulation,31
+Health oversight agency,enforcement,31
+Health oversight agency,grant,31
+Health oversight agency,civil,31
+Health oversight agency,healthcare,31
+Health oversight agency,rights,31
+Health oversight agency,oversight,31
+Health oversight agency,system,31
+Health oversight agency,agency,31
+Health oversight agency,information,31
+Health oversight agency,medical,31
+Health oversight agency,protection,31
+Health oversight agency,contract,31
+Health oversight agency,compliance,31
+Health oversight agency,patient,31
+Health oversight agency,law,31
+Health oversight agency,security,31
+Health oversight agency,record,31
+Health oversight agency,provider,31
+Health oversight agency,insurance,31
+Health oversight agency,privac,31
+Health oversight agency,policy,31
+Health oversight agency,authorization,31
+Health oversight agency,management,31
+Public health authority,government official,32
+Public health authority,health inspection,32
+Public health authority,health monitoring,32
+Public health authority,regulatory,32
+Public health authority,government oversight,32
+Public health authority,government,32
+Public health authority,regulation,32
+Public health authority,regulatory compliance,32
+Public health authority,healthcare,32
+Public health authority,regulatory enforcement,32
+Public health authority,agency,32
+Public health authority,healthcare mandate,32
+Public health authority,healthcare regulations,32
+Public health authority,regulatory body,32
+Public health authority,government agency,32
+Public health authority,healthcare provider,32
+Public health authority,government mandate,32
+Public health authority,regulatory authority,32
+Public health authority,policy,32
+Public health authority,authority,32
+Public health authority,health administrator,32
+Law enforcement official,penalties,33
+Law enforcement official,courtroom,33
+Law enforcement official,punishment,33
+Law enforcement official,system,33
+Law enforcement official,detective,33
+Law enforcement official,judiciary,33
+Law enforcement official,sheriff,33
+Law enforcement official,trial,33
+Law enforcement official,cops,33
+Law enforcement official,enforcer,33
+Law enforcement official,arrest,33
+Law enforcement official,prosecution,33
+Law enforcement official,compliance,33
+Law enforcement official,agencies,33
+Law enforcement official,evidence,33
+Law enforcement official,testimony,33
+Law enforcement official,justice,33
+Law enforcement official,law,33
+Law enforcement official,agent,33
+Law enforcement official,detention,33
+Law enforcement official,judicial,33
+Law enforcement official,attorney,33
+Law enforcement official,jail,33
+Law enforcement official,authorities,33
+Law enforcement official,conviction,33
+Law enforcement official,witnesses,33
+Law enforcement official,lawman,33
+Law enforcement official,penitentiary,33
+Law enforcement official,sentence,33
+Law enforcement official,crime,33
+Law enforcement official,police,33
+Law enforcement official,court,33
+Law enforcement official,prison,33
+Law enforcement official,interrogation,33
+Law enforcement official,regulations,33
+Group health plan,Healthcare,34
+Group health plan,Employee Welfare Benefit,34
+Group health plan,Healthcare Access,34
+Group health plan,Healthcare Law,34
+Group health plan,Healthcare Governance,34
+Group health plan,Dependents,34
+Group health plan,Healthcare Compliance,34
+Group health plan,Healthcare Equity,34
+Group health plan,Insurance,34
+Group health plan,Healthcare Administration,34
+Group health plan,Healthcare Utilization,34
+Group health plan,Plan,34
+Group health plan,Employee Benefits,34
+Group health plan,ERISA,34
+Group health plan,Healthcare Regulations,34
+Group health plan,Participation,34
+Group health plan,Healthcare Reform,34
+Group health plan,Welfare,34
+Group health plan,Healthcare Oversight,34
+Group health plan,Benefits,34
+Group health plan,Employer,34
+Group health plan,Employee,34
+Group health plan,Healthcare Transparency,34
+Group health plan,Healthcare Costs,34
+Group health plan,Medicaid,34
+Group health plan,Medical Care,34
+Group health plan,Healthcare Services,34
+Group health plan,Healthcare Expenses,34
+Group health plan,Healthcare Provider,34
+Group health plan,Reimbursement,34
+Group health plan,Healthcare Efficiency,34
+Group health plan,Healthcare Accountability,34
+Group health plan,Medicare,34
+Group health plan,Employer Sponsored,34
+Group health plan,Healthcare Disparities,34
+Data aggregation,Covered Entity,35
+Data aggregation,Healthcare,35
+Data aggregation,Protected Health Information,35
+Data aggregation,Business Intelligence,35
+Data aggregation,Statistics,35
+Data aggregation,Data Analytics,35
+Data aggregation,Insight,35
+Data aggregation,Data Security,35
+Data aggregation,Data Visualization,35
+Data aggregation,Medical Records,35
+Data aggregation,Data Confidentiality,35
+Data aggregation,Data Mining,35
+Data aggregation,Patient Data,35
+Data aggregation,Business Associate,35
+Data aggregation,Data Integrity,35
+Data aggregation,Data Sharing,35
+Data aggregation,Research,35
+Data aggregation,EHR,35
+Data aggregation,Electronic Health Records,35
+Data aggregation,Data Analysis,35
+Data aggregation,Data Science,35
+Data aggregation,Medical Research,35
+Data aggregation,Health Information Exchange,35
+Data aggregation,Data Engineering,35
+Data aggregation,Healthcare Operations,35
+Data aggregation,Clinical Trials,35
+Data aggregation,Analytics,35
+Data aggregation,Data Standardization,35
+Data aggregation,HIE,35
+Data aggregation,Compliance,35
+Data aggregation,Reporting,35
+Data aggregation,Medical Informatics,35
+Data aggregation,Healthcare IT,35
+Data aggregation,HIPAA,35
+Electronic protected health information,Healthcare,36
+Electronic protected health information,Data,36
+Electronic protected health information,Healthcare Law,36
+Electronic protected health information,Regulations,36
+Electronic protected health information,Security Measures,36
+Electronic protected health information,Medical,36
+Electronic protected health information,Patient,36
+Electronic protected health information,Insurance,36
+Electronic protected health information,Medical Records,36
+Electronic protected health information,Records,36
+Electronic protected health information,Personal,36
+Electronic protected health information,Data Breach,36
+Electronic protected health information,Electronic,36
+Electronic protected health information,Medical Records Management,36
+Electronic protected health information,PHI,36
+Electronic protected health information,Healthcare Organization,36
+Electronic protected health information,Protected,36
+Electronic protected health information,Security,36
+Electronic protected health information,Data Protection,36
+Electronic protected health information,Privacy,36
+Electronic protected health information,Healthcare Provider,36
+Electronic protected health information,Confidential,36
+Electronic protected health information,Compliance,36
+Electronic protected health information,Healthcare IT,36
+Electronic protected health information,HIPAA,36
+Health insurance issuer,medication,37
+Health insurance issuer,deductible,37
+Health insurance issuer,health,37
+Health insurance issuer,wellness,37
+Health insurance issuer,claim,37
+Health insurance issuer,network,37
+Health insurance issuer,denial,37
+Health insurance issuer,prevention,37
+Health insurance issuer,condition,37
+Health insurance issuer,healthcare,37
+Health insurance issuer,coverage,37
+Health insurance issuer,reimbursement,37
+Health insurance issuer,medicaid,37
+Health insurance issuer,co-insurance,37
+Health insurance issuer,hospital,37
+Health insurance issuer,service,37
+Health insurance issuer,premium,37
+Health insurance issuer,recovery,37
+Health insurance issuer,professional,37
+Health insurance issuer,pharmacy,37
+Health insurance issuer,practice,37
+Health insurance issuer,medical,37
+Health insurance issuer,appeal,37
+Health insurance issuer,payment,37
+Health insurance issuer,disability,37
+Health insurance issuer,company,37
+Health insurance issuer,benefit,37
+Health insurance issuer,rehabilitation,37
+Health insurance issuer,provider,37
+Health insurance issuer,pre-existing,37
+Health insurance issuer,doctor,37
+Health insurance issuer,plan,37
+Health insurance issuer,policy,37
+Health insurance issuer,copayment,37
+Health insurance issuer,medicare,37
+Health insurance issuer,policyholder,37
+Health insurance issuer,treatment,37
+Summary health information,healthcare certification,38
+Summary health information,data aggregation,38
+Summary health information,group health plans,38
+Summary health information,healthcare security,38
+Summary health information,healthcare,38
+Summary health information,electronic health records,38
+Summary health information,healthcare enrollment,38
+Summary health information,health insurance issuers,38
+Summary health information,healthcare accreditation,38
+Summary health information,claims,38
+Summary health information,healthcare auditing,38
+Summary health information,healthcare insights,38
+Summary health information,healthcare analytics,38
+Summary health information,healthcare re-disenrollment,38
+Summary health information,benefits,38
+Summary health information,healthcare termination,38
+Summary health information,healthcare IT,38
+Summary health information,healthcare management,38
+Summary health information,healthcare registration,38
+Summary health information,healthcare licensing,38
+Summary health information,healthcare clearinghouses,38
+Summary health information,HR,38
+Summary health information,healthcare renewal,38
+Summary health information,HIPAA,38
+Summary health information,healthcare reporting,38
+Summary health information,healthcare disenrollment,38
+Summary health information,healthcare operations,38
+Summary health information,insurance,38
+Summary health information,healthcare administration,38
+Summary health information,data protection,38
+Summary health information,healthcare re-enrollment,38
+Summary health information,employee,38
+Summary health information,medical records,38
+Summary health information,HMOs,38
+Summary health information,premiums,38
+Summary health information,patient data,38
+Summary health information,healthcare providers,38
+Summary health information,healthcare compliance,38
+Summary health information,healthcare cancellation,38
+Plan administration functions,administer,39
+Plan administration functions,regulatory,39
+Plan administration functions,health,39
+Plan administration functions,procedures,39
+Plan administration functions,regulate,39
+Plan administration functions,governance,39
+Plan administration functions,group,39
+Plan administration functions,healthcare,39
+Plan administration functions,coverage,39
+Plan administration functions,oversight,39
+Plan administration functions,oversee,39
+Plan administration functions,protocol,39
+Plan administration functions,obligations,39
+Plan administration functions,accountability,39
+Plan administration functions,sponsor,39
+Plan administration functions,operations,39
+Plan administration functions,requirements,39
+Plan administration functions,compliance,39
+Plan administration functions,functions,39
+Plan administration functions,law,39
+Plan administration functions,benefit,39
+Plan administration functions,provider,39
+Plan administration functions,manage,39
+Plan administration functions,insurance,39
+Plan administration functions,liability,39
+Plan administration functions,administration,39
+Plan administration functions,organization,39
+Plan administration functions,plan,39
+Plan administration functions,policy,39
+Plan administration functions,responsibility,39
+Plan administration functions,comply,39
+Plan administration functions,regulations,39
+Plan administration functions,management,39
+Covered functions,healthcare clearinghouse,40
+Covered functions,medical services,40
+Covered functions,healthcare claims,40
+Covered functions,healthcare payments,40
+Covered functions,healthcare security,40
+Covered functions,healthcare,40
+Covered functions,insurance coverage,40
+Covered functions,health insurance,40
+Covered functions,healthcare record-keeping,40
+Covered functions,healthcare functions,40
+Covered functions,healthcare regulations,40
+Covered functions,healthcare data protection,40
+Covered functions,healthcare provider,40
+Covered functions,healthcare benefits,40
+Covered functions,healthcare billing,40
+Covered functions,healthcare entity,40
+Covered functions,healthcare laws,40
+Covered functions,health benefits,40
+Covered functions,healthcare coding,40
+Covered functions,healthcare documentation,40
+Covered functions,healthcare privacy,40
+Covered functions,health plan,40
+Covered functions,covered entity,40
+Covered functions,healthcare standards,40
+Covered functions,healthcare rules,40
+Covered functions,healthcare services,40
+Covered functions,healthcare reimbursement,40
+Covered functions,healthcare compliance,40
+Covered functions,HIPAA,40
+Organized health care arrangement,hmo,41
+Organized health care arrangement,healthcare policy,41
+Organized health care arrangement,healthcare innovation,41
+Organized health care arrangement,healthcare,41
+Organized health care arrangement,medicaid,41
+Organized health care arrangement,healthcare financing,41
+Organized health care arrangement,hospital,41
+Organized health care arrangement,health insurance,41
+Organized health care arrangement,healthcare technology,41
+Organized health care arrangement,medical billing,41
+Organized health care arrangement,patient care,41
+Organized health care arrangement,healthcare provider,41
+Organized health care arrangement,medical billing services,41
+Organized health care arrangement,insurance claims,41
+Organized health care arrangement,healthcare reform,41
+Organized health care arrangement,patient outcomes,41
+Organized health care arrangement,patient,41
+Organized health care arrangement,healthcare quality,41
+Organized health care arrangement,medical ethics,41
+Organized health care arrangement,provider,41
+Organized health care arrangement,insurance regulations,41
+Organized health care arrangement,insurance,41
+Organized health care arrangement,doctor,41
+Organized health care arrangement,healthcare equity,41
+Organized health care arrangement,medical disparities,41
+Organized health care arrangement,medical records,41
+Organized health care arrangement,medical research,41
+Organized health care arrangement,healthcare access,41
+Organized health care arrangement,patient rights,41
+Organized health care arrangement,medicare,41
+Organized health care arrangement,healthcare law,41
+Psychotherapy notes,medication,42
+Psychotherapy notes,session,42
+Psychotherapy notes,psychoanalysis,42
+Psychotherapy notes,family therapy,42
+Psychotherapy notes,diagnosis,42
+Psychotherapy notes,psychology,42
+Psychotherapy notes,group,42
+Psychotherapy notes,healthcare,42
+Psychotherapy notes,prognosis,42
+Psychotherapy notes,analysis,42
+Psychotherapy notes,results,42
+Psychotherapy notes,therapy,42
+Psychotherapy notes,progress,42
+Psychotherapy notes,analyze,42
+Psychotherapy notes,family,42
+Psychotherapy notes,professional,42
+Psychotherapy notes,monitor,42
+Psychotherapy notes,medical,42
+Psychotherapy notes,healthcare provider,42
+Psychotherapy notes,test,42
+Psychotherapy notes,counseling,42
+Psychotherapy notes,private session,42
+Psychotherapy notes,summary,42
+Psychotherapy notes,record,42
+Psychotherapy notes,provider,42
+Psychotherapy notes,symptoms,42
+Psychotherapy notes,mental health professional,42
+Psychotherapy notes,group counseling,42
+Psychotherapy notes,prescription,42
+Psychotherapy notes,clinical,42
+Psychotherapy notes,session notes,42
+Psychotherapy notes,private,42
+Psychotherapy notes,document,42
+Psychotherapy notes,mental health,42
+Psychotherapy notes,treatment,42
+Family member,grandchild,43
+Family member,child,43
+Family member,kinship,43
+Family member,marriage,43
+Family member,family connections,43
+Family member,descendant,43
+Family member,affinity,43
+Family member,blood relation,43
+Family member,consanguinity,43
+Family member,family dynamics,43
+Family member,spouse,43
+Family member,relative,43
+Family member,family tree,43
+Family member,lineage,43
+Family member,dependents,43
+Family member,ancestor,43
+Family member,heredity,43
+Family member,uncle,43
+Family member,aunt,43
+Family member,adoption,43
+Family member,kin,43
+Family member,family relationships,43
+Family member,household,43
+Family member,niece,43
+Family member,parent,43
+Family member,family ties,43
+Employer,Accountability,44
+Employer,Agreement,44
+Employer,Industry,44
+Employer,Labor,44
+Employer,Union,44
+Employer,Hiring,44
+Employer,Staff,44
+Employer,Business,44
+Employer,Salaries,44
+Employer,Office,44
+Employer,Benefits,44
+Employer,Recruitment,44
+Employer,Team,44
+Employer,Authority,44
+Employer,HR,44
+Employer,Career,44
+Employer,Contract,44
+Employer,Leadership,44
+Employer,Organization,44
+Employer,Training,44
+Employer,Supervision,44
+Board,Office of the Secretary,45
+Board,Regulatory appeals,45
+Board,Administrative law judges,45
+Board,Regulations,45
+Board,Government regulations,45
+Board,Public policy,45
+Board,Departmental Appeals Board,45
+Board,Administrative review,45
+Board,Legislative bodies,45
+Board,Regulatory decisions,45
+Board,Policy makers,45
+Board,Government officials,45
+Board,Regulatory compliance,45
+Board,Administrative tribunals,45
+Board,Administrative law,45
+Board,Administrative procedures,45
+Board,Regulatory interpretation,45
+Board,Policy implementation,45
+Board,Regulatory impact,45
+Board,Regulatory bodies,45
+Board,Federal government,45
+Board,Government oversight,45
+Board,Bureaucracy,45
+Board,Regulatory enforcement,45
+Board,Government agencies,45
+Board,HHS Departmental Appeals Board,45
+Board,Panel members,45
+Board,Government offices,45
+Board,Regulatory frameworks,45
+Board,Appeals Board,45
+Board,Decision makers,45
+Inmate,Surveillance,46
+Inmate,Administration,46
+Inmate,Conviction,46
+Inmate,Regulations,46
+Inmate,Misdemeanor,46
+Inmate,Regulation,46
+Inmate,Management,46
+Inmate,Court,46
+Inmate,Rehabilitation center,46
+Inmate,Sentencing,46
+Inmate,Rules,46
+Inmate,Punishment,46
+Inmate,Detention,46
+Inmate,Authority,46
+Inmate,Custody,46
+Inmate,Law enforcement,46
+Inmate,Security,46
+Inmate,Confinement,46
+Inmate,Crime,46
+Inmate,Police,46
+Inmate,Rehabilitation,46
+Inmate,Guard,46
+Inmate,Compliance,46
+Inmate,Probation,46
+Inmate,Criminal justice,46
+State agency,public administration,47
+State agency,legislative,47
+State agency,program,47
+State agency,regulatory,47
+State agency,government oversight,47
+State agency,regulation,47
+State agency,enforcement,47
+State agency,oversight committee,47
+State agency,regulatory compliance,47
+State agency,policy development,47
+State agency,oversight,47
+State agency,policy implementation,47
+State agency,governmental regulation,47
+State agency,bureaucracy,47
+State agency,compliance,47
+State agency,program management,47
+State agency,public policy,47
+State agency,administrative regulation,47
+State agency,public sector,47
+State agency,executive,47
+State agency,policy-making,47
+State agency,regulatory framework,47
+State agency,administration,47
+State agency,policy,47
+State agency,federal government,47
+State agency,regulatory body,47
+Header.,Patient Consent,48
+Header.,Covered Entity,48
+Header.,Healthcare,48
+Header.,Medical Staff,48
+Header.,Patient Rights,48
+Header.,Long-term Care Insurance,48
+Header.,Patient Representatives,48
+Header.,MCOs,48
+Header.,Physicians,48
+Header.,Medical Billing,48
+Header.,Protected Health Information,48
+Header.,Managed Care Organizations,48
+Header.,Regulations,48
+Header.,Healthcare Providers,48
+Header.,Remote Healthcare,48
+Header.,Health Plans,48
+Header.,Communication,48
+Header.,Nurses,48
+Header.,Telemedicine,48
+Header.,Healthcare Facilities,48
+Header.,Patient Advocates,48
+Header.,Medical Records,48
+Header.,EHRs,48
+Header.,Clinics,48
+Header.,Insurance Providers,48
+Header.,Electronic Health Records,48
+Header.,Transparency,48
+Header.,Insurance Companies,48
+Header.,Notice of Privacy Practices,48
+Header.,Dentists,48
+Header.,Hospitals,48
+Header.,Confidentiality,48
+Header.,Security,48
+Header.,Authorization,48
+Header.,Long-term Care Policies,48
+Header.,Documentation,48
+Header.,Health Insurance,48
+Header.,Medical Coding,48
+Header.,Group Health Plans,48
+Header.,Medical Offices,48
+Header.,Breach Notification,48
+Header.,HMOs,48
+Header.,Compliance,48
+Header.,Healthcare Advocacy,48
+Header.,Patient Information,48
+Header.,HIPAA,48
+Direct treatment relationship,Healthcare,49
+Direct treatment relationship,Treat,49
+Direct treatment relationship,Certified,49
+Direct treatment relationship,Individual,49
+Direct treatment relationship,Regulatory,49
+Direct treatment relationship,Compassionate use,49
+Direct treatment relationship,Treatment,49
+Direct treatment relationship,Relationship,49
+Direct treatment relationship,Patient,49
+Direct treatment relationship,Government-funded,49
+Direct treatment relationship,Insurance,49
+Direct treatment relationship,Self-pay,49
+Direct treatment relationship,Therapy,49
+Direct treatment relationship,Private insurance,49
+Direct treatment relationship,Regulated,49
+Direct treatment relationship,Payment,49
+Direct treatment relationship,Approved,49
+Direct treatment relationship,Authorized,49
+Direct treatment relationship,Healthcare provider,49
+Direct treatment relationship,Participation,49
+Direct treatment relationship,Caregiver,49
+Direct treatment relationship,Licensed,49
+Direct treatment relationship,Directly,49
+Direct treatment relationship,Adherence,49
+Direct treatment relationship,Discretionary treatment,49
+Direct treatment relationship,Direct,49
+Direct treatment relationship,Engagement,49
+Direct treatment relationship,Medicaid,49
+Direct treatment relationship,Prescription,49
+Direct treatment relationship,Uncompensated care,49
+Direct treatment relationship,Reimbursement,49
+Direct treatment relationship,Medication,49
+Direct treatment relationship,Medicare,49
+Direct treatment relationship,Non-indirect,49
+Direct treatment relationship,Medically necessary,49
+Direct treatment relationship,Compliance,49
+Direct treatment relationship,Provider,49
+Designated record set,record keeping,50
+Designated record set,protected health information,50
+Designated record set,enrollment systems,50
+Designated record set,health records,50
+Designated record set,electronic health records,50
+Designated record set,health data management,50
+Designated record set,healthcare data analytics,50
+Designated record set,health insurance,50
+Designated record set,claims,50
+Designated record set,healthcare records management,50
+Designated record set,healthcare regulations,50
+Designated record set,health plan records,50
+Designated record set,payment systems,50
+Designated record set,healthcare provider records,50
+Designated record set,EHRs,50
+Designated record set,healthcare IT,50
+Designated record set,information handling,50
+Designated record set,healthcare provider,50
+Designated record set,PHI,50
+Designated record set,healthcare records,50
+Designated record set,covered health care provider,50
+Designated record set,adjudication,50
+Designated record set,health information technology,50
+Designated record set,record sharing,50
+Designated record set,data protection,50
+Designated record set,health data security,50
+Designated record set,HIPAA compliance,50
+Designated record set,medical records,50
+Designated record set,covered entity,50
+Designated record set,patient data,50
+Designated record set,patient confidentiality,50
+Designated record set,health management,50
+Electronic media,Memory,51
+Electronic media,Telephone,51
+Electronic media,Network,51
+Electronic media,Data,51
+Electronic media,System,51
+Electronic media,Computer,51
+Electronic media,Client,51
+Electronic media,Communication,51
+Electronic media,Leased lines,51
+Electronic media,Disk,51
+Electronic media,Exchange,51
+Electronic media,Card,51
+Electronic media,Storage,51
+Electronic media,Internet,51
+Electronic media,Transmission,51
+Electronic media,Facsimile,51
+Electronic media,Receive,51
+Electronic media,Digital,51
+Electronic media,Information,51
+Electronic media,Dial-up,51
+Electronic media,Tape,51
+Electronic media,Server,51
+Electronic media,Transmit,51
+Transaction,communication,52
+Transaction,certification,52
+Transaction,approval,52
+Transaction,claim,52
+Transaction,network,52
+Transaction,data,52
+Transaction,regulation,52
+Transaction,status,52
+Transaction,denial,52
+Transaction,disenrollment,52
+Transaction,endorsement,52
+Transaction,ehealth,52
+Transaction,healthcare,52
+Transaction,transfer,52
+Transaction,funds,52
+Transaction,financial,52
+Transaction,system,52
+Transaction,attachment,52
+Transaction, HIPAA,52
+Transaction,premium,52
+Transaction,information,52
+Transaction,referral,52
+Transaction,medical,52
+Transaction,protection,52
+Transaction,compliance,52
+Transaction,eligibility,52
+Transaction,remittance,52
+Transaction,electronic,52
+Transaction,security,52
+Transaction,record,52
+Transaction,insurance,52
+Transaction,notification,52
+Transaction,database,52
+Transaction,authorization,52
+Transaction,enrollment,52
+Transaction,advice,52
+Modify,revision,53
+Modify,recast,53
+Modify,improve,53
+Modify,update,53
+Modify,reform,53
+Modify,revise,53
+Modify,redesign,53
+Modify,redraft,53
+Modify,rework,53
+person,inhabitant,-1
+person,bad person,-1
+person,female,-1
+person,relative,-1
+person,contestant,-1
+person,entertainer,-1
+person,acquirer,-1
+person,capitalist,-1
+person,expert,-1
+person,fiduciary,-1
+person,child,-1
+person,party,-1
+person,creator,-1
+person,intellectual,-1
+person,domestic partner,-1
+person,peer,-1
+person,case,-1
+person,unskilled person,-1
+person,unfortunate,-1
+person,adult,-1
+person,enrollee,-1
+person,acquaintance,-1
+person,advocate,-1
+person,preserver,-1
+person,good person,-1
+person,communicator,-1
+person,friend,-1
+person,religious person,-1
+person,juvenile,-1
+person,worker,-1
+person,adjudicator,-1
+person,scientist,-1
+person,leader,-1
+person,interpreter,-1
+inhabitant,person,-1
+inhabitant,american,-1
+female sibling,sister,-1
+female sibling,kinswoman,-1
+sister,female sibling,-1
+sister,member,-1
+sister,nun,-1
+evaluator,arbiter,-1
+evaluator,authority,-1
+arbiter,evaluator,-1
+arbiter,third party,-1
+bad person,person,-1
+bad person,wrongdoer,-1
+bad person,libertine,-1
+professional,lawyer,-1
+professional,health professional,-1
+professional,adult,-1
+professional,practitioner,-1
+lawyer,professional,-1
+third party,arbiter,-1
+sick person,patient,-1
+sick person,unfortunate,-1
+patient,sick person,-1
+patient,case,-1
+female,person,-1
+female,woman,-1
+female,female offspring,-1
+member,brother,-1
+member,sister,-1
+member,associate,-1
+brother,member,-1
+brother,friend,-1
+brother,male sibling,-1
+brother,monk,-1
+relative,person,-1
+relative,offspring,-1
+relative,spouse,-1
+relative,descendant,-1
+relative,kinsman,-1
+relative,kin,-1
+relative,ancestor,-1
+relative,kinswoman,-1
+authority,evaluator,-1
+authority,expert,-1
+contestant,person,-1
+contestant,player,-1
+contestant,athlete,-1
+wrongdoer,bad person,-1
+wrongdoer,principal,-1
+woman,girl,-1
+woman,nanny,-1
+woman,adult,-1
+woman,female,-1
+girl,woman,-1
+girl,baby,-1
+important person,name,-1
+important person,adult,-1
+name,important person,-1
+name,common identifier,-1
+tennis player,court,-1
+tennis player,player,-1
+tennis player,athlete,-1
+court,tennis player,-1
+libertine,violator,-1
+libertine,bad person,-1
+violator,libertine,-1
+violator,criminal,-1
+offspring,relative,-1
+offspring,child,-1
+fiduciary,executor,-1
+fiduciary,person,-1
+fiduciary,trustee,-1
+fiduciary,administrator,-1
+executor,fiduciary,-1
+entertainer,person,-1
+entertainer,performer,-1
+nanny,woman,-1
+nanny,keeper,-1
+worker,skilled worker,-1
+worker,employee,-1
+worker,volunteer,-1
+worker,assistant,-1
+worker,person,-1
+skilled worker,worker,-1
+skilled worker,official,-1
+skilled worker,serviceman,-1
+health professional,pharmacist,-1
+health professional,medical practitioner,-1
+health professional,nurse,-1
+health professional,professional,-1
+pharmacist,health professional,-1
+employee,worker,-1
+employee,workforce member,-1
+spouse,relative,-1
+spouse,domestic partner,-1
+defender,keeper,-1
+defender,preserver,-1
+keeper,defender,-1
+keeper,nanny,-1
+adult,woman,-1
+adult,caregiver,-1
+adult,person,-1
+adult,professional,-1
+adult,important person,-1
+acquirer,person,-1
+acquirer,recipient,-1
+player,card player,-1
+player,tennis player,-1
+player,contestant,-1
+card player,player,-1
+card player,bridge player,-1
+unskilled person,novice,-1
+unskilled person,person,-1
+novice,unskilled person,-1
+novice,trainee,-1
+creator,artist,-1
+creator,person,-1
+artist,creator,-1
+artist,painter,-1
+capitalist,person,-1
+capitalist,businessperson,-1
+communicator,negotiator,-1
+communicator,writer,-1
+communicator,person,-1
+negotiator,communicator,-1
+negotiator,representative,-1
+negotiator,mediator,-1
+medical practitioner,health professional,-1
+medical practitioner,doctor,-1
+medical practitioner,dentist,-1
+descendant,child,-1
+descendant,relative,-1
+child,descendant,-1
+child,person,-1
+child,juvenile,-1
+child,female offspring,-1
+child,offspring,-1
+preserver,defender,-1
+preserver,person,-1
+american,tennessean,-1
+american,inhabitant,-1
+tennessean,american,-1
+businessperson,supplier,-1
+businessperson,capitalist,-1
+businessperson,accountant,-1
+supplier,businessperson,-1
+advocate,supporter,-1
+advocate,person,-1
+advocate,spokesperson,-1
+supporter,advocate,-1
+representative,negotiator,-1
+representative,personal representative,-1
+representative,head of state,-1
+mediator,interpreter,-1
+mediator,negotiator,-1
+interpreter,mediator,-1
+interpreter,person,-1
+painter,grant,-1
+painter,artist,-1
+grant,painter,-1
+grant,president of the united states,-1
+grant,general,-1
+grant,actor,-1
+expert,person,-1
+expert,specialist,-1
+expert,therapist,-1
+expert,authority,-1
+volunteer,worker,-1
+volunteer,serviceman,-1
+volunteer,workforce member,-1
+genitor,parent,-1
+genitor,progenitor,-1
+parent,genitor,-1
+benefactor,provider,-1
+benefactor,good person,-1
+provider,benefactor,-1
+provider,health care provider,-1
+provider,physician,-1
+provider,dentist,-1
+provider,practitioner,-1
+adjudicator,judge,-1
+adjudicator,person,-1
+judge,adjudicator,-1
+judge,official,-1
+trainee,novice,-1
+trainee,workforce member,-1
+party,contractor,-1
+party,person,-1
+contractor,party,-1
+contractor,bridge player,-1
+contractor,builder,-1
+contractor,subcontractor,-1
+contractor,business associate,-1
+nurse,health professional,-1
+confidant,repository,-1
+confidant,friend,-1
+repository,confidant,-1
+serviceman,volunteer,-1
+serviceman,military officer,-1
+serviceman,skilled worker,-1
+bridge player,card player,-1
+bridge player,contractor,-1
+therapist,chiropractor,-1
+therapist,expert,-1
+chiropractor,therapist,-1
+chiropractor,health care provider,-1
+caregiver,adult,-1
+caregiver,personal representative,-1
+writer,communicator,-1
+writer,service,-1
+scholar,theologian,-1
+scholar,intellectual,-1
+scholar,doctor,-1
+theologian,scholar,-1
+theologian,doctor of the church,-1
+head of state,president of the united states,-1
+head of state,representative,-1
+president of the united states,head of state,-1
+president of the united states,grant,-1
+assistant,worker,-1
+assistant,secretary,-1
+friend,brother,-1
+friend,buddy,-1
+friend,person,-1
+friend,christian,-1
+friend,confidant,-1
+head,administrator,-1
+head,secretary,-1
+head,leader,-1
+administrator,head,-1
+administrator,fiduciary,-1
+doctor of the church,theologian,-1
+military officer,serviceman,-1
+military officer,commissioned officer,-1
+peer,associate,-1
+peer,person,-1
+associate,peer,-1
+associate,member,-1
+associate,ally,-1
+service,writer,-1
+scientist,psychologist,-1
+scientist,research worker,-1
+scientist,person,-1
+psychologist,scientist,-1
+psychologist,health care provider,-1
+specialist,expert,-1
+specialist,doctor,-1
+principal,criminal,-1
+principal,wrongdoer,-1
+criminal,principal,-1
+criminal,violator,-1
+intellectual,person,-1
+intellectual,scholar,-1
+builder,contractor,-1
+kinswoman,female sibling,-1
+kinswoman,relative,-1
+religious,monk,-1
+religious,nun,-1
+religious,religious person,-1
+monk,religious,-1
+monk,brother,-1
+unfortunate,sick person,-1
+unfortunate,person,-1
+doctor,specialist,-1
+doctor,scholar,-1
+doctor,medical practitioner,-1
+doctor,surgeon,-1
+doctor,health care provider,-1
+domestic partner,person,-1
+domestic partner,spouse,-1
+female offspring,daughter,-1
+female offspring,child,-1
+female offspring,female,-1
+daughter,female offspring,-1
+secretary,head,-1
+secretary,assistant,-1
+kinsman,relative,-1
+kinsman,male sibling,-1
+case,person,-1
+case,patient,-1
+general officer,general,-1
+general officer,commissioned military officer,-1
+general,general officer,-1
+general,grant,-1
+baby,girl,-1
+athlete,tennis player,-1
+athlete,contestant,-1
+performer,actor,-1
+performer,entertainer,-1
+actor,performer,-1
+actor,grant,-1
+official,skilled worker,-1
+official,judge,-1
+kin,relative,-1
+trustee,fiduciary,-1
+personal representative,representative,-1
+personal representative,family member,-1
+personal representative,caregiver,-1
+personal representative,mobile application,-1
+personal representative,researcher,-1
+enrollee,person,-1
+acquaintance,person,-1
+buddy,friend,-1
+progenitor,genitor,-1
+progenitor,ancestor,-1
+good person,person,-1
+good person,benefactor,-1
+leader,head,-1
+leader,employer,-1
+leader,person,-1
+ally,associate,-1
+juvenile,child,-1
+juvenile,person,-1
+nun,sister,-1
+nun,religious,-1
+commissioned officer,military officer,-1
+commissioned officer,commissioned military officer,-1
+commissioned military officer,general officer,-1
+commissioned military officer,commissioned officer,-1
+religious person,person,-1
+religious person,christian,-1
+religious person,religious,-1
+research worker,scientist,-1
+spokesperson,advocate,-1
+christian,religious person,-1
+christian,friend,-1
+ancestor,progenitor,-1
+ancestor,relative,-1
+practitioner,professional,-1
+practitioner,provider,-1
+male sibling,brother,-1
+male sibling,kinsman,-1
+recipient,dependant,-1
+recipient,acquirer,-1
+dependant,recipient,-1
+dependant,charge,-1
+subcontractor,contractor,-1
+subcontractor,business associate,-1
+charge,dependant,-1
+dentist,medical practitioner,-1
+dentist,health care provider,-1
+dentist,provider,-1
+employer,leader,-1
+surgeon,doctor,-1
+accountant,businessperson,-1
+cover entity,health plan,-1
+cover entity,health care provider,-1
+cover entity,health care clearinghouses,-1
+health plan,cover entity,-1
+health plan,health insurance company,-1
+health plan,hmo,-1
+health plan,company health plan,-1
+health plan,certain government program,-1
+health plan,various type insurer,-1
+health plan,dental insurance,-1
+health plan,vision insurance,-1
+health plan,prescription drug insurer,-1
+health plan,medicare,-1
+health plan,medicaid,-1
+health plan,,-1
+health plan,medicare supplement insurer,-1
+health plan,care insurer,-1
+health plan,group health plan,-1
+health plan,health plan,-1
+health care provider,cover entity,-1
+health care provider,doctor,-1
+health care provider,clinic,-1
+health care provider,hospital,-1
+health care provider,psychologist,-1
+health care provider,chiropractor,-1
+health care provider,nurse home,-1
+health care provider,pharmacy,-1
+health care provider,dentist,-1
+health care provider,institutional provider,-1
+health care provider,provider,-1
+health care provider,person organization furnish bill pay health care,-1
+health care clearinghouses,cover entity,-1
+health insurance company,health plan,-1
+hmo,health plan,-1
+company health plan,health plan,-1
+certain government program,health plan,-1
+clinic,health care provider,-1
+hospital,health care provider,-1
+hospital,institutional provider,-1
+nurse home,health care provider,-1
+pharmacy,health care provider,-1
+business associate,contractor,-1
+business associate,subcontractor,-1
+various type insurer,health plan,-1
+court order,order administrative tribunal,-1
+order administrative tribunal,court order,-1
+notice,health privacy right,-1
+notice,may use share health information,-1
+notice,certain element,-1
+notice,point contact information,-1
+health privacy right,notice,-1
+may use share health information,notice,-1
+family member,personal representative,-1
+mobile application,personal representative,-1
+researcher,personal representative,-1
+dental insurance,health plan,-1
+vision insurance,health plan,-1
+prescription drug insurer,health plan,-1
+medicare,health plan,-1
+medicaid,health plan,-1
+,health plan,-1
+medicare supplement insurer,health plan,-1
+care insurer,health plan,-1
+group health plan,health plan,-1
+certain insurance entity,worker compensation,-1
+certain insurance entity,automobile insurance,-1
+certain insurance entity,property casualty insurance,-1
+worker compensation,certain insurance entity,-1
+automobile insurance,certain insurance entity,-1
+property casualty insurance,certain insurance entity,-1
+institutional provider,health care provider,-1
+institutional provider,hospital,-1
+physician,provider,-1
+person organization furnish bill pay health care,health care provider,-1
+health care clearinghouse,bill service,-1
+health care clearinghouse,repricing company,-1
+health care clearinghouse,community health management information system,-1
+health care clearinghouse,network switch perform clearinghouse function,-1
+bill service,health care clearinghouse,-1
+repricing company,health care clearinghouse,-1
+community health management information system,health care clearinghouse,-1
+network switch perform clearinghouse function,health care clearinghouse,-1
+common identifier,name,-1
+common identifier,address,-1
+common identifier,birth date,-1
+common identifier,social security number,-1
+address,common identifier,-1
+birth date,common identifier,-1
+social security number,common identifier,-1
+health care operation,quality assessment improvement activity,-1
+health care operation,conduct medical review,-1
+health care operation,business plan,-1
+health care operation,protect health information,-1
+quality assessment improvement activity,health care operation,-1
+conduct medical review,health care operation,-1
+business plan,health care operation,-1
+protect health information,health care operation,-1
+certain element,notice,-1
+point contact information,notice,-1
+workforce member,employee,-1
+workforce member,volunteer,-1
+workforce member,trainee,-1
+workforce member,person whose conduct direct control entity,-1
+person whose conduct direct control entity,workforce member,-1
+privacy rule,provision,-1
+provision,privacy rule,-1
