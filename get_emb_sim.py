@@ -4,17 +4,7 @@ import logging
 import torch
 from sentence_transformers import SentenceTransformer
 
-from utils import get_available_gpu_idx
-
-
-def get_emb_sim(model, source, target):
-    source_emb = model.encode(source, convert_to_tensor=True)
-    target_emb = model.encode(target, convert_to_tensor=True)
-
-    sim = torch.cosine_similarity(source_emb, target_emb, dim=-1).item()
-
-    return sim
-
+from utils import get_available_gpu_idx, get_emb_sim
 
 if __name__ == "__main__":
     available_gpu_idx = get_available_gpu_idx()
@@ -26,7 +16,7 @@ if __name__ == "__main__":
 
     device = torch.device(available_cuda)
     model = SentenceTransformer(
-        'output/training/Nov-07_22-36/checkpoint-39', device=device
+        "output/training/Dec-12_16-06_no_labels/checkpoint-51", device=device
     )
 
     with open("data/filtered_keywords.json", "r") as f:
@@ -34,7 +24,7 @@ if __name__ == "__main__":
 
     source = "Individual"
 
-    f = open("data/individual_no_label_2.txt", "w")
+    f = open("data/individual_no_label_with_rolekg.txt", "w")
 
     for context in data[source]:
         target = context
