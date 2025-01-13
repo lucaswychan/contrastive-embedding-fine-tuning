@@ -1,6 +1,7 @@
 #!/bin/bash
 
 use_labels=False
+use_role_graph_data=True
 
 python3 train.py \
     --output_dir output/training/ \
@@ -15,6 +16,7 @@ python3 train.py \
     --save_strategy steps \
     --save_steps 1500 \
     --use_labels $use_labels \
+    --use_role_graph_data $use_role_graph_data \
     --bf16 \
     --learning_rate 5e-5 \
     
