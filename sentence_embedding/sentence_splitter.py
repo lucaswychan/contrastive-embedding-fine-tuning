@@ -20,6 +20,10 @@ from wtpsplit import SaT, indices_to_sentences
 from utils import get_available_gpu_idx
 
 
+def remove_unicode(text: str) -> str:
+    return text.encode("utf-8", "ignore").decode("utf-8", "ignore")
+
+
 def remove_emojis(text: str) -> str:
     emoji_pattern = re.compile(
         "["
