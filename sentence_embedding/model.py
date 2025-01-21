@@ -31,10 +31,10 @@ class BaseSentenceEmbeddingModel(ABC):
 class HFModel(BaseSentenceEmbeddingModel):
     def __init__(self, model_name_or_path: str, device=None):
         super().__init__(device)
-        self.model = SentenceTransformer(model_name_or_path).to(self.device)
+        self.model = SentenceTransformer(model_name_or_path, device=self.device)
 
     def encode(self, sentences) -> torch.Tensor:
-        return self.model.encode(sentences, convert_to_tensor=True, device=self.device)
+        return self.model.encode(sentences, convert_to_tensor=True)
 
 
 class SonarModel(BaseSentenceEmbeddingModel):
