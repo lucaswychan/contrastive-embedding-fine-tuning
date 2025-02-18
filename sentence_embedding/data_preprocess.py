@@ -10,12 +10,11 @@ from model_factory import SentenceEmbeddingModelFactory
 from pooler import pool_embeddings
 from sentence_splitter import SentenceSpliiter, SentenceSplitterConfig
 
-from config import HF_cases_path, HF_KBs_path
-
+from config import HF_cases_path, HF_KBs_path, DATASET_NAME
 
 def split_cases():
     dataset = load_from_disk(HF_cases_path)
-    hipaa_cases = dataset["HIPAA"]
+    cases = dataset[DATASET_NAME]
 
     sent_config = SentenceSplitterConfig(
         columns=["case_content"],
@@ -27,17 +26,17 @@ def split_cases():
     splitter = SentenceSpliiter(sent_config)
 
     print("finished initializing splitter")
-    # print(type(hipaa_cases.data))
-    splitted_tables = splitter(pa.Table.from_pandas(hipaa_cases.data.to_pandas()))
+    # print(type(cases.data))
+    splitted_tables = splitter(pa.Table.from_pandas(cases.data.to_pandas()))
 
     print(splitted_tables["case_content_sentences"][0])
 
-    pq.write_table(splitted_tables, "splitted_hipaa_cases.parquet")
+    pq.write_table(splitted_tables, f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_cases.parquet")
 
 
 def split_kb():
     dataset = load_from_disk(HF_KBs_path)
-    hipaa_cases = dataset["HIPAA"]
+    kb = dataset[DATASET_NAME]
 
     sent_config = SentenceSplitterConfig(
         columns=["regulation_content"],
@@ -47,16 +46,20 @@ def split_kb():
     )
 
     splitter = SentenceSpliiter(sent_config)
-    splitted_tables = splitter(pa.Table.from_pandas(hipaa_cases.data.to_pandas()))
-    splitted_tables = splitted_tables.app
+    splitted_tables = splitter(pa.Table.from_pandas(kb.data.to_pandas()))
 
     print(splitted_tables["regulation_content_sentences"][0])
 
-    pq.write_table(splitted_tables, "splitted_hipaa_kb.parquet")
+    pq.write_table(splitted_tables, f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_kb.parquet")
+
+
+def split_all():
+    split_cases()
+    split_kb()
 
 
 def explore_csv():
-    splitted_tables = pq.read_table("splitted_hipaa_cases.parquet")
+    splitted_tables = pq.read_table(f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_cases.parquet")
     idx = 0
     specific_case_content = splitted_tables["case_content"][idx]
 
@@ -72,7 +75,7 @@ def explore_csv():
 
 
 def get_sentence_emb_for_all_cases():
-    splitted_tables = pq.read_table("splitted_hipaa_cases.parquet")
+    splitted_tables = pq.read_table(f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_cases.parquet")
     case_sentences = splitted_tables["case_content_sentences"]
 
     emb_model = SentenceEmbeddingModelFactory.get_model("hf")
@@ -102,4 +105,4 @@ def playground():
 
 
 if __name__ == "__main__":
-    playground()
+    split_all()
