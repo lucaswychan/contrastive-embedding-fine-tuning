@@ -1,4 +1,4 @@
-from model import BaseSentenceEmbeddingModel, HFModel, SonarModel
+from sentence_embedding.emb_model import BaseSentenceEmbeddingModel, HFModel, SonarModel
 
 
 class SentenceEmbeddingModelFactory:

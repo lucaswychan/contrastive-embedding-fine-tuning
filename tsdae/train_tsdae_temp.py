@@ -6,24 +6,35 @@ sys.path.append(
     os.path.abspath(os.path.join(os.path.pardir, "contrastive-embedding-fine-tuning"))
 )
 
-from sentence_transformers import SentenceTransformer, LoggingHandler
-from sentence_transformers import models, util, datasets, evaluation, losses
-from torch.utils.data import DataLoader
 from datasets import load_dataset, load_from_disk
+from sentence_transformers import (
+    LoggingHandler,
+    SentenceTransformer,
+    datasets,
+    evaluation,
+    losses,
+    models,
+    util,
+)
+from torch.utils.data import DataLoader
 
 device = "cuda:1"
 
 # Define your sentence transformer model using CLS pooling
 model_name = "sentence-transformers/all-mpnet-base-v2"
 word_embedding_model = models.Transformer(model_name)
-pooling_model = models.Pooling(word_embedding_model.get_word_embedding_dimension(), "cls")
-model = SentenceTransformer(modules=[word_embedding_model, pooling_model], device=device)
+pooling_model = models.Pooling(
+    word_embedding_model.get_word_embedding_dimension(), "cls"
+)
+model = SentenceTransformer(
+    modules=[word_embedding_model, pooling_model], device=device
+)
 
 from config import HF_KBs_path
 
 # Define a list with sentences (1k - 100k sentences)
 KB = load_from_disk(HF_KBs_path)
-train_sentences = KB["HIPAA"]["regulation_content"] 
+train_sentences = KB["HIPAA"]["regulation_content"]
 
 # Create the special denoising dataset that adds noise on-the-fly
 train_dataset = datasets.DenoisingAutoEncoderDataset(train_sentences)
@@ -47,4 +58,3 @@ model.fit(
 )
 
 model.save("output/tsdae-model")
-

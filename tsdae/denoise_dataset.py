@@ -2,9 +2,8 @@ from __future__ import annotations
 
 import numpy as np
 from datasets import Dataset
-from transformers.utils.import_utils import NLTK_IMPORT_ERROR, is_nltk_available
-
 from sentence_transformers.readers.InputExample import InputExample
+from transformers.utils.import_utils import NLTK_IMPORT_ERROR, is_nltk_available
 
 
 class DenoisingAutoEncoderDataset(Dataset):
@@ -19,7 +18,11 @@ class DenoisingAutoEncoderDataset(Dataset):
             with noise, e.g. deleted words
     """
 
-    def __init__(self, sentences: list[str], noise_fn=lambda s: DenoisingAutoEncoderDataset.delete(s)):
+    def __init__(
+        self,
+        sentences: list[str],
+        noise_fn=lambda s: DenoisingAutoEncoderDataset.delete(s),
+    ):
         if not is_nltk_available():
             raise ImportError(NLTK_IMPORT_ERROR.format(self.__class__.__name__))
 
@@ -46,6 +49,10 @@ class DenoisingAutoEncoderDataset(Dataset):
 
         keep_or_not = np.random.rand(n) > del_ratio
         if sum(keep_or_not) == 0:
-            keep_or_not[np.random.choice(n)] = True  # guarantee that at least one word remains
-        words_processed = TreebankWordDetokenizer().detokenize(np.array(words)[keep_or_not])
+            keep_or_not[np.random.choice(n)] = (
+                True  # guarantee that at least one word remains
+            )
+        words_processed = TreebankWordDetokenizer().detokenize(
+            np.array(words)[keep_or_not]
+        )
         return words_processed

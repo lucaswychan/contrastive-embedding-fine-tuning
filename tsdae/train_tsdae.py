@@ -16,9 +16,9 @@ from datetime import datetime
 from typing import Optional
 
 import torch
-from datasets import DatasetDict
 import transformers
-from datasets import load_dataset, load_from_disk
+from datasets import DatasetDict, load_dataset, load_from_disk
+from denoise_dataset import DenoisingAutoEncoderDataset
 from sentence_transformers import (
     SentenceTransformer,
     SentenceTransformerTrainer,
@@ -32,7 +32,6 @@ from sentence_transformers.training_args import SentenceTransformerTrainingArgum
 from transformers import AutoModelForCausalLM, HfArgumentParser, set_seed
 
 from config import HF_KBs_path
-from denoise_dataset import DenoisingAutoEncoderDataset
 
 CURRENT_TIME = datetime.now().strftime("%b-%d_%H-%M")
 

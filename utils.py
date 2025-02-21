@@ -109,3 +109,17 @@ def get_keywords_sim(term1, term2):
             ).item()
 
     return corr
+
+
+# def check_kb_corr():
+#     kb_embeddings = np.load(
+#         f"data/{DATASET_NAME}/kb_embeddings_{DATASET_NAME.lower()}_{path_suffix}.npy"
+#     )
+
+#     correlations = np.corrcoef(kb_embeddings)
+#     print(correlations)
+
+#     np.save(
+#         f"data/{DATASET_NAME}/kb_correlations_{DATASET_NAME.lower()}_{path_suffix}.npy",
+#         correlations,
+#     )
