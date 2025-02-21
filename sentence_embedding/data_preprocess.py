@@ -6,11 +6,14 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import torch
 from datasets import load_from_disk
-from model_factory import SentenceEmbeddingModelFactory
 from pooler import pool_embeddings
 from sentence_splitter import SentenceSpliiter, SentenceSplitterConfig
 
-from config import HF_cases_path, HF_KBs_path, DATASET_NAME
+from config import HF_cases_path, HF_KBs_path
+from sentence_embedding.emb_model_factory import SentenceEmbeddingModelFactory
+
+DATASET_NAME = "HIPAA"
+
 
 def split_cases():
     dataset = load_from_disk(HF_cases_path)
@@ -31,7 +34,10 @@ def split_cases():
 
     print(splitted_tables["case_content_sentences"][0])
 
-    pq.write_table(splitted_tables, f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_cases.parquet")
+    pq.write_table(
+        splitted_tables,
+        f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_cases.parquet",
+    )
 
 
 def split_kb():
@@ -50,7 +56,10 @@ def split_kb():
 
     print(splitted_tables["regulation_content_sentences"][0])
 
-    pq.write_table(splitted_tables, f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_kb.parquet")
+    pq.write_table(
+        splitted_tables,
+        f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_kb.parquet",
+    )
 
 
 def split_all():
@@ -59,7 +68,9 @@ def split_all():
 
 
 def explore_csv():
-    splitted_tables = pq.read_table(f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_cases.parquet")
+    splitted_tables = pq.read_table(
+        f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_cases.parquet"
+    )
     idx = 0
     specific_case_content = splitted_tables["case_content"][idx]
 
@@ -75,7 +86,9 @@ def explore_csv():
 
 
 def get_sentence_emb_for_all_cases():
-    splitted_tables = pq.read_table(f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_cases.parquet")
+    splitted_tables = pq.read_table(
+        f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_cases.parquet"
+    )
     case_sentences = splitted_tables["case_content_sentences"]
 
     emb_model = SentenceEmbeddingModelFactory.get_model("hf")
