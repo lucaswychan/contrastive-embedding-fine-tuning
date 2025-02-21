@@ -1,44 +1,29 @@
 import logging
 import os
 import sys
+from collections import deque
 
 sys.path.append(
     os.path.abspath(os.path.join(os.path.pardir, "contrastive-embedding-fine-tuning"))
 )
 
+import argparse
+
+import networkx as nx
 import numpy as np
 import pyarrow as pa
 import pyarrow.parquet as pq
 import torch
 import torch.nn.functional as F
 from datasets import load_from_disk
-from model_factory import SentenceEmbeddingModelFactory
 from pooler import pool_embeddings
+from tqdm import tqdm
 
-from config import HF_cases_path, HF_KBs_path, DATASET_NAME
+from config import HF_cases_path, HF_KBs_path
+from sentence_embedding.emb_model_factory import SentenceEmbeddingModelFactory
 
-use_my_model = False
-encode_all_once = True
-use_tsdae = False
-
-path_suffix = ""
-if encode_all_once:
-    path_suffix += "_once"
-if use_my_model:
-    path_suffix += "_mymodel"
-if use_tsdae:
-    path_suffix += "_tsdae"
-
-if path_suffix != "":
-    path_suffix = path_suffix[1:]
-
+# the logger configuration is in the main function
 logger = logging.getLogger("sentence_embedding")
-logging.basicConfig(
-    filename=f"logs/sentence_embedding/{DATASET_NAME}/regulation_rag_acc_{DATASET_NAME.lower()}_{path_suffix}.log",
-    filemode="w",
-    level=logging.INFO,
-)       
-    
 
 def get_embeddings(emb_model, sentences):
     embeddings = []
@@ -65,35 +50,33 @@ def get_embeddings(emb_model, sentences):
 
 def get_embeddings_once(emb_model, contents: str):
     embeddings = emb_model.encode(pa.array(contents).tolist())
-    embeddings = F.normalize(embeddings, p=2, dim=1).cpu().detach()
+    embeddings = F.normalize(embeddings, p=2, dim=-1).cpu().detach()
 
     print(embeddings.shape)
 
     return embeddings
 
 
-def get_similarity():
+def direct_search(args, emb_model):
     # load the table that have splitted sentences
-    case_table = pq.read_table(f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_cases.parquet")
-    kb_table = pq.read_table(f"data/{DATASET_NAME}/splitted_{DATASET_NAME.lower()}_kb.parquet")
+    case_table = pq.read_table(
+        f"data/{args.dataset_name}/splitted_{args.dataset_name.lower()}_cases.parquet"
+    )
+    kb_table = pq.read_table(
+        f"data/{args.dataset_name}/splitted_{args.dataset_name.lower()}_kb.parquet"
+    )
 
     # get the splitted sentences
     case_sentences = case_table["case_content_sentences"]
     kb_sentences = kb_table["regulation_content_sentences"]
 
-    # load the model
-    kwargs = {}
-    if use_my_model:
-        kwargs["model"] = "output/training/Dec-12_16-06_no_labels/checkpoint-51"
-    elif use_tsdae:
-        kwargs["model"] = "output/tsdae-model"
-    emb_model = SentenceEmbeddingModelFactory.get_model("hf", **kwargs)
-    
     case_embeddings = None
     kb_embeddings = None
-    
-    if encode_all_once:
-        case_embeddings = get_embeddings_once(emb_model, case_table["case_content"]) # instead of using sentences, we use the whole case content
+
+    if args.encode_all_once:
+        case_embeddings = get_embeddings_once(
+            emb_model, case_table["case_content"]
+        )  # instead of using sentences, we use the whole case content
         kb_embeddings = get_embeddings_once(emb_model, kb_table["regulation_content"])
     else:
         case_embeddings = get_embeddings(emb_model, case_sentences)
@@ -102,83 +85,212 @@ def get_similarity():
     print(f"case emb dim = {case_embeddings.shape}")
     print(f"kb emb dim = {kb_embeddings.shape}")
 
-    print(f"case_embedding norm = {torch.norm(case_embeddings, dim=1)}")
-    print(f"kb_embedding norm = {torch.norm(kb_embeddings, dim=1)}")
-
-    np.save(f"data/{DATASET_NAME}/case_embeddings_{DATASET_NAME.lower()}_{path_suffix}.npy", case_embeddings)
-    np.save(f"data/{DATASET_NAME}/kb_embeddings_{DATASET_NAME.lower()}_{path_suffix}.npy", kb_embeddings)
+    np.save(
+        f"data/{args.dataset_name}/case_embeddings_{args.dataset_name.lower()}_{path_suffix}.npy",
+        case_embeddings,
+    )
+    np.save(
+        f"data/{args.dataset_name}/kb_embeddings_{args.dataset_name.lower()}_{path_suffix}.npy",
+        kb_embeddings,
+    )
 
     similarity = case_embeddings @ kb_embeddings.T
 
-    np.save(f"data/{DATASET_NAME}/similarity_{DATASET_NAME.lower()}_{path_suffix}.npy", similarity)
+    np.save(
+        f"data/{args.dataset_name}/similarity_{args.dataset_name.lower()}_{path_suffix}.npy",
+        similarity,
+    )
+    
+    return similarity
 
 
-def evaluate():
-    similarity = np.load(f"data/{DATASET_NAME}/similarity_{DATASET_NAME.lower()}_{path_suffix}.npy")
+def hierarchical_search(emb_model, kb_graph, case_content, k=3) -> list[tuple[float, str]]:
+    def is_leaf(node):
+        out_edges = kb_graph.out_edges(node)
+        return all(
+            kb_graph[source][neighbor].get("relation") != "subsume"
+            for source, neighbor in out_edges
+        )
+
+    retrieved_regulations = []
+
+    case_embedding = emb_model.encode(case_content)
+    case_embedding = F.normalize(case_embedding, p=2, dim=-1).detach()
+
+    root_node = "HIPAA"
+
+    queue = deque([root_node])
+    visited = set()
+
+    # start BFS
+    while queue:
+        num_node = len(queue)
+
+        similarity_scores = []
+
+        # perform BFS by layer
+        for _ in range(num_node):
+            node = queue.popleft()
+            visited.add(node)
+
+            for source, neighbor in kb_graph.out_edges(node):
+                if (
+                    neighbor in visited
+                    or kb_graph[source][neighbor].get("relation") != "subsume"
+                ):
+                    continue
+
+                neighbor_content = kb_graph.nodes[neighbor].get("text", None)
+                if neighbor_content is None:
+                    continue
+
+                neighbor_content_embedding = emb_model.encode(neighbor_content)
+                neighbor_content_embedding = F.normalize(
+                    neighbor_content_embedding, p=2, dim=-1
+                ).detach()
+                score = torch.cosine_similarity(
+                    case_embedding, neighbor_content_embedding, dim=-1
+                ).item()
+                similarity_scores.append((score, neighbor))
+
+        similarity_scores.sort(reverse=True)
+
+        # each time we retrieve k regulations
+        for i in range(min(k, len(similarity_scores))):
+            if is_leaf(similarity_scores[i][1]):
+                retrieved_regulations.append(similarity_scores[i])
+            else:
+                # only add the node to the queue if it is not a leaf and it is in the top k results
+                queue.append(similarity_scores[i][1])
+
+    return sorted(retrieved_regulations, reverse=True)
+
+
+def direct_evaluate(args, emb_model):
+    similarity = direct_search(args, emb_model)
 
     # find the top-k regulations for each case
-    k = 5
-    top_k = np.argsort(similarity, axis=1)[:, -k:][:, ::-1] # top-k regulations
-
-    print(top_k)
+    top_k_similarity_idxs = np.argsort(similarity, axis=1)[:, -args.top_k:][:, ::-1]  # top-k regulations
+    
+    print(top_k_similarity_idxs)
 
     KB = load_from_disk(HF_KBs_path)
     CASES = load_from_disk(HF_cases_path)
 
-    kb = KB[DATASET_NAME]
-    cases = CASES[DATASET_NAME]
+    kb = KB[args.dataset_name]
+    cases = CASES[args.dataset_name]
 
     regulation_ids = np.array(kb["regulation_id"])
 
     recall_list = []
 
-    for i, k_idxs in enumerate(top_k):
+    for i, k_idxs in enumerate(top_k_similarity_idxs):
         top_k_regulations = regulation_ids[k_idxs]
 
         logger.info(f"similarity scores : {similarity[i, k_idxs]}")
         print(f"similarity scores : {similarity[i, k_idxs]}")
 
-        ground_truth = (
-            cases["followed_articles"][i] + cases["violated_articles"][i]
-        )
-        
-        if not ground_truth:
+        ground_truths = cases["followed_articles"][i] + cases["violated_articles"][i]
+
+        if not ground_truths:
             continue
 
         recall = 0.0
-        for gt in ground_truth:
-            for reg in top_k_regulations:
-                if gt in reg:
-                    recall += 1
-                    break
+        for gt in ground_truths:
+            # for reg in top_k_regulations:
+            #     if gt in reg:
+            #         recall += 1
+            #         break
+            if gt in top_k_regulations:
+                recall += 1
 
-        recall /= len(ground_truth)
+        recall /= len(ground_truths)
         recall_list.append(recall)
 
         print(f"recall for case {i + 1} = {recall}")
 
         logger.info(cases["purpose"][i])
         logger.info(f"top k regulations for case {i + 1} = {top_k_regulations}")
-        logger.info(f"ground truth for case {i + 1} = {ground_truth}")
+        logger.info(f"ground truth for case {i + 1} = {ground_truths}")
         logger.info(f"recall for case {i + 1} = {recall}")
         logger.info("=" * 50)
         logger.info("\n")
 
     logger.info(f"average recall = {np.mean(recall_list)}")
 
-def full_evaluation_pipeline():
-    get_similarity()
-    evaluate()
+def hierarchical_evaluate(args, emb_model):
+    KB = load_from_disk(HF_KBs_path)
+    CASES = load_from_disk(HF_cases_path)
 
-
-def check_kb_corr():
-    kb_embeddings = np.load(f"data/{DATASET_NAME}/kb_embeddings_{DATASET_NAME.lower()}_{path_suffix}.npy")
-
-    correlations = np.corrcoef(kb_embeddings)
-    print(correlations)
-
-    np.save(f"data/{DATASET_NAME}/kb_correlations_{DATASET_NAME.lower()}_{path_suffix}.npy", correlations)
+    kb = KB[args.dataset_name]
+    cases = CASES[args.dataset_name]
+    
+    kb_graph = nx.read_graphml(f"checklist_data/{args.dataset_name}/{args.dataset_name}.graphml")
+    
+    recall_list = []
+    
+    for i, case in enumerate(cases):
+        case_content = case["case_content"]
+        ground_truths = case["followed_articles"] + case["violated_articles"]
+        
+        if not ground_truths:
+            continue
+        
+        retrieved_regulations = hierarchical_search(emb_model, kb_graph, case_content, k=args.top_k)
+        
+        confidences = [score for score, _ in retrieved_regulations]
+        regulations = [reg for _, reg in retrieved_regulations]
+        
+        recall = 0.0
+        for gt in ground_truths:
+            if gt in regulations:
+                recall += 1
+        
+        recall_list.append(recall / len(ground_truths))
+        
+        logger.info(cases["purpose"][i])
+        logger.info(f"top k regulations for case {i + 1} = {regulations}")
+        logger.info(f"ground truth for case {i + 1} = {ground_truths}")
+        logger.info(f"recall for case {i + 1} = {recall}")
+        logger.info("=" * 50)
+        logger.info("\n")
+    
+    logger.info(f"average recall = {np.mean(recall_list)}")
+        
 
 
 if __name__ == "__main__":
-    full_evaluation_pipeline()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_path", type=str, default="all-MiniLM-L6-v2")
+    parser.add_argument("--encode_all_once", type=bool, default=False)
+    parser.add_argument("--hierarchical_search", type=bool, default=False)
+    parser.add_argument("--top_k", type=int, default=10)
+    parser.add_argument("--dataset_name", type=str, default="hipaa")
+    args = parser.parse_args()
+    
+    args.dataset_name = args.dataset_name.upper()
+    emb_model = SentenceEmbeddingModelFactory.get_model("hf", model=args.model_path)
+    
+    path_suffix = ""
+    if args.encode_all_once:
+        path_suffix += "_once"
+    if "checkpoint" in args.model_path:
+        path_suffix += "_mymodel"
+    if "tsdae" in args.model_path:
+        path_suffix += "_tsdae"
+
+    if path_suffix != "":
+        path_suffix = path_suffix[1:]
+    
+    args.path_suffix = path_suffix
+    
+    logging.basicConfig(
+        filename=f"logs/sentence_embedding/{args.dataset_name}/regulation_rag_acc_{args.dataset_name.lower()}_{path_suffix}.log",
+        filemode="w",
+        level=logging.INFO,
+    )
+    
+    if args.hierarchical_search:
+        hierarchical_evaluate(args, emb_model)
+    else:
+        direct_evaluate(args, emb_model)
