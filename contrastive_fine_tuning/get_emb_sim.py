@@ -4,14 +4,10 @@ import logging
 import torch
 from sentence_transformers import SentenceTransformer
 
-from utils import get_available_gpu_idx, get_emb_sim
+from utils import get_available_gpu, get_emb_sim
 
 if __name__ == "__main__":
-    available_gpu_idx = get_available_gpu_idx()
-    if available_gpu_idx is None:
-        raise ValueError("No available GPU found!")
-
-    available_cuda = f"cuda:{available_gpu_idx}"
+    available_cuda = torch.device(get_available_gpu())
     print(f"Using GPU: {available_cuda}")
 
     device = torch.device(available_cuda)

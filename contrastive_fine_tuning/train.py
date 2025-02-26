@@ -13,10 +13,11 @@ import torch
 import transformers
 from datasets import load_dataset
 from sentence_transformers import SentenceTransformer
-from sentence_transformers.training_args import SentenceTransformerTrainingArguments
+from sentence_transformers.training_args import \
+    SentenceTransformerTrainingArguments
 from transformers import AutoModelForCausalLM, HfArgumentParser, set_seed
 
-from loss import ContrastiveLoss
+from contrastive_fine_tuning.loss import ContrastiveLoss
 from trainer import ContrastiveSTTrainer
 
 CURRENT_TIME = datetime.now().strftime("%b-%d_%H-%M")

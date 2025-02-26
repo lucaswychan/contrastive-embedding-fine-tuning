@@ -17,7 +17,7 @@ import torch
 from stopes.utils.arrow_utils import apply_on_nested_array
 from wtpsplit import SaT, indices_to_sentences
 
-from utils import get_available_gpu_idx
+from utils import get_available_gpu
 
 
 def remove_unicode(text: str) -> str:
@@ -121,8 +121,7 @@ class SentenceSpliiter:
 
         if "cuda" in config.device:
             self.model.half()
-            device_idx = get_available_gpu_idx()
-            device = f"cuda:{device_idx}" if device_idx is not None else "cpu"
+            device = torch.device(get_available_gpu(use_cpu=True))
 
         print(f"Using device: {device}")
 

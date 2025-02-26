@@ -1,9 +1,21 @@
+import argparse
 import json
 import re
 
 import nvidia_smi
 import torch
 from sentence_transformers import SentenceTransformer
+
+
+def str2bool(v):
+    if isinstance(v, bool):
+        return v
+    if v.lower() in ("yes", "true", "t", "y", "1"):
+        return True
+    elif v.lower() in ("no", "false", "f", "n", "0"):
+        return False
+    else:
+        raise argparse.ArgumentTypeError("Boolean value expected.")
 
 
 def print_json_error(text: str, error_msg: str) -> None:
@@ -43,7 +55,7 @@ def convert_json(text: str) -> dict:
     return data
 
 
-def get_available_gpu_idx():
+def get_available_gpu(use_cpu=False):
     """
     Get the GPU index which have more than 90% free memory
     """
@@ -67,13 +79,16 @@ def get_available_gpu_idx():
                     torch.cuda.memory.empty_cache()
                     test_tensor = torch.zeros((1,), device=f"cuda:{i}")
                     del test_tensor
-                    return i
+                    return f"cuda:{i}"
             except RuntimeError:
                 # If allocation fails, move to the next GPU
                 continue
 
+    if not use_cpu:
+        raise ValueError("No available GPU found!")
+
     # If no available GPU is found
-    return None
+    return "cpu"
 
 
 def get_emb_sim(model, source, target):

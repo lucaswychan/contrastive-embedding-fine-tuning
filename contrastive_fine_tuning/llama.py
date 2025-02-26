@@ -1,13 +1,9 @@
 import torch
 from transformers import pipeline
 
-from utils import get_available_gpu_idx
+from utils import get_available_gpu
 
-available_gpu_idx = get_available_gpu_idx()
-if available_gpu_idx is None:
-    raise ValueError("No available GPU found!")
-
-available_cuda = f"cuda:{available_gpu_idx}"
+available_cuda = get_available_gpu()
 print(f"Using GPU: {available_cuda}")
 
 

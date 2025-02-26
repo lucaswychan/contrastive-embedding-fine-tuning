@@ -7,8 +7,8 @@ import torch
 from sentence_transformers import SentenceTransformer
 
 from get_emb_sim import get_emb_sim
-from llama import Llama3P2
-from utils import convert_json, get_available_gpu_idx
+from contrastive_fine_tuning.llama import Llama3P2
+from utils import convert_json, get_available_gpu
 
 logging.basicConfig(
     filename="logs/data_augmentation.log", filemode="w", level=logging.INFO
@@ -116,11 +116,7 @@ if __name__ == "__main__":
     # with open("data/keywords.json", "r") as f:
     #     term_map = json.load(f)
 
-    # available_gpu_idx = get_available_gpu_idx()
-    # if available_gpu_idx is None:
-    #     raise ValueError("No available GPU found!")
-
-    # available_cuda = f"cuda:{available_gpu_idx}"
+    # available_cuda = get_available_gpu()
     # print(f"Using GPU: {available_cuda}")
 
     # device = torch.device(available_cuda)

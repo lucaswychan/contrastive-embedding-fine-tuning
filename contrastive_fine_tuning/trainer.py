@@ -6,7 +6,8 @@ from typing import Dict, Iterable, List, Tuple
 
 import torch
 import torch.nn.functional as F
-from sentence_transformers import SentenceTransformer, SentenceTransformerTrainer
+from sentence_transformers import (SentenceTransformer,
+                                   SentenceTransformerTrainer)
 
 
 class ContrastiveSTTrainer(SentenceTransformerTrainer):

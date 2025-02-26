@@ -7,15 +7,8 @@ sys.path.append(
 )
 
 from datasets import load_dataset, load_from_disk
-from sentence_transformers import (
-    LoggingHandler,
-    SentenceTransformer,
-    datasets,
-    evaluation,
-    losses,
-    models,
-    util,
-)
+from sentence_transformers import (LoggingHandler, SentenceTransformer,
+                                   datasets, evaluation, losses, models, util)
 from torch.utils.data import DataLoader
 
 device = "cuda:1"

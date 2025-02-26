@@ -3,7 +3,8 @@ from __future__ import annotations
 import numpy as np
 from datasets import Dataset
 from sentence_transformers.readers.InputExample import InputExample
-from transformers.utils.import_utils import NLTK_IMPORT_ERROR, is_nltk_available
+from transformers.utils.import_utils import (NLTK_IMPORT_ERROR,
+                                             is_nltk_available)
 
 
 class DenoisingAutoEncoderDataset(Dataset):

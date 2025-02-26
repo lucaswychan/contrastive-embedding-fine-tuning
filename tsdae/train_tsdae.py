@@ -19,16 +19,11 @@ import torch
 import transformers
 from datasets import DatasetDict, load_dataset, load_from_disk
 from denoise_dataset import DenoisingAutoEncoderDataset
-from sentence_transformers import (
-    SentenceTransformer,
-    SentenceTransformerTrainer,
-    datasets,
-    evaluation,
-    losses,
-    models,
-    util,
-)
-from sentence_transformers.training_args import SentenceTransformerTrainingArguments
+from sentence_transformers import (SentenceTransformer,
+                                   SentenceTransformerTrainer, datasets,
+                                   evaluation, losses, models, util)
+from sentence_transformers.training_args import \
+    SentenceTransformerTrainingArguments
 from transformers import AutoModelForCausalLM, HfArgumentParser, set_seed
 
 from config import HF_KBs_path

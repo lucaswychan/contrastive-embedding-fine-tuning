@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 from sentence_transformers import SentenceTransformer
 
-from utils import get_available_gpu_idx
+from utils import get_available_gpu
 
 # from sonar.inference_pipelines.text import TextToEmbeddingModelPipeline
 
@@ -20,8 +20,7 @@ class BaseSentenceEmbeddingModel(ABC):
         if device is not None:
             self.device = device
         else:
-            device_idx = get_available_gpu_idx()
-            self.device = f"cuda:{device_idx}" if device_idx is not None else "cpu"
+            self.device = torch.device(get_available_gpu(use_cpu=True))
 
     @abstractmethod
     def encode(self, sentences: str) -> torch.Tensor:
@@ -34,7 +33,12 @@ class HFModel(BaseSentenceEmbeddingModel):
         self.model = SentenceTransformer(model_name_or_path, device=self.device)
 
     def encode(self, sentences) -> torch.Tensor:
-        return self.model.encode(sentences, convert_to_tensor=True)
+        return self.model.encode(
+            sentences,
+            convert_to_tensor=True,
+            device=self.device,
+            show_progress_bar=False,
+        )
 
 
 class SonarModel(BaseSentenceEmbeddingModel):

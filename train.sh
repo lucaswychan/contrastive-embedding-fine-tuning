@@ -3,7 +3,7 @@
 use_labels=False
 use_role_graph_data=True
 
-python3 train.py \
+python3 contrastive_fine_tuning/train.py \
     --output_dir output/training/ \
     --model_name_or_path sentence-transformers/all-mpnet-base-v2 \
     --train_file data/keywords.csv \
